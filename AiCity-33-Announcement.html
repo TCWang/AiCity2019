@@ -131,20 +131,20 @@
     <!-- Vue實例的掛載點 -->
     <div id="app" class="row mb-1">
       <div class="container-fluid mt-3 ">
-        <div class="row mx-3">
+        <div class="row mx-1">
           <h3 id="title-1">社區佈告欄</h3>
           <div class="container-fluid">
             <div class="alert alert-info mt-2" role="alert">
               <div class="row">
-                <div class="col-3">
+                <div class="col-5">
                   <div class="form-group">
                     <select class="form-control" v-model='section' id="exampleFormControlSelect7">
                       <option v-for="section in sections">{{ section }}</option>
                     </select>
                   </div>
                 </div>
-                <div class="col">
-                  <h5 class="text-left">依類別進行篩選: {{ section | formatted}}</h5>
+                <div class="col-7">
+                  <h5 class="text-left"> 類別: {{ section | formatted}}</h5>
                 </div>
 
               </div>
