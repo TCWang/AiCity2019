@@ -145,7 +145,11 @@
             <table>
               <tr>
                 <td>戶號：</td>
-                <td>ID: {{ user.houseid }}</td>
+                <td>{{ user.houseid }}</td>
+              </tr>
+              <tr>
+                <td>住戶代號：</td>
+                <td>{{ user.nameid }}</td>
               </tr>
               <tr>
                 <td>
@@ -284,6 +288,7 @@
         ],
         user: {
           houseid: '',
+          nameid: '',
           housenumber: '',
           housefloor: '',
           houseext: '',
@@ -302,7 +307,15 @@
             
             if(!val.housenumber || !val.housefloor || !val.houseext)  return '';
             
-            val.houseid = this.addmap[(val.housenumber-18)/2][1]+val.houseext+'-'+val.housefloor+'F';
+            if(val.housefloor < 10)
+              val.houseid = this.addmap[(val.housenumber-18)/2][1]+val.houseext+'-0'+val.housefloor+'F';
+            else
+              val.houseid = this.addmap[(val.housenumber-18)/2][1]+val.houseext+'-'+val.housefloor+'F';
+            
+            if(val.housefloor < 10)
+              val.nameid = val.housenumber + "0" + val.housefloor + val.houseext;
+            else
+              val.nameid = val.housenumber + val.housefloor + val.houseext;
 
           },
           deep: true
