@@ -2,9 +2,10 @@
 .navbar{
     background-color:#000066 !important;
 }
-.navbar .navbar-toggler {
-    background-color: white !important;
+.page-footer{
+    background-color:#000066 !important;
 }
+
 .navbar .collapse .navbar-nav li a{
     color:white !important;
 }
@@ -12,20 +13,17 @@
     color: #33FFCC !important;
     background-color:#0066FF;
 }
+
 .navbar .collapse .navbar-nav li .dropdown-menu .dropdown-item {
     color:#660033 !important;
 }
 .navbar .collapse .navbar-nav li .dropdown-menu .dropdown-item:hover {
     color:#CC0033 !important;
     background-color:#D0D0D0 !important;
+    opacity: 0.5;
 }
-
-.navbar .navbar-brand {
-    color: yellow !important;
-}
-
-.page-footer{
-    background-color:#000066 !important;
+.navbar-toggler {
+    background-color: #0066ff !important;
 }
 
 #title-1 {
@@ -35,14 +33,6 @@
 #title-2 {
     color: #0000CC;
     font-size:1.2em;
-}
-h1, h2 {
-    color: #0000CC;
-    font-size:1.6em;
-}
-h3, h4 {
-    color: #0000CC;
-    font-size:1.4em;
 }
 h5 {
     color:#0000CC;
