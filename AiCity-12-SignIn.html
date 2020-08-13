@@ -123,9 +123,9 @@
     <!-- Jumbotron-->
     <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
       <div class="container">
-        <div class="bg-lighter p-1" style="width:400px">
+        <div class="bg-lighter p-1" style="width:300px">
           <h4 class="text-white">住戶註冊</h4>
-          <p class="lead text-white">住戶需先註冊後，才能查閱完整資訊</p>
+          <p class="lead text-white">需先註冊，才能查閱完整資訊</p>
         </div>
 
       </div>
@@ -134,49 +134,41 @@
     <!-- Vue實例的掛載點 -->
     <div id="app" class="container-fluid mt-3">
       <div class="row mx-1">
-        <h3 id="title-1">住戶註冊 </h3> 
+        <h3>住戶註冊 </h3>
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-6">
-          <h3 id="title-1">住戶資料輸入：</h3>
+          <h3>住戶資料輸入：</h3>
           <form>
             <table>
               <tr>
-                <td>戶號：</td>
+                <td> 號碼：</td>
+                <td>
+                  <input type="number" name="house_number" v-model="user.housenumber">
+                </td>
+              </tr>
+              <tr>
+                <td> 樓層：</td>
+                <td>
+                  <input type="number" name="house_floor" v-model="user.housefloor">
+                </td>
+              </tr>
+              <tr>
+                <td> 戶別：</td>
+                <td>
+                  <input type="number" name="house_extension" v-model="user.houseext">
+                </td>
+              </tr>
+
+              <tr>
+                <td>住戶戶號：</td>
                 <td>{{ user.houseid }}</td>
               </tr>
               <tr>
                 <td>住戶代號：</td>
                 <td>{{ user.nameid }}</td>
               </tr>
-              <tr>
-                <td>
-     
-                </td>
-                <td>
-                  <table>
-                    <tr>
-                      <td class="text-right">   號碼：</td>
-                      <td>
-                        <input type="number" name="house_number" v-model="user.housenumber">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-right">   樓層：</td>
-                      <td>
-                        <input type="number" name="house_floor" v-model="user.housefloor">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-right">   戶別：</td>
-                      <td>
-                        <input type="number" name="house_extension" v-model="user.houseext">
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-  
+
               <tr>
                 <td>姓名：</td>
                 <td>
@@ -234,7 +226,7 @@
 
         </div>
         <div class="col-sm-12 col-md-6">
-          <h3 id="title-1">住戶註冊說明：</h3>
+          <h3>住戶註冊說明：</h3>
           <ol>
             <li>戶號輸入方式：住家 (1).地址號碼，(2).樓層 (3).戶別 作為輸入方式，例如 12號 10樓之1, 號碼=12, 樓層=10, 戶別=1 </li>
             <li>姓名：同一住戶可註冊多個人員姓名作為登入系統，領取包裹等依據．</li>
@@ -255,7 +247,7 @@
       </div>
       <div class="col pr-5 py-1 text-white">
         <small> 樂捷市 Tel: 03-327-2090, 33375 桃園市龜山區長庚里 4 鄰長慶三街 18-36 號 </small>
-         
+
       </div>
     </div>
   </footer>
@@ -301,16 +293,16 @@
       },
       watch: {
         user: {
-          handler: function(val) {
-            
-            if(!val.housenumber || !val.housefloor || !val.houseext)  return '';
-            
-            if(val.housefloor < 10)
-              val.houseid = this.addmap[(val.housenumber-18)/2][1]+val.houseext+'-0'+val.housefloor+'F';
+          handler: function (val) {
+
+            if (!val.housenumber || !val.housefloor || !val.houseext) return '';
+
+            if (val.housefloor < 10)
+              val.houseid = this.addmap[(val.housenumber - 18) / 2][1] + val.houseext + '-0' + val.housefloor + 'F';
             else
-              val.houseid = this.addmap[(val.housenumber-18)/2][1]+val.houseext+'-'+val.housefloor+'F';
-            
-            if(val.housefloor < 10)
+              val.houseid = this.addmap[(val.housenumber - 18) / 2][1] + val.houseext + '-' + val.housefloor + 'F';
+
+            if (val.housefloor < 10)
               val.nameid = val.housenumber + "0" + val.housefloor + val.houseext;
             else
               val.nameid = val.housenumber + val.housefloor + val.houseext;
@@ -321,8 +313,8 @@
       },
 
       methods: {
-        checkForm: function() { // 查驗輸入
-        
+        checkForm: function () { // 查驗輸入
+
           console.log(this.user.username);
         }
       }
