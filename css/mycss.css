@@ -1,8 +1,11 @@
-body {
-    font-family:
-        -apple-system, BlinkMacSystemFont  // 系統預設字體
-        "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Microsoft JhengHei" // 指定已知的系統UI字體
-        "Helvetica Neue", sans-serif; //備援字體
+
+    body {
+        font-family:
+            STKaiti, DFKai-SB, Arial, // 建議字體 中文：楷體，標楷體 英文：Arial
+            -apple-system, BlinkMacSystemFont,  // 系統預設字體
+            "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Microsoft JhengHei", // 指定已知的系統UI字體
+            "Helvetica Neue", sans-serif; //備援字體
+    }
 }
 
 .text-responsive {
