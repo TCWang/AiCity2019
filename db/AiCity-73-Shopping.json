@@ -567,6 +567,33 @@
         "category": "日常生活"
     },
     {
+        "title": "TaiMall 台茂購物中心",
+        "address": "地址：338桃園市蘆竹區南崁路一段112號",
+        "telphone": "電話：03-311-1234",
+        "hours": "營業時間： 11:00 - 22:00",
+        "figure": "fig/AiCity-913-taimall.gif",
+        "link": "https://www.taimall.com.tw/",
+        "category": "購物中心"
+    },
+    {
+        "title": "SOGO 中壢遠東百貨",
+        "address": "地址：320桃園市中壢區元化路357號",
+        "telphone": "電話：03-422-7000",
+        "hours": "營業時間： 11:00 - 21:30",
+        "figure": "fig/AiCity-913-Sogo.jpeg",
+        "link": "https://www.sogo.com.tw/",
+        "category": "購物中心"
+    },
+    {
+        "title": "MetroWalk 大江國際購物中心",
+        "address": "地址：320桃園市中壢區中園路二段501號",
+        "telphone": "電話：03-468-0999",
+        "hours": "營業時間： 11:00 - 22:00",
+        "figure": "fig/AiCity-913-dagain.jpg",
+        "link": "https://www.metrowalk.com.tw/newweb/home.aspx",
+        "category": "購物中心"
+    },
+    {
         "title": "",
         "address": "地址：",
         "telphone": "電話：",
