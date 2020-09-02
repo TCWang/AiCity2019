@@ -126,6 +126,24 @@
         "category": "生鮮超市"
     },
     {
+        "title": "Costco 好市多 - 桃園南崁店",
+        "address": "地址:338桃園市蘆竹區南崁路一段369號",
+        "telphone": "電話:02-449-9909",
+        "hours": "營業時間:10:00 - 21:30",
+        "figure": "fig/AiCity-913-Costco.jpg",
+        "link": "https://www.costco.com.tw/",
+        "category": "生鮮超市"
+    },
+    {
+        "title": "Costco 好市多 - 新莊店",
+        "address": "地址:242新北市新莊區建國一路138號",
+        "telphone": "電話:02-449-9909",
+        "hours": "營業時間:10:00 - 21:30",
+        "figure": "fig/AiCity-913-Costco.jpg",
+        "link": "https://www.costco.com.tw/",
+        "category": "生鮮超市"
+    },
+    {
         "title": "文德路黃昏市場",
         "address": "地址：333桃園市龜山區文德路66-50號",
         "telphone": "電話：",
