@@ -129,10 +129,10 @@
 
         <!-- Vue實例的掛載點 -->
         <div id="app" class="container-fluid">
-            <div class="row mx-2">
+            <div class="row ">
                 <h3>A7 新林口 重劃區 - 建案匯總</h3>
             </div>
-            <div class="row mx-2">
+            <div class="row">
                 <div class="col-md-2">
                     <div class="list-group" id="MenuList" role="tablist">
                         <a href="#Menu-B1" class="list-group-item list-group-item-action active"
@@ -175,10 +175,10 @@
                         <div class="tab-pane" id="Menu-B2" role="tabpanel">
                             <!-- Menu B2 -->
                             <div class="container-fluid">
-                                <div class="row mb-1">
+                                <div class="row">
                                     <h3 id="title-2">項目說明</h3>
                                 </div>
-                                <div class="row mb-1">
+                                <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
                                             <select class="form-control" v-model='section'
@@ -193,7 +193,7 @@
 
                                 </div>
 
-                                    <div class="row mb-1 ml-1" v-for="posts in results">
+                                    <div class="row" v-for="posts in results">
                                         <div v-for="post in posts">
                                             <div class="row" style="background-color:lightblue">
                                                 建案概況
@@ -356,7 +356,7 @@
 
                         <div class="tab-pane" id="Menu-B3" role="tabpanel">
                             <!-- Menu B3 -->
-                            <div class="row mb-1">
+                            <div class="row ">
                                 <h3 id="title-2">詳細資料 </h3>
 
 
