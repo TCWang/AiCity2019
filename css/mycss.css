@@ -8,6 +8,12 @@ body {
         "Helvetica Neue", sans-serif; //備援字體
     */
 }
+.row {
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+}
 
 @media (max-width:543px) {
 }
