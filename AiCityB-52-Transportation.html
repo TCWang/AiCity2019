@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!-- InstanceBegin template="/Templates/AiCityB-01-Template02.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
   <meta charset="UTF-8">
@@ -17,27 +17,22 @@
 
   <!-- My CSS file -->
   <link rel="stylesheet" href="css/mycss.css">
-  <title>樂捷市：5.2 交通資訊</title>
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>樂捷市 社區資訊 - 交通資訊</title>
+  <meta name="description" content="AiCity Community WebSite 2019">
+  <!-- InstanceEndEditable -->
 
-  <style>
-    .jumbotron-bg2 {
-      background-image: url('fig/AiCity-909-AiCity-banner-01.jpg');
-      background-size: cover;
-      background-position: center center;
-      min-height: 300px
-    }
-
-    .bg-lighter {
-      background-color: rgba(0, 0, 0, .4)
-    }
-  </style>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
 </head>
 
 <body>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">
-        AiCity 樂捷市 社區網站
+  <!-- Vue實例的掛載點 -->
+  <div id='app'>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="AiCityB-31-Introduction.html">
+		樂捷市社區網
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,30 +45,14 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-user"></i>住戶登入
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="AiCity-11-MyInformation.html">個人資訊</a>
-              <a class="dropdown-item" href="AiCity-12-SignIn.html">登入註冊</a>
-              <a class="dropdown-item" href="AiCity-13-Message.html">住戶留言</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-home"></i>社區管理
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="AiCity-31-Introduction.html">社區介紹</a>
-              <a class="dropdown-item" href="AiCity-32-Calendar.html">社區行事曆</a>
-              <a class="dropdown-item" href="AiCity-33-Announcement.html">社區公告</a>
-              <a class="dropdown-item" href="AiCity-34-Meeting.html">社區會議</a>
-              <a class="dropdown-item" href="AiCity-36-Fee.html">繳費管理</a>
-              <a class="dropdown-item" href="AiCity-37-Package.html">包裹管理</a>
-              <a class="dropdown-item" href="AiCity-38-Repair.html">維修提報</a>
-              <a class="dropdown-item" href="AiCity-39-Reservation.html">公設預約</a>
-              <a class="dropdown-item" href="AiCity-40-Voting.html">線上投票</a>
-              <a class="dropdown-item" href="AiCity-41-Gas.html">瓦斯抄錶</a>
+              <a class="dropdown-item" href="index.html">社區介紹</a>
+              <a class="dropdown-item" href="AiCityB-32-Calendar.html">管理行事曆</a>
+              <a class="dropdown-item" href="AiCityB-33-Announcement.html">社區公告</a>
+              <a class="dropdown-item" href="AiCityB-34-Meeting.html">會議紀錄及財務報表</a>
+              <a class="dropdown-item" href="AiCityB-35-Regulation.html">社區規約</a>				
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -82,14 +61,13 @@
               <i class="fas fa-info"></i>社區資訊
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="AiCity-51-Regulation.html">社區規約</a>
-              <a class="dropdown-item" href="AiCity-52-Transportation.html">交通資訊</a>
-              <a class="dropdown-item" href="AiCity-53-A7New.html">新重畫區</a>
-              <a class="dropdown-item" href="AiCity-54-YellowPage.html">黃頁查詢</a>
-              <a class="dropdown-item" href="AiCity-55-County.html">里長服務</a>
-              <a class="dropdown-item" href="AiCity-56-Councillor.html">議員服務</a>
-              <a class="dropdown-item" href="AiCity-57-City.html">市府資訊</a>
-              <a class="dropdown-item" href="AiCity-58-Country.html">政府通告</a>
+              <a class="dropdown-item" href="AiCityB-52-Transportation.html">交通資訊</a>
+              <a class="dropdown-item" href="AiCityB-53-A7New.html">A7重劃區</a>
+              <a class="dropdown-item" href="AiCityB-54-YellowPage.html">黃頁查詢</a>
+              <a class="dropdown-item" href="AiCityB-55-County.html">里長服務</a>
+              <a class="dropdown-item" href="AiCityB-56-Councillor.html">議員服務</a>
+              <a class="dropdown-item" href="AiCityB-57-City.html">市府資訊</a>
+              <a class="dropdown-item" href="AiCityB-58-Country.html">政府通告</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -98,36 +76,42 @@
               <i class="fas fa-shopping-cart"></i>生活資訊
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="AiCity-71-Commerce.html">社區商店</a>
-              <a class="dropdown-item" href="AiCity-72-Restaurant.html">餐廳外賣</a>
-              <a class="dropdown-item" href="AiCity-73-Shopping.html">生活採購</a>
-              <a class="dropdown-item" href="AiCity-74-Furniture.html">裝潢居家</a>
-              <a class="dropdown-item" href="AiCity-75-Health.html">健康養生</a>
-              <a class="dropdown-item" href="AiCity-76-Sport.html">運動休閒</a>
-              <a class="dropdown-item" href="AiCity-77-News.html">新聞娛樂</a>
-              <a class="dropdown-item" href="AiCity-78-Food.html">食譜教學</a>
+              <a class="dropdown-item" href="AiCityB-71-Commerce.html">社區商店</a>
+              <a class="dropdown-item" href="AiCityB-72-Restaurant.html">餐廳外賣</a>
+              <a class="dropdown-item" href="AiCityB-73-Shopping.html">生活採購</a>
+              <a class="dropdown-item" href="AiCityB-75-Health.html">健康養生</a>
+              <a class="dropdown-item" href="AiCityB-76-Sport.html">運動休閒</a>
+              <a class="dropdown-item" href="AiCityB-77-News.html">新聞娛樂</a>
+              <a class="dropdown-item" href="AiCityB-78-Food.html">食譜教學</a>
             </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
       </div>
     </nav>
 
-    <!-- Jumbotron-->
-    <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
-      <div class="container">
-        <div class="bg-lighter p-1" style="width:200px">
-          <p class="text-white">社區資訊</p>
-          <p class="text-white">建立雲端資訊分享</p>
-        </div>
+    <!-- Jumbotron--><!-- InstanceBeginEditable name="JumbotronRegion" -->
 
-      </div>
-    </div>
-
-    <!-- Vue實例的掛載點 -->
+      <div class="jumbotron jumbotron-fluid jumbotron-bg1 d-flex align-items-end">
+        <div class="container">
+		  	<div class="bg-lighter p-1" style="width:300px">
+          		<h4 class="text-white" >樂捷市 社區</h4>
+          		<p class="lead text-white">是最低價的 捷運線住宅</p>
+   			</div>
+		</div>
+	  </div>
+		
+ 
+    <!-- InstanceEndEditable -->
+	  
+    <!-- Web Page Title -->
+	<!-- InstanceBeginEditable name="main_heading" -->
+	<h2 id="main_heading"></h2>
+	<!-- InstanceEndEditable -->
+	  
+	<!-- Vue實例的掛載點 -->
+    <!-- InstanceBeginEditable name="main_content" -->
+    <article>
     <div id="app" class="container-fluid mt-1">
       <div class="row">
         <div class="col-md-2">
@@ -140,7 +124,7 @@
             <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">台鐵高鐵</a>
             <a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">出租汽車 / UBike</a>
           </div>
-
+		<br>
         </div>
         <div class="col-md-10">
 
@@ -369,7 +353,7 @@
                         <td>19:25</td>
                         <td>19:30</td>
                         <td>19:40</td>
-                        <td>平日</td>
+                        <td>平</td>
                       </tr>
                       <tr class="table-info">
                         <td>19:45</td>
@@ -733,37 +717,36 @@
           </div>
         </div>
       </div>
+	</div>		
+	  
+	</article>  
+    <!-- InstanceEndEditable -->
+	
+	<footer id="main_footer">
+		<p>
+			樂捷市 Tel: 03-327-2090
+		</p>
 
-      <!-- Footer -->
-      <footer class="page-footer foot-small my-5">
-        <div class="row">
-          <div class="col-3 pl-5 py-1">
-            <img src="fig/AiCity-905-樂捷市Logo3.jpg" class="img-fluid" style="width:100px">
-          </div>
-          <div class="col pr-5 py-1 text-white">
-            <small> 樂捷市 Tel: 03-327-2090, 33375 桃園市龜山區長庚里 4 鄰長慶三街 18-36 號 </small>
+	</footer>
+	
+	<!-- Vue 的 CDN -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
-          </div>
-        </div>
-      </footer>
-
-      <!-- Vue 的 CDN -->
-      <script src="https://unpkg.com/vue/dist/vue.js"></script>
-
-      <!-- Bootstrap 4 JavaScript 的 CDN -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-      <!-- Axios 的 CDN -->
-      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
-      <!-- Vue實例的程式碼 -->
+    <!-- Bootstrap 4 JavaScript 的 CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <!-- Axios 的 CDN -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	  
+	<!-- InstanceBeginEditable name="JavaScriptRegion" -->
+    <!-- Vue實例的程式碼 -->
       <script>
         const posts = []
         const SECTIONS_TW = "林口長庚醫院, 醫學大樓, 公西站（華亞園區）, 桃園酒廠, 高正鋼鐵"
@@ -804,6 +787,8 @@
 
         });
       </script>
+    <!-- InstanceEndEditable --></div>
+ 
 </body>
 
-</html>
+<!-- InstanceEnd --></html>
