@@ -731,5 +731,15 @@
             "figure": "fig/AiCity-918-toyota.png",
             "link": "https://www.toyota.com.tw/index.aspx",
             "category": "汽車機車"
+        },
+        {
+            "no": "076",
+            "title": "林口公有零售市場",
+            "address": "244新北市林口區林口路15號",
+            "telphone": "02-2900-4000",
+            "hours": "08:00–14:00, 週一公休",
+            "figure": "fig/AiCity-913-林口公有零售市場.jpg",
+            "link": "https://tour.ntpc.gov.tw/zh-tw/Attraction/Detail?wnd_id=60&id=402259",
+            "category": "水果市場"
         }
     ]
