@@ -719,7 +719,8 @@
             "telphone": "03-396-0666",
             "hours": "週1～5: 08:00 - 18:00, 週6: 08:00 - 12:00",
             "figure": "fig/AiCity-918-原總汽車.gif",
-            "link": "https://www.facebook.com/69oil"
+            "link": "https://www.facebook.com/69oil",
+            "category": "汽車機車"
         },
         {
             "no": "075",
@@ -728,6 +729,7 @@
             "telphone": "0978-793-288",
             "hours": "08:30 - 17:30",
             "figure": "fig/AiCity-918-toyota.png",
-            "link": "https://www.toyota.com.tw/index.aspx"
+            "link": "https://www.toyota.com.tw/index.aspx",
+            "category": "汽車機車"
         }
     ]
