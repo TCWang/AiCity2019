@@ -684,5 +684,50 @@
             "figure": "fig/AiCity-913-Jins.png",
             "link": "https://www.jins.com/tw/news/news-5f7d29bf3e129",
             "category": "眼鏡行"
+        },
+        {
+            "no": "071",
+            "title": "連慶機車行",
+            "address": "桃園市龜山區樂善村文山街36號",
+            "telphone": "03-328-5425",
+            "hours": "\t\r\n08:00–21:30, 週日公休",
+            "figure": "fig/AiCity-913-連慶機車行.jpg",
+            "link": "https://tw.ypgo.net/5424933955",
+            "category": "汽車機車"
+        },
+        {
+            "no": "072",
+            "title": "揚益機車行",
+            "address": "桃園市龜山區樂善里文德路26號1樓",
+            "figure": "fig/AiCity-913-揚益機車行.jpg",
+            "category": "汽車機車"
+        },
+        {
+            "no": "073",
+            "title": "立欣汽車",
+            "address": "333桃園市龜山區復興三路68號",
+            "telphone": "03-397-1710",
+            "hours": "08:00–18:00, 週日公休",
+            "figure": "fig/AiCity-913-立欣汽車檢驗有限公司.jpg",
+            "link": "https://www.facebook.com/69oil",
+            "category": "汽車機車"
+        },
+        {
+            "no": "074",
+            "title": "原總汽車有限公司",
+            "address": "333桃園市龜山區復興三路32號",
+            "telphone": "03-396-0666",
+            "hours": "週1～5: 08:00 - 18:00, 週6: 08:00 - 12:00",
+            "figure": "fig/AiCity-918-原總汽車.gif",
+            "link": "https://www.facebook.com/69oil"
+        },
+        {
+            "no": "075",
+            "title": "Toyota 豐田汽車",
+            "address": "333桃園市龜山區文化三路358號",
+            "telphone": "0978-793-288",
+            "hours": "08:30 - 17:30",
+            "figure": "fig/AiCity-918-toyota.png",
+            "link": "https://www.toyota.com.tw/index.aspx"
         }
     ]

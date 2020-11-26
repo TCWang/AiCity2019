@@ -19,6 +19,12 @@ article {
 }
 footer {
 }
+.form-group {
+    margin: 0px;
+}
+.form-group {
+    margin: 0px;
+}
 
 @media (max-width:543px) {
     h1, h2 {font-size:1.0rem;}

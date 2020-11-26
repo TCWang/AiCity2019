@@ -125,7 +125,7 @@
             "address": "244新北市林口區文化二路一段138號1樓",
             "telphone": "02-2608-7228",
             "hours": "09:30–12:30, 14:00–21:00 週日公休",
-            "figure": "AiCity-921-勤美牙醫診所.png",
+            "figure": "fig/AiCity-921-勤美牙醫診所.png",
             "link": "https://chinmeidental.com/",
             "category": "牙科"
         },
@@ -135,8 +135,18 @@
             "address": "333 桃園市桃園區桃園市龜山區復興一路108巷1號 ",
             "telphone": "03-327-7895",
             "hours": "09:30 - 21:30",
-            "figure": "AiCity-921-禾欣牙醫診所.png",
+            "figure": "fig/AiCity-921-禾欣牙醫診所.png",
             "link": "https://www.facebook.com/%E7%A6%BE%E6%AC%A3%E7%89%99%E9%86%AB-207500059279374/",
+            "category": "牙科"
+        },
+        {
+            "no": "015",
+            "title": "睿凡牙醫診所",
+            "address": "333桃園市龜山區文化三路315號",
+            "telphone": "03-327-7722",
+            "hours": "09:30–12:00, 14:00–20:30",
+            "figure": "fig/AiCity-921-睿凡牙醫.jpg",
+            "link": "https://www.revivingdc.com.tw/",
             "category": "牙科"
         }
     ]
