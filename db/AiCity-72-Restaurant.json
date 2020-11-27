@@ -322,8 +322,10 @@
         {
             "no": "034",
             "title": "華漾點心",
-            "address": "2F 饗悠活 22014",
-            "hours": "11:00 - 21:00",
+            "address": "桃園市龜山區復興一路8號2樓",
+            "telphone": "03-328-8718",
+            "hours": "週一至週五: 11:00-14:30(最後點餐14:00), 17:30-21:30(最後點餐21:00)\r\n週六及週日: 11:00-15:30(最後點餐15:00), 17:30-21:30(最後點餐21:00)",
+            "figure": "fig/AiCity-910-華漾.jpeg",
             "link": "https://www.hwayoung.com/tw/stores.php",
             "category": "A8-GlobalMall"
         }
