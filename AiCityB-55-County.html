@@ -133,20 +133,32 @@
             <div class="tab-pane active" id="Menu-B1" role="tabpanel">
               <!-- Menu B1 -->
               <div class="row mb-1">
-                <h3>里長資訊 </h3>
+              <h3>里長資訊 </h3>
               </div>
-              <div class="row">
-				  <div class="col-md-12 col-lg-6">
 				  <h5>長庚里活動</h5>
-					  
-					  
-				  </div>
-				  <div class="col-md-12 col-lg-6">
-				  
-				  </div>				  
+
+					  <div id="app2" class="row" v-for="posts in results">
+						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" v-for="post in posts">
+						  <div class="card">
+							<div class="card-header">
+							  {{ post.Title }}
+							</div>
+							<div class="card-body">
+							  <p class="card-text">
+								公告日期：{{post.DatePost}} <br>
+								文號：{{post.Number}} <br>
+								有效日期：{{post.DateValid}} <br>
+								類別：{{post.Category}} <br>
+								說明：<br>
+								<div v-html="post.Description"></div>
+							  </p>
+							</div>
+						  </div>
+						</div>
+					  </div>
+			  				  
               </div>
 
-            </div>
 
             <div class="tab-pane" id="Menu-B2" role="tabpanel">
               <!-- Menu B2 -->
@@ -436,9 +448,46 @@
 	  
 	<!-- InstanceBeginEditable name="JavaScriptRegion" -->
     <!-- Vue實例的程式碼 -->
-    <div>
-	  
-	</div>
+    <script>
+      const posts = []
+      const SECTIONS_TW2 = "活動"
+           
+      new Vue({
+        el: '#app2',
+        data: {
+          posts,
+          //results: [],
+          sections: SECTIONS_TW2.split(', '),
+          section: '活動'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category === this.section)
+            let i, j, chunkedArray = [], chunk = 200;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+        mounted() {
+          axios.get('db/AiCity-55-CountyActivity.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });                    
+
+    </script>
     <!-- InstanceEndEditable --></div>
  
 </body>
