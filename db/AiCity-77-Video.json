@@ -1,0 +1,121 @@
+﻿[
+        {
+            "no": "038",
+            "title": "ArtStation",
+            "figure": "fig/AiCity-923-ArtStation.png",
+            "link": "https://www.artstation.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "039",
+            "title": "Behance",
+            "figure": "fig/AiCity-923-Behance.png",
+            "link": "https://www.behance.net/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "040",
+            "title": "Deviantart",
+            "figure": "fig/AiCity-923-Deviantart.png",
+            "link": "https://www.deviantart.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "041",
+            "title": "Dirbbble",
+            "figure": "fig/AiCity-923-Dirbbble.png",
+            "link": "https://dribbble.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "042",
+            "title": "CGSociety",
+            "figure": "fig/AiCity-923-CGSociety.jpeg",
+            "link": "https://cgsociety.org/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "043",
+            "title": "ZbrushCentral",
+            "figure": "fig/AiCity-923-ZBrush.jpg",
+            "link": "https://www.zbrushcentral.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "044",
+            "title": "Pexels",
+            "figure": "fig/AiCity-923-Pexels.png",
+            "link": "https://www.pexels.com/zh-cn/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "045",
+            "title": "Pixabay",
+            "figure": "fig/AiCity-923-Pixabay.png",
+            "link": "https://pixabay.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "046",
+            "title": "Unsplash",
+            "figure": "fig/AiCity-923-Unsplash.jpg",
+            "link": "https://unsplash.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "047",
+            "title": "Pinterest",
+            "figure": "fig/AiCity-923-Pinterest.jpg",
+            "link": "https://www.pinterest.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "048",
+            "title": "中國哲學",
+            "figure": "fig/AiCity-923-中國哲學.jpg",
+            "link": "https://ctext.org/zh",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "049",
+            "title": "漢典",
+            "figure": "fig/AiCity-923-漢典.jpeg",
+            "link": "https://www.zdic.net/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "050",
+            "title": "SCI-HUB",
+            "figure": "fig/AiCity-923-SCI-HUB.jpg",
+            "link": "https://sci-hub.tw/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "051",
+            "title": "愛思想",
+            "figure": "fig/AiCity-923-愛思想.png",
+            "link": "http://www.aisixiang.com/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "052",
+            "title": "故宮典藏",
+            "figure": "fig/AiCity-923-故宮典藏.jpg",
+            "link": "https://theme.npm.edu.tw/selection/index.aspx",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "053",
+            "title": "民歌40",
+            "figure": "fig/AiCity-923-民歌40.jpg",
+            "link": "https://www.youtube.com/playlist?list=PLDgLLnSBXR_PQ5a11TuH3l4zrJ8g0PqrN&app=desktop",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "054",
+            "title": "野性臺灣",
+            "figure": "fig/AiCity-923-野性台灣.jpeg",
+            "link": "https://www.youtube.com/watch?v=UiUet362iDI&feature=youtu.be",
+            "category": "影音珍藏"
+        }
+    ]
