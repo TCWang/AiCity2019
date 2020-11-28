@@ -535,10 +535,7 @@
                           <th>起站</th>
                           <th>訖站</th>
                           <th>路線圖</th>
-                          <th>往訖站</th>
-                          <th>往起站</th>
                           <th>客運公司</th>
-                          <th>型態</th>
                           <th>頭/末班</th>
                         </tr>
                       </thead>
@@ -550,14 +547,7 @@
                           <td>
                             <a v-bind:href="post.路線圖">路線圖</a>
                           </td>
-                          <td>
-                            <a v-bind:href="post.即時資訊-出">外出</a>
-                          </td>
-                          <td>
-                            <a v-bind:href="post.即時資訊-返">返家</a>
-                          </td>
                           <td>{{post.所屬公司}}</td>
-                          <td>{{post.型態}}</td>
                           <td>{{post.頭末班}}</td>
                         </tr>
                       </tbody>
