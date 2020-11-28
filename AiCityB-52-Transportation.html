@@ -508,23 +508,24 @@
                 <h3>公車資訊</h3>
                 <a class="mx-4" href="https://ebus.gov.taipei/">大台北公車</a>
                 <a class="mx-4" href="https://ebus.tycg.gov.tw/NewTaoyuan/Dybus.aspx">桃園公車</a>
-
               </div>
-              <div class="row">
-                <div>
+				
+              <div class="container-fluid">
+    
                   <div class="alert alert-info mt-2" role="alert">
                     <div class="row">
-                      <div class="col-md-8">
+                      <div class="col-8">
                         <div class="form-group">
                           <select class="form-control" v-model='section' id="exampleFormControlSelect7">
                             <option v-for="section in sections">{{ section }}</option>
                           </select>
                         </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-4">
                         <h5 class="text-left"> 選擇站牌 </h5>
                       </div>
                     </div>
+					  
                   </div>
                   <div class="row" v-for="posts in results">
 
@@ -536,7 +537,6 @@
                           <th>訖站</th>
                           <th>路線圖</th>
                           <th>客運公司</th>
-                          <th>頭/末班</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -548,13 +548,12 @@
                             <a v-bind:href="post.路線圖">路線圖</a>
                           </td>
                           <td>{{post.所屬公司}}</td>
-                          <td>{{post.頭末班}}</td>
                         </tr>
                       </tbody>
                     </table>
 
                   </div>
-                </div>
+ 
               </div>
 
 
