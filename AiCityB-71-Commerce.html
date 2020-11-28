@@ -166,14 +166,18 @@
 								<a v-bind:href="post.Link"> {{ post.Product }} </a>
                             </div>
                             <div class="card-body">
-                            <dl>
-                                <div v-html="post.Figure"></div>
-                                <dd>團購價： {{post.GroupPrice}}</dd>
-								<dd>湊團期限：{{post.DueDate}} {{post.DueTime}} </dd>
-								<dd>湊團下限：{{post.Quantity}} </dd>
-								<dd>已有人數/份數：{{post.CurrentQ}} </dd>
-								<dd>團購提供者：{{post.Owner}} </dd>
-							</dl>
+                            	<div v-html="post.Figure"></div>								
+								
+								<dl>
+									<dd>產品類別：{{post.CategorySub}} </dd>
+									<dd>產品選項:{{post.Options}} </dd>
+									<dd>原始價格：{{post.RegularPrice}} </dd>
+									<dd>團購價： {{post.GroupPrice}}</dd>
+									<dd>湊團期限：{{post.DueDate}} {{post.DueTime}} </dd>
+									<dd>湊團下限：{{post.Quantity}} </dd>
+									<dd>已有人數/份數：{{post.CurrentQ}} </dd>
+									<dd>團購提供者：{{post.Owner}} </dd>
+								</dl>
 								說明：
 								<div v-html="post.Description"></div>						
 								
