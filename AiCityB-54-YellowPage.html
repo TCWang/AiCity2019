@@ -118,9 +118,9 @@
         <div class="row">
           <h3>黃頁查詢</h3>
 
-          <div id="app" class="container-fluid mt-3">
+          <div id="app" class="container-fluid">
             <div class="row">
-              <h3>生活行動</h3> <br />
+
               <div class="container-fluid" id="app">
                 <div class="alert alert-info mt-2" role="alert">
 
@@ -148,10 +148,14 @@
                       </div>
                       <div class="card-body text-left">
                         <dl>
-                          <dd>{{post.title}}</dd>
-                          <dd>{{post.address}}</dd>
-                          <dd>{{post.telphone}}</dd>
-                          <dd>{{post.hours}}</dd>
+                          	<dd>
+								<a v-bind:href="post.link">
+								  {{post.title}}
+								</a>							
+							</dd>
+							  <dd>{{post.address}}</dd>
+							  <dd>{{post.telphone}}</dd>
+							  <dd>{{post.hours}}</dd>
                         </dl>
                       </div>
 
