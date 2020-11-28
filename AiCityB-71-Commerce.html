@@ -119,7 +119,8 @@
           <h3>社區商店</h3>
 
           <div class="list-group" id="MenuList" role="tablist">
-            <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">邦煮-手工便當</a>
+            <a href="#Menu-B0" class="list-group-item list-group-item-action active" data-toggle="list">社區團購-測試頁</a>			  
+            <a href="#Menu-B1" class="list-group-item list-group-item-action" data-toggle="list">邦煮-手工便當</a>
             <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">快樂早餐店</a>
             <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">芬享美味餐廳</a>
 
@@ -129,8 +130,69 @@
         <div class="col-md-9 col-lg-10">
 
           <div class="tab-content">
+			  
+         <div class="tab-pane active" id="Menu-B0" role="tabpanel">
+              <!-- Menu B0 -->
+              <div id="app0" class="row mb-1">
+                <div class="container-fluid mt-3">
+                  <div class="row">
+                    <h3>社區團購</h3>
+					  <ul style="list-style-type:none">
+					  	<li>注意：本網頁目前僅供測試</li>
+						<li>LINE 群組: 現階段請先使用 LINE - 樂捷團購超市 </li>  
+					  </ul>
 
-            <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+                    <div class="container-fluid">
+                      <div class="alert alert-info mt-2" role="alert">
+                        <div class="row">
+                          <div class="col-8">
+                            <div class="form-group">
+                              <select class="form-control" v-model='section' id="exampleFormControlSelect1">
+                                <option v-for="section in sections">{{ section }}</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <h5 class="text-center"> 選擇類別 </h5>
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <div class="row" v-for="posts in results">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+                          <div class="card">
+                            <div class="card-header">
+								<a v-bind:href="post.Link"> {{ post.Product }} </a>
+                            </div>
+                            <div class="card-body">
+                            <dl>
+                                <div v-html="post.Figure"></div>
+                                <dd>團購價： {{post.GroupPrice}}</dd>
+								<dd>湊團期限：{{post.DueDate}} {{post.DueTime}} </dd>
+								<dd>湊團下限：{{post.Quantity}} </dd>
+								<dd>已有人數/份數：{{post.CurrentQ}} </dd>
+								<dd>團購提供者：{{post.Owner}} </dd>
+							</dl>
+								說明：
+								<div v-html="post.Description"></div>						
+								
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+			  
+
+            <div class="tab-pane" id="Menu-B1" role="tabpanel">
               <!-- Menu B1 -->
               <div id="app1" class="row mb-1">
                 <div class="container-fluid mt-3">
@@ -272,7 +334,63 @@
       const posts = []
 
       const SECTIONS_1 = "肉類便當, 蓋飯便當, 海鮮便當, 炸肉單點"
+	  const SECTIONS_GB ="社區團購"
 
+	     new Vue({
+        el: '#app0',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_GB.split(', '),
+          section: '社區團購'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        methods: {
+          itemPrice(price, count) {
+            return price * count;
+          },
+          deleteItem(index) {
+            this.posts.splice(index, 1);
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          },
+
+          totalPrice() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category === this.section);
+            let total = 0;
+            for (let post of this.posts) {
+              total += post.price * post.count;
+            }
+            return total;
+          }
+        },
+
+        mounted() {
+          axios.get('db/AiCity-79-GroupBuying.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });
 
       new Vue({
         el: '#app1',
