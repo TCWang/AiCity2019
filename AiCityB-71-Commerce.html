@@ -175,7 +175,9 @@
 									<dd>產品選項:{{post.Options}} </dd>
 									<dd>原始價格：{{post.RegularPrice}} </dd>
 									<dd>團購價： {{post.GroupPrice}}</dd>
-									<dd>湊團期限：{{post.DueDate}} {{post.DueTime}} </dd>
+									<dd>
+									  <div class="text-primary">湊團期限：{{post.DueDate}} {{post.DueTime}} </div>
+									</dd>
 									<dd>湊團下限：{{post.Quantity}} </dd>
 									<dd>已有人數/份數：{{post.CurrentQ}} </dd>
 									<dd>團購提供者：{{post.Owner}} </dd>
@@ -340,7 +342,7 @@
       const posts = []
 
       const SECTIONS_1 = "肉類便當, 蓋飯便當, 海鮮便當, 炸肉單點"
-	  const SECTIONS_GB ="社區團購"
+	  const SECTIONS_GB ="正在熱賣, 金典回味"
 
 	     new Vue({
         el: '#app0',
@@ -348,7 +350,7 @@
           posts,
           // results: [],
           sections: SECTIONS_GB.split(', '),
-          section: '社區團購'
+          section: '正在熱賣'
         },
         filter: {
           formatted(value) {
