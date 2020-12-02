@@ -18,12 +18,12 @@
   <!-- My CSS file -->
   <link rel="stylesheet" href="css/mycss.css">
   <!-- InstanceBeginEditable name="doctitle" -->
-  <title>樂捷市 生活資訊 － 新聞娛樂</title>
+  <title>樂捷市社區 團購管理</title>
   <meta name="description" content="AiCity Community WebSite 2019">
   <!-- InstanceEndEditable -->
 
 <!-- InstanceBeginEditable name="head" -->
-  <!-- InstanceEndEditable -->
+<!-- InstanceEndEditable -->
 </head>
 
 <body>
@@ -94,134 +94,175 @@
 
     <!-- Jumbotron--><!-- InstanceBeginEditable name="JumbotronRegion" -->
 
-    <div class="jumbotron jumbotron-fluid jumbotron-bg3 d-flex align-items-end">
-      <div class="container">
-        <div class="bg-lighter p-1" style="width:300px">
-          <h4 class="text-white">新聞娛樂</h4>
-          <p class="lead text-white">每天即時新聞在此找</p>
-        </div>
-      </div>
-    </div>
-
-
+      <div class="jumbotron jumbotron-fluid jumbotron-bg3 d-flex align-items-end">
+        <div class="container">
+		  	<div class="bg-lighter p-1" style="width:300px">
+          		<h5 class="text-white" >社區團購</h5>
+          		<p class="lead text-white">智慧社區由我們開始</p>
+   			</div>
+		</div>
+	  </div>
+		
+ 
     <!-- InstanceEndEditable -->
 	  
     <!-- Web Page Title -->
 	<!-- InstanceBeginEditable name="main_heading" -->
-    <h2 id="main_heading"> </h2>
-    <!-- InstanceEndEditable -->
+	<h2 id="main_heading"> 社區團購管理平台 </h2>
+	<!-- InstanceEndEditable -->
 	  
 	<!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
-    <article>
-      <div class="container-fluid mt-1">
-        <div class="row">
 
-          <div class="col-md-3 col-lg-2">
-            <h3>新聞娛樂</h3>
-            <div class="list-group" id="MenuList" role="tablist">
-              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">新聞＆雜誌</a>
-              <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">影音媒體</a>
-            </div>
-            <br>
+    <div class="row">
+
+      <div class="col-md-3 col-lg-3">
+
+          <h5>社區通知 - 類別選項</h5>
+
+          <div class="list-group" id="MenuList" role="tablist">
+            <a href="#Article-0000" class="list-group-item list-group-item-action active" data-toggle="list">團購匯總</a>
+            <a href="#Article-0001" class="list-group-item list-group-item-action" data-toggle="list">聖誕花圈-潔西卡花藝</a>
+            <a href="#Article-0002" class="list-group-item list-group-item-action" data-toggle="list">聖誕口罩-盒裝</a>
+            <a href="#Article-0003" class="list-group-item list-group-item-action" data-toggle="list">早餐麥片-德國原裝進口</a>
+            <a href="#Article-0004" class="list-group-item list-group-item-action" data-toggle="list">炸杏鮑菇</a>
+            <a href="#Article-0005" class="list-group-item list-group-item-action" data-toggle="list">千張月亮蝦餅</a>
+            <a href="#Article-0006" class="list-group-item list-group-item-action" data-toggle="list">豆酥朋-泡芙</a>
+            <a href="#Article-0007" class="list-group-item list-group-item-action" data-toggle="list">ASAHI-濃郁玉米濃湯飲料</a>
+            <a href="#Article-0008" class="list-group-item list-group-item-action" data-toggle="list">丹露-波浪伸縮椅</a>
+            <a href="#Article-0009" class="list-group-item list-group-item-action" data-toggle="list">奕順軒-奶凍捲</a>	
+            <a href="#Article-0010" class="list-group-item list-group-item-action" data-toggle="list">林聰榮砂鍋菜</a>				  
           </div>
-          <div class="col-md-9 col-lg-10">
+          <br>
+      </div>
+      <div class="col-md-9 col-lg-9">
+        <div class="tab-content">
 
-            <div class="tab-content">
+          <!-- Articla 0000-->
+          <div class="tab-pane active" id="Article-0000" role="tabpanel">
+            <article>
+              <h5>團購匯總</h5>
+				<div id="app1" class="row">
+				  <table class="table table-striped table-sm table-hover" style="width:100%">
+					<thead style="background-color:lightblue">
+					  <tr class="text-left">
+						<th>產品</th>
+						<th>湊團期限</th>
+						<th>團購價</th>
+						<th>團購提供者</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr v-for="post in posts">
+						<td>{{ post.Product }}</td>
+						<td>{{ post.DueDate }}</td>
+						<td>{{ post.GroupPrice }}</td>
+						<td>{{ post.Owner }}</td>
+					  </tr>
+					</tbody>
+				  </table>
+				</div>
 
-              <div class="tab-pane active" id="Menu-B1" role="tabpanel">
-                <!-- Menu B1 -->
-                <div id="app" class="row mb-5">
-                  <div class="row">
-                    <h3>新聞＆雜誌</h3>
-                    <div class="container-fluid" id="app">
-                      <div class="alert alert-info mt-2" role="alert">
-
-                        <div class="row">
-                          <div class="col-8">
-                            <div class="form-group">
-                              <select class="form-control" v-model='section' id="exampleFormControlSelect1">
-                                <option v-for="section in sections">{{ section }}</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="col-4">
-                            <h5 class="text-center">{{ section | formatted}}</h5>
-                          </div>
-
-                        </div>
-                      </div>
-                      <div class="row" v-for="posts in results">
-                        <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
-                          <div class="card">
-                            <div class="card-header">
-                              <a v-bind:href="post.link">{{post.title}}</a>
-                            </div>
-                            <div class="card-body text-left">
-                              <a v-bind:href="post.link">
-                                <img v-bind:src="post.figure" class="img-fluid" style="width:240px">
-                              </a>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="tab-pane" id="Menu-B2" role="tabpanel">
-
-                <!-- Menu B2 -->
-                <div class="row ">
-                  <h3>影音媒體 </h3>
-                </div>
-
-                <div class="alert alert-info mt-2" role="alert">
-                  <div id="app2" class="row">
-                    <div class="row">
-                      <div class="col-8">
-                        <div class="form-group">
-                          <select class="form-control" v-model='section' id="exampleFormControlSelect1">
-                            <option v-for="section in sections">{{ section }}</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <h5 class="text-center">{{ section | formatted}}</h5>
-                      </div>
-
-                    </div>
-
-                    <div class="row" v-for="posts in results">
-                      <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
-                        <div class="card">
-                          <div class="card-header">
-                            <a v-bind:href="post.link">
-                              {{post.title}}
-                            </a>
-                          </div>
-                          <div class="card-body text-left">
-                            <a v-bind:href="post.link">
-                              <img v-bind:src="post.figure" class="img-fluid" style="width:240px">
-                            </a>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
+            </article>
           </div>
+
+          <!-- Articla 0001-->
+          <div class="tab-pane " id="Article-0001" role="tabpanel">
+            <article>
+              <h5>聖誕花圈-潔西卡花藝</h5>
+
+
+            </article>
+          </div>		  
+
+          <!-- Articla 0002-->
+          <div class="tab-pane " id="Article-0002" role="tabpanel">
+            <article>
+              <h5>聖誕口罩-盒裝</h5>
+ 				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGRvsAVUqOKoGfxNPwvb__pXugEm9nly9HQSYE0BQQRuf7Rw/viewform?embedded=true" width="640" height="1439" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+            </article>
+          </div>
+
+          <!-- Articla 0003-->
+          <div class="tab-pane" id="Article-0003" role="tabpanel">
+            <article>
+              <h5>早餐麥片-德國原裝進口</h5>
+
+
+            </article>
+          </div>
+
+          <!-- Articla 0004-->
+          <div class="tab-pane" id="Article-0004" role="tabpanel">
+            <article>
+              <h5>炸杏鮑菇</h5>
+
+
+            </article>
+          </div>
+          <!-- Articla 0005-->
+          <div class="tab-pane" id="Article-0005" role="tabpanel">
+            <article>
+              <h5>千張月亮蝦餅</h5>
+
+
+            </article>
+          </div>
+
+		  
+          <!-- Articla 0006-->
+          <div class="tab-pane " id="Article-0006" role="tabpanel">
+            <article>
+              <h5>豆酥朋-泡芙</h5>
+
+
+            </article>
+          </div>		  
+
+          <!-- Articla 0007-->
+          <div class="tab-pane " id="Article-0007" role="tabpanel">
+            <article>
+              <h5>ASAHI-濃郁玉米濃湯飲料</h5>
+ 
+
+            </article>
+          </div>
+
+          <!-- Articla 0008-->
+          <div class="tab-pane" id="Article-0008" role="tabpanel">
+            <article>
+              <h5>丹露-波浪伸縮椅</h5>
+
+
+            </article>
+          </div>
+
+          <!-- Articla 0009-->
+          <div class="tab-pane" id="Article-0009" role="tabpanel">
+            <article>
+              <h5>奕順軒-奶凍捲</h5>
+
+
+            </article>
+          </div>
+          <!-- Articla 0010-->
+          <div class="tab-pane" id="Article-0010" role="tabpanel">
+            <article>
+              <h5>林聰榮砂鍋菜</h5>
+
+
+            </article>
+          </div>
+
+          <!-- Next Aritical -->
+
         </div>
-    </article>
+
+      </div>
+    </div>				
+	  
+
     <!-- InstanceEndEditable -->
 	
 	<footer id="main_footer">
@@ -252,19 +293,18 @@
 	  
 	<!-- InstanceBeginEditable name="JavaScriptRegion" -->
     <!-- Vue實例的程式碼 -->
-    <script>
+   <script>
       const posts = []
+      const SECTIONS_HL = "正在熱賣, 經典回味"
 
-      const SECTIONS_TW = "台灣新聞, 大陸新聞, 國際新聞, 雜誌-新聞時事, 雜誌-財經股市, 雜誌-科技健康, 雜誌-電子書庫"
-      const SECTIONS_ME = "藝術圖像, 文獻收藏, 影音珍藏"
 
       new Vue({
-        el: '#app',
+        el: '#app1',
         data: {
           posts,
           // results: [],
-          sections: SECTIONS_TW.split(', '),
-          section: '台灣新聞',
+          sections: SECTIONS_HL.split(', '),
+          section: '正在熱賣'
         },
         filter: {
           formatted(value) {
@@ -276,7 +316,7 @@
           results() {
             let posts = this.posts
               .slice()
-              .filter(post => post.category === this.section)
+              .filter(post => post.Category === this.section)
             let i, j, chunkedArray = [], chunk = 40;
             for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
               chunkedArray[j] = posts.slice(i, i + chunk);
@@ -286,52 +326,13 @@
         },
 
         mounted() {
-          axios.get('db/AiCity-77-News.json').then((response) => {
+          axios.get('db/AiCity-79-GroupBuying.json').then((response) => {
             this.posts = response.data;
             this.getPostsByCategory(this.section)
           }).catch(error => { console.log(error); });
-        },
-
-      });
-
-      new Vue({
-        el: '#app2',
-        data: {
-          posts,
-          // results: [],
-
-          sections: SECTIONS_ME.split(', '),
-          section: '影音珍藏'
-        },
-        filter: {
-          formatted(value) {
-            return ' 以下是 ${value} 類別的貼文 '
-          }
-        },
-
-        computed: {
-          results() {
-            let posts = this.posts
-              .slice()
-              .filter(post => post.category === this.section)
-            let i, j, chunkedArray = [], chunk = 40;
-            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-              chunkedArray[j] = posts.slice(i, i + chunk);
-            }
-            return chunkedArray
-          }
-        },
-
-        mounted() {
-          axios.get('db/AiCity-77-News.json').then((response) => {
-            this.posts = response.data;
-            this.getPostsByCategory(this.section)
-          }).catch(error => { console.log(error); });
-        },
-
-      });
-
-    </script>
+        }
+      });		
+	</script>
     <!-- InstanceEndEditable --></div>
  
 </body>
