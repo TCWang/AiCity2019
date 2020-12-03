@@ -173,19 +173,37 @@
                             	<div v-html="post.Figure"></div>								
 								<br>
 								<dl>
-									<dd>產品類別：{{post.CategorySub}} </dd>
 									<dd>產品選項:{{post.Options}} </dd>
-									<dd>原始價格：{{post.RegularPrice}} </dd>
 									<dd>團購價： {{post.GroupPrice}}</dd>
 									<dd>
 									  <div class="text-primary">湊團期限：{{post.DueDate}} {{post.DueTime}} </div>
 									</dd>
 									<dd>湊團下限：{{post.Quantity}} </dd>
-									<dd>已有人數/份數：{{post.CurrentQ}} </dd>
 									<dd>團購提供者：{{post.Owner}} </dd>
 								</dl>
-								說明：
-								<div v-html="post.Description"></div>	
+
+								
+								<div class="panel-group" id="accordion" role="tablist"
+									aria-multiselectable="true">
+
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<p class="panel-title">
+												<a role="button" data-toggle="collapse"
+													data-parent="#accordion" href="#collapseOne"
+													aria-expanded="true" aria-controls="collapseOne">
+													展開/折疊 說明欄
+												</a>
+											</p>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in"
+											role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												<div v-html="post.Description"></div>
+											</div>
+										</div>
+									</div>
+								</div>								
 								
 								<p class="text-right">
 									<a v-bind:href="post.Detail" target="_blank">採購下單</a>
