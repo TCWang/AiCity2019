@@ -1,0 +1,142 @@
+﻿[
+        {
+            "No": "001",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "美式咖啡",
+            "Option": "冰, 熱",
+            "Price": "40"
+        },
+        {
+            "No": "002",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "拿鐵咖啡",
+            "Option": "冰, 熱",
+            "Price": "50"
+        },
+        {
+            "No": "003",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "焦糖拿鐵",
+            "Option": "冰, 熱",
+            "Price": "60"
+        },
+        {
+            "No": "004",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "榛果咖味",
+            "Option": "冰, 熱",
+            "Price": "60"
+        },
+        {
+            "No": "005",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "红茶",
+            "Option": "冰, 熱",
+            "Price": "20"
+        },
+        {
+            "No": "006",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "缘茶",
+            "Option": "冰, 熱",
+            "Price": "20"
+        },
+        {
+            "No": "007",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "鲜奶红茶",
+            "Option": "冰, 熱",
+            "Price": "35"
+        },
+        {
+            "No": "008",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "可樂",
+            "Option": "一杯",
+            "Price": "20"
+        },
+        {
+            "No": "009",
+            "Category": "廚藝教室",
+            "Type": "飲料",
+            "Food": "雪碧",
+            "Option": "一杯",
+            "Price": "20"
+        },
+        {
+            "No": "010",
+            "Category": "廚藝教室",
+            "Type": "點心",
+            "Food": "現烤鬆餅",
+            "Option": "巧克力, 鲜奶油, 蜂蜜",
+            "Price": "100"
+        },
+        {
+            "No": "011",
+            "Category": "廚藝教室",
+            "Type": "點心",
+            "Food": "烤厚片士司",
+            "Option": "奶油, 花生, 蒜味, 巧克力",
+            "Price": "30"
+        },
+        {
+            "No": "012",
+            "Category": "廚藝教室",
+            "Type": "點心",
+            "Food": "披薩"
+        },
+        {
+            "No": "013",
+            "Category": "廚藝教室",
+            "Type": "點心",
+            "Food": "雞塊",
+            "Option": "一份",
+            "Price": "30"
+        },
+        {
+            "No": "014",
+            "Category": "廚藝教室",
+            "Type": "點心",
+            "Food": "薯條",
+            "Option": "一份",
+            "Price": "30"
+        },
+        {
+            "No": "015",
+            "Category": "廚藝教室",
+            "Type": "主食類",
+            "Food": "水餃",
+            "Option": "10顆/份",
+            "Price": "70"
+        },
+        {
+            "No": "016",
+            "Category": "廚藝教室",
+            "Type": "主食類",
+            "Food": "義大利麵",
+            "Option": "紅醬, 白醬, 青醬",
+            "Price": "100"
+        },
+        {
+            "No": "017",
+            "Category": "廚藝教室",
+            "Type": "主食類",
+            "Food": "燴飯"
+        },
+        {
+            "No": "018",
+            "Category": "廚藝教室",
+            "Type": "主食類",
+            "Food": "紅燒牛肉麵",
+            "Option": "一份",
+            "Price": "180"
+        }
+    ]
