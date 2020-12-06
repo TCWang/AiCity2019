@@ -114,7 +114,7 @@
 	<!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
     <article> 
-        <div id='app' class="container-fluid mt-1">
+        <div  class="container-fluid mt-1">
             <div class="row">
 
                 <div class="col-md-3 col-lg-2">
@@ -122,8 +122,8 @@
                     <div class="list-group" id="MenuList" role="tablist">
                         <a href="#Menu-B1" class="list-group-item list-group-item-action active"
                             data-toggle="list">食譜大全</a>
-                        <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">特色料理</a>
-                        <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">料理機食譜</a>
+                        <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">美善品料理機</a>
+                        <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">美善品食譜</a>
                     </div>
 					<br>
                 </div>
@@ -136,7 +136,7 @@
                             <div id="app" class="row mb-1">
                                 <h3>食譜大全</h3> <br />
                             </div>
-                            <div class="container-fluid" id="app">
+                            <div class="container-fluid" id="app1">
                                 <div class="alert alert-info" role="alert">
 
                                     <div class="row">
@@ -183,16 +183,175 @@
                         <div class="tab-pane" id="Menu-B2" role="tabpanel">
                             <!-- Menu B2 -->
                             <div class="row ">
-                                <h3>特色料理</h3>
+                                <h3>美善品料理機</h3>
                             </div>
+							<div class="row">
+								<div class="col-md-12 col-lg-6">
+									<h5>德國 Vorwerk 福維克集團:  thermomix 美善品 多功能料理機 TM6 </h5>
+									<img src="fig/fig-Thermomix/AiCity-943-Thermomix-01.jpg" class="img-fluid" style="width:800px">
+									
+							
+								</div>
+								<div class="col-md-12 col-lg-6">
+									<h5>結合22種家電</h5>
+									
+									<img src="fig/fig-Thermomix/AiCity-943-Thermomix-03.jpeg" class="img-fluid" style="width:800px">										
+								
+								</div>							
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-lg-6">
+									<h5>主要附件 </h5>
+									<img src="fig/fig-Thermomix/AiCity-943-Thermomix-04.png" class="img-fluid" style="width:800px">
 
+							
+								</div>
+								<div class="col-md-12 col-lg-6">
+									<h5>食譜及教學</h5>
+									<ul>
+										<li>
+											<a href="https://cookidoo.tw/search/zh-Hant?countries=tw&context=recipes">美善品官網食譜</a>
+										</li>
+										<li>
+											<a href="https://thermomix.vorwerk.tw/fileadmin/data/tw-tw/pdf/2019/TM6_digital_manual_zh-hant_20190606_revised.pdf">TM6 使用說明書</a>
+										</li>
+										<li>
+											<a href="https://cookidoo.com.cn/foundation/zh-Hans-CN">美善品電子食譜平台 Cookidoo</a>
+										</li>
+										<li>
+											<a href="https://www.facebook.com/thermomix.taiwan/">Facebook 美善品多功能料理機 台灣官方粉絲團</a>
+										</li>
+										<li>
+											<a href="https://www.facebook.com/%E7%BE%8E%E5%96%84%E5%93%81%E5%BF%AB%E6%A8%82%E5%BB%9A%E6%88%BF-294875774012739">美善品快樂廚房</a>
+										</li>
+										<li>
+											Thermomix Cookidoo 官方應用程式
+											<a href="https://play.google.com/store/apps/details?id=com.vorwerk.cookidoo&hl=zh_TW&gl=US">Google Play</a>, 
+											<a href="https://apps.apple.com/de/app/die-thermomix-cookidoo-app/id714004506">App Store</a>
+										</li>
+										
+									</ul>
+										&nbsp;&nbsp;
+										<img src="fig/fig-Thermomix/AiCity-943-Cookiedoo logo-11.png" style="width:64px"> Cookidoo App
+								
+								</div>							
+							</div>
+							
+							<div class="row">
+								<h5>主要功能</h5>
+                            <div class="container-fluid" id="app2">
+                                <div class="alert alert-info" role="alert">
+
+ 
+                                </div>
+                                <div class="row" v-for="posts in results">
+                                    <div class="col-md-12 col-lg-6 col-xl-4" v-for="post in posts">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <p class="card-text">
+                                                    <a v-bind:href="post.Link">
+                                                         {{ post.Function }}
+                                                    </a>												
+                                               
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">
+													料理樣品： {{ post.Sample }}
+                                                    <a v-bind:href="post.Link">
+                                                        <img v-bind:src="post.Figure" class="img-fluid"
+                                                            style="width:480px">
+                                                    </a>
+												<div v-html="post.Description"></div>
+													
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>					
+								
+							</div>
+							
                         </div>
 
-                        <div class="tab-pane" id="Menu-B2" role="tabpanel">
+                        <div class="tab-pane" id="Menu-B3" role="tabpanel">
                             <!-- Menu B2 -->
                             <div class="row ">
-                                <h3>料理機食譜</h3>
+                                <h3>美善品食譜</h3>
                             </div>
+                            <div class="container-fluid" id="app3">
+                                <div class="alert alert-info" role="alert">
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <select class="form-control" v-model='section'
+                                                    id="exampleFormControlSelect1">
+                                                    <option v-for="section in sections">{{ section }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="text-center"> 選擇類別 </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row" v-for="posts in results">
+                                    <div class="col-md-12 col-lg-6 col-xl-4" v-for="post in posts">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <p class="card-text">
+                                                    <a v-bind:href="post.Link">
+                                                         {{ post.Recipe }}
+                                                    </a>												
+                                               
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                    <a v-bind:href="post.Link">
+                                                        <img v-bind:src="post.Figure" class="img-fluid"
+                                                            style="width:320px">
+                                                    </a>
+													<br><br>
+													{{ post.Description }}
+													
+													<div class="panel-group" id="accordion" role="tablist"
+														aria-multiselectable="true">
+
+														<div class="panel panel-default">
+															<div class="panel-heading" role="tab" id="headingOne">
+																<p class="panel-title">
+																	<a role="button" data-toggle="collapse"
+																		data-parent="#accordion" href="#collapseOne"
+																		aria-expanded="true" aria-controls="collapseOne">
+																		展開/折疊 說明
+																	</a>
+																</p>
+															</div>
+															<div id="collapseOne" class="panel-collapse collapse in"
+																role="tabpanel" aria-labelledby="headingOne">
+																<div class="panel-body">
+		
+																	食材：<br>
+																	{{ post.Ingredient }} <br><br>
+																	作法：<br>
+																	<div v-html="post.Method"></div> 
+																	技巧：<br>
+																	<div v-html="post.Skill"></div> <br>
+																</div>
+															</div>
+														</div>
+													</div>														
+													
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>							
+							
 
                         </div>
 
@@ -235,8 +394,11 @@
         <script>
             const posts = []
             const SECTIONS_TW = "食譜匯總, 主廚教學"
+			const SECTIONS_FU = "功能匯總"
+			const SECTIONS_RE = "醬料飲品, 日常料理, 麵包甜點, 宴會料理"
+			
             new Vue({
-                el: '#app',
+                el: '#app1',
                 data: {
                     posts,
                     // results: [],
@@ -270,6 +432,78 @@
                 },
 
             });
+			
+            new Vue({
+                el: '#app2',
+                data: {
+                    posts,
+                    // results: [],
+                    sections: SECTIONS_FU.split(', '),
+                    section: '功能匯總'
+                },
+                filter: {
+                    formatted(value) {
+                        return ' 以下是 ${value} 類別的貼文 '
+                    }
+                },
+
+                computed: {
+                    results() {
+                        let posts = this.posts
+                            .slice()
+                            .filter(post => post.Category === this.section)
+                        let i, j, chunkedArray = [], chunk = 40;
+                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                            chunkedArray[j] = posts.slice(i, i + chunk);
+                        }
+                        return chunkedArray
+                    }
+                },
+
+                mounted() {
+                    axios.get('db/AiCity-82-Thermomix.json').then((response) => {
+                        this.posts = response.data;
+                        this.getPostsByCategory(this.section)
+                    }).catch(error => { console.log(error); });
+                },
+
+            });	
+			
+            new Vue({
+                el: '#app3',
+                data: {
+                    posts,
+                    // results: [],
+                    sections: SECTIONS_RE.split(', '),
+                    section: '醬料飲品'
+                },
+                filter: {
+                    formatted(value) {
+                        return ' 以下是 ${value} 類別的貼文 '
+                    }
+                },
+
+                computed: {
+                    results() {
+                        let posts = this.posts
+                            .slice()
+                            .filter(post => post.Category === this.section)
+                        let i, j, chunkedArray = [], chunk = 40;
+                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                            chunkedArray[j] = posts.slice(i, i + chunk);
+                        }
+                        return chunkedArray
+                    }
+                },
+
+                mounted() {
+                    axios.get('db/AiCity-83-Cookidoo.json').then((response) => {
+                        this.posts = response.data;
+                        this.getPostsByCategory(this.section)
+                    }).catch(error => { console.log(error); });
+                },
+
+            });				
         </script>
     <!-- InstanceEndEditable --></div>
  
