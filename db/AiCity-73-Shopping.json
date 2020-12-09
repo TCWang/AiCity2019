@@ -741,5 +741,15 @@
             "figure": "fig/AiCity-913-林口公有零售市場.jpg",
             "link": "https://tour.ntpc.gov.tw/zh-tw/Attraction/Detail?wnd_id=60&id=402259",
             "category": "水果市場"
+        },
+        {
+            "no": "077",
+            "title": "葉綠素生鮮農產",
+            "address": "\r\n桃園市桃園市龜山區忠義路二段520號",
+            "telphone": "03-397-5890",
+            "hours": "09;00 - 21:00",
+            "figure": "fig/AiCity-913-葉綠素.jpg",
+            "link": "https://www.facebook.com/LinkouChlorophyll/",
+            "category": "生鮮超市"
         }
     ]
