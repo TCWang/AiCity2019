@@ -1,4 +1,4 @@
-﻿[
+[
         {
             "no": "001",
             "title": "千葉火鍋",
@@ -355,7 +355,7 @@
             "address": "新北市林口區文化三路一段356號",
             "telphone": "02-2600-0167",
             "hours": "週一至週五11:00~21:30 週六至週日10:30~22:00",
-            "figure": "AiCity-910-日本牛排.png",
+            "figure": "fig/AiCity-910-日本牛排.png",
             "link": "https://www.gyukatsu-motomura.com/zh/",
             "category": "林口區"
         },
