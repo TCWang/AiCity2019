@@ -751,5 +751,15 @@
             "figure": "fig/AiCity-913-葉綠素.jpg",
             "link": "https://www.facebook.com/LinkouChlorophyll/",
             "category": "生鮮超市"
+        },
+        {
+            "no": "078",
+            "title": "JASONS Market Place",
+            "address": "新北市林口區文化三路一段356號GF",
+            "telphone": "02-2600-9648",
+            "hours": "周一到周四 11:00~21:30\r\n周五11:00~22:00\r\n週六到週日 10:30~22:00",
+            "figure": "fig/AiCity-913-Jasons.jpg",
+            "link": "http://www.jasons.com.tw/CHT/#sale_active",
+            "category": "生鮮超市"
         }
     ]
