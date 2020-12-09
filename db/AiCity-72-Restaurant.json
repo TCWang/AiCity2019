@@ -328,5 +328,104 @@
             "figure": "fig/AiCity-910-華漾.jpeg",
             "link": "https://www.hwayoung.com/tw/stores.php",
             "category": "A8-GlobalMall"
+        },
+        {
+            "no": "035",
+            "title": "Japoli -三井店",
+            "address": "新北市林口區文化三路一段356號戶外區2F",
+            "telphone": "02-2600-9845",
+            "hours": "週一至週四 11:00~21:30 週五 11:00~22:00 週六至週日 10:30~22:00",
+            "figure": "fig/AiCity-910-Japoli.png",
+            "link": "https://www.facebook.com/japoli2.kingsknow/menu/?p_ref=pa",
+            "category": "林口區"
+        },
+        {
+            "no": "036",
+            "title": "屯京拉麵-三井店",
+            "address": "新北市林口區文化三路一段356號2F",
+            "telphone": "02-2608-7070",
+            "hours": "週日至週四11:00~21:30 週五至週六11:00~22:00",
+            "figure": "fig/AiCity-910-屯京拉麵.jpeg",
+            "link": "https://foodexgroup.com/",
+            "category": "林口區"
+        },
+        {
+            "no": "037",
+            "title": "牛 かつもと村-三井店",
+            "address": "新北市林口區文化三路一段356號",
+            "telphone": "02-2600-0167",
+            "hours": "週一至週五11:00~21:30 週六至週日10:30~22:00",
+            "figure": "AiCity-910-日本牛排.png",
+            "link": "https://www.gyukatsu-motomura.com/zh/",
+            "category": "林口區"
+        },
+        {
+            "no": "038",
+            "title": "くら寿司-三井店",
+            "address": "新北市林口區文化三路一段356號B1",
+            "hours": "週一至週五11:00~21:30 週六至週日 10:30~21:30",
+            "figure": "fig/AiCity-910-寿司.png",
+            "link": "https://kurasushi.tw/shops",
+            "category": "林口區"
+        },
+        {
+            "no": "039",
+            "title": "法國的秘密甜點-三井店",
+            "address": "新北市林口區文化三路一段356號B1",
+            "telphone": "02-2609-6399",
+            "hours": "週一至週日11:00~21:00",
+            "figure": "fig/AiCity-910-法國秘密甜點.jpeg",
+            "link": "https://shop.thesecretcake.com.tw/",
+            "category": "林口區"
+        },
+        {
+            "no": "040",
+            "title": "金子半之助-三井店",
+            "address": "新北市林口區文化三路一段356號2F",
+            "telphone": "02-2606-9138",
+            "hours": "週一至週五11:00~21:30 週六至週日10:30~22:00",
+            "figure": "fig/AiCity-910-金子半之助.png",
+            "link": "https://www.tendon.kingoshou.com/",
+            "category": "林口區"
+        },
+        {
+            "no": "041",
+            "title": "PAUL 保羅麵包法式烘焙Café-三井店",
+            "address": "新北市林口區文化三路一段356號2F",
+            "telphone": "02-2600-3323",
+            "hours": "週日至週五11:00~21:00 週六10:30~22:00",
+            "figure": "fig/AiCity-910-Paul.png",
+            "link": "https://www.facebook.com/paul1889.taiwan/",
+            "category": "林口區"
+        },
+        {
+            "no": "042",
+            "title": "鶴橋風月-三井店",
+            "address": "新北市林口區文化三路一段356號1F",
+            "telphone": "02-2600-6048",
+            "hours": "週一至週日11:00~21:00",
+            "figure": "fig/AiCity-910-鶴橋風月.jpg",
+            "link": "https://www.facebook.com/TsuruhashiFugetsuTaiwan/",
+            "category": "林口區"
+        },
+        {
+            "no": "043",
+            "title": "J.S. Foodies Tokyo-三井店",
+            "address": "新北市林口區文化三路一段356號2F",
+            "telphone": "02-2608-0922",
+            "hours": "週日至週五11:00~21:00 週六10:30~22:00",
+            "figure": "fig/AiCity-910-JSFood.png",
+            "link": "https://www.facebook.com/jsfoodiestw/",
+            "category": "林口區"
+        },
+        {
+            "no": "044",
+            "title": "Kua `Aina 夏威夷漢堡-三井店",
+            "address": "新北市林口區文化三路一段356號2F",
+            "telphone": "02-2606-8663",
+            "hours": "週一至週五11:00~21:30 週六至週日10:30~22:00",
+            "figure": "fig/AiCity-910-Kuaaina.jpeg",
+            "link": "http://www.kua-aina.tw/",
+            "category": "林口區"
         }
     ]
