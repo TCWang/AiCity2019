@@ -761,5 +761,15 @@
             "figure": "fig/AiCity-913-Jasons.jpg",
             "link": "http://www.jasons.com.tw/CHT/#sale_active",
             "category": "生鮮超市"
+        },
+        {
+            "no": "079",
+            "title": "立可酷",
+            "address": "333桃園市龜山區文化一路6號",
+            "telphone": "0971-671-006",
+            "hours": "11:00 - 21:00",
+            "figure": "fig/AiCity-913-立可酷.jpg",
+            "link": "http://www.lookcool.tw/",
+            "category": "髮廊美容"
         }
     ]
