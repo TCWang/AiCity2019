@@ -1,5 +1,12 @@
 ﻿[
         {
+            "no": "000",
+            "title": "中天新聞",
+            "figure": "fig/AiCity-923-中天新聞.jpg",
+            "link": "https://www.youtube.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw",
+            "category": "台灣新聞"
+        },
+        {
             "no": "001",
             "title": "UDN-聯合新聞網",
             "figure": "fig/AiCity-919-聯合新聞網.jpg",
@@ -378,10 +385,24 @@
             "category": "影音珍藏"
         },
         {
-            "no": "055",
-            "title": "中天新聞",
-            "figure": "fig/AiCity-923-中天新聞.jpg",
-            "link": "https://www.youtube.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw",
+            "no": "056",
+            "title": "台視新聞",
+            "figure": "fig/AiCity-923-台視新聞.jpg",
+            "link": "https://www.youtube.com/user/ttvnewsview",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "057",
+            "title": "中視新聞",
+            "figure": "fig/AiCity-923-中視新聞.jpg",
+            "link": "https://www.youtube.com/user/chinatvnews",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "058",
+            "title": "華視新聞",
+            "figure": "fig/AiCity-923-華視新聞.jpeg",
+            "link": "https://www.youtube.com/user/TBSCTS",
             "category": "台灣新聞"
         }
     ]
