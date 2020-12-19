@@ -116,51 +116,135 @@
 	<!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
     <article> 
-    <div id='app' class="container-fluid mt-1">
-      <div class="row">
+        <div id="app" class="container-fluid mt-1">
+            <div class="row">
 
-        <div class="col-md-2">
-          <h3>樂捷市 - 公共設施</h3>
-          <div class="list-group" id="MenuList" role="tablist">
-            <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">活動通告</a>
-            <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">作業窗口</a>
-            <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">行動軟件</a>
-          </div>
-		<br>
+                <div class="col-md-2">
+                    <h3>公共設施</h3>
+                    <div class="list-group" id="MenuList" role="tablist">
+                        <a href="#Menu-B1" class="list-group-item list-group-item-action active"
+                            data-toggle="list">公設管理辦法</a>
+                        <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">樂樂-影音館</a>
+                        <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">樂饗-小歇吧</a>
+                        <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">樂漾-健身房</a>
+                        <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">樂靚-瑜伽室</a>
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+
+                    <div class="tab-content">
+
+                        <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+                            <!-- Menu B1 -->
+                            <div class="row mb-1 ml-1">
+                                <h3>公設管理辦法 </h3> 
+								<p class="text-danger">
+									公設尚未開放使用，所有管理辦法 尚未公佈。以下資訊僅供參考！
+								</p>
+                            </div>
+                            <div class="row mb-1">
+                                <p>
+                                    <img src="fig/AiCity-915-公設平面圖.jpg" class="img-fluid" style="width:1000px">
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ol>
+                                        <li>樂賦-迎賓大廳 / 璀璨門廳</li>
+                                        <ul>
+                                            <li>開放時間：全天</li>
+                                            <li>使用點數：免費</li>
+                                        </ul>
+                                        <li>樂遊-親子互動室/ 娃娃童樂園</li>
+                                        <ul>
+                                            <li>開放時間：週一 18:00 - 21:00, 週二～週日 08:00 - 21:00</li>
+                                            <li>使用點數: 免費</li>
+                                            <li>注意事項：限120公分以下兒童，並需要大人陪同照料</li>
+                                        </ul>
+                                        <li>樂樂-歡唱KTV室/ 娛樂影音館 （<span style="color: blue;">視聽室需預約</span>）</li>
+                                        <ul>
+                                            <li>開放時間：週二～週日 08:00 - 22:00</li>
+                                            <li>使用點數：平日 150點/2小時，假日250點/2小時</li>
+                                            <li>注意事項：每戶每月假日限預約兩次，每次2小時，至多6人</li>
+                                        </ul>
+                                        <li>樂饗-Spot Bar / 摩登小飲吧 （<span style="color: blue;">小飲吧需預約</span>）</li>
+                                        <ul>
+                                            <li>開放時間：週二～週日 08:00 - 22:00</li>
+                                            <li>使用點數：平日 15點/4小時，假日30點/4小時</li>
+                                            <li>注意事項：每戶每月假日限預約一次，每次4小時，至多15人</li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6">
+                                    <ol start="5">
+                                        <li>樂學-廚藝教室 </li>
+                                        <ul>
+                                            <li>開放時間：週二,三,五,六,日 10:00 - 20:00</li>
+                                            <li>使用點數：按菜單點數扣除, 最低消費 $20</li>
+											<li>使用時間單位： 2小時30分鐘</li>
+                                            <li>交誼廳包場使用規則</li>
+                                            <ul>
+                                                <li>每次最多以2小時為限,至多6 人，</li>
+                                                <li>12歲以下禁止進入,13-16歲需由家長陪同,並由家長負全責</li>
+                                            </ul>
+                                        </ul>
+                                        <li>樂漾-健身房/ 漂亮健身房 （<span style="color: blue;">健身房需預約</span>）</li>
+                                        <ul>
+                                            <li>開放時間：週一 18:00 - 22:00, 週二～週日 06:00 - 22:00</li>
+                                            <li>使用點數: 30 點/2小時</li>
+                                            <li>注意事項：12歲以下禁止進入，13-16歲需由家長陪同。每次預約2小時，依現場總量人數管制入場。</li>
+                                        </ul>
+                                        <li>樂靚-瑜伽室 / 瑜伽生活禪</li>
+                                        <ul>
+                                            <li>開放時間：週一 18:00 - 22:00, 週二～週日 06:00 - 22:00</li>
+                                            <li>使用點數：30點/2小時</li>
+                                            <li>注意事項：12歲以下禁止進入，13-16歲需由家長陪同。</li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Menu-B2" role="tabpanel">
+                            <!-- Menu B2 -->
+                            <div class="row mb-2 ml-1">
+                                <h3>樂樂-影音館 </h3>
+                                <img src="fig/AiCity-934-開發中.jpeg" style="width:300px">
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Menu-B3" role="tabpanel">
+                            <!-- Menu B3 -->
+                            <div class="row mb-2 ml-1">
+                                <h3>樂饗-小歇吧 </h3>
+                                <img src="fig/AiCity-934-開發中.jpeg" style="width:300px">
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Menu-B4" role="tabpanel">
+                            <!-- Menu B4 -->
+                            <div class="row mb-2 ml-1">
+                                <h3>樂漾-健身房 </h3>
+                                <img src="fig/AiCity-934-開發中.jpeg" style="width:300px">
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="Menu-B5" role="tabpanel">
+                            <!-- Menu B5 -->
+                            <div class="row mb-2 ml-1">
+                                <h3>樂靚-瑜伽室 </h3>
+                                <img src="fig/AiCity-934-開發中.jpeg" style="width:300px">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="col-md-10">
-
-          <div class="tab-content">
-
-            <div class="tab-pane active" id="Menu-B1" role="tabpanel">
-              <!-- Menu B1 -->
-              <div class="row ">
-                <h3>活動通告 </h3>
-              </div>
-
-            </div>
-
-            <div class="tab-pane" id="Menu-B2" role="tabpanel">
-              <!-- Menu B2 -->
-              <div class="row">
-                <h3>作業窗口 </h3>
-              </div>
-
-            </div>
-
-            <div class="tab-pane" id="Menu-B3" role="tabpanel">
-              <!-- Menu B3 -->
-              <div class="row">
-                <h3>行動軟件 </h3>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
 	  
 	</article>  
     <!-- InstanceEndEditable -->
