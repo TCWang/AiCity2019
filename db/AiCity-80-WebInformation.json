@@ -1,0 +1,194 @@
+﻿[
+        {
+            "No": "101",
+            "Category": "行車資訊",
+            "Information": "每週油價查詢",
+            "Figure": "fig/AiCity-945-WebInformation-101.png"
+        },
+        {
+            "No": "102",
+            "Category": "行車資訊",
+            "Information": "國道即時路況",
+            "Figure": "fig/AiCity-945-WebInformation-102.png"
+        },
+        {
+            "No": "103",
+            "Category": "行車資訊",
+            "Information": "加油位址資訊",
+            "Figure": "fig/AiCity-945-WebInformation-103.jpg"
+        },
+        {
+            "No": "104",
+            "Category": "行車資訊",
+            "Information": "全國道路救援",
+            "Figure": "fig/AiCity-945-WebInformation-104.jpg"
+        },
+        {
+            "No": "201",
+            "Category": "大眾交通",
+            "Information": "台鐵時刻查詢",
+            "Figure": "fig/AiCity-945-WebInformation-201.jpeg"
+        },
+        {
+            "No": "202",
+            "Category": "大眾交通",
+            "Information": "高鐵時刻查詢",
+            "Figure": "fig/AiCity-945-WebInformation-202.jpeg"
+        },
+        {
+            "No": "203",
+            "Category": "大眾交通",
+            "Information": "台北捷運資訊",
+            "Figure": "fig/AiCity-945-WebInformation-203.jpeg"
+        },
+        {
+            "No": "204",
+            "Category": "大眾交通",
+            "Information": "桃園捷運資訊",
+            "Figure": "fig/AiCity-945-WebInformation-204.png"
+        },
+        {
+            "No": "205",
+            "Category": "大眾交通",
+            "Information": "大台北公車動態",
+            "Figure": "fig/AiCity-945-WebInformation-205.png"
+        },
+        {
+            "No": "206",
+            "Category": "大眾交通",
+            "Information": "桃園公車動態",
+            "Figure": "fig/AiCity-945-WebInformation-206.png"
+        },
+        {
+            "No": "207",
+            "Category": "大眾交通",
+            "Information": "YouBike站點",
+            "Figure": "fig/AiCity-945-WebInformation-207.png"
+        },
+        {
+            "No": "301",
+            "Category": "生活資訊",
+            "Information": "樂透彩卷開講",
+            "Figure": "fig/AiCity-945-WebInformation-301.png"
+        },
+        {
+            "No": "302",
+            "Category": "生活資訊",
+            "Information": "當日股市查詢",
+            "Figure": "fig/AiCity-945-WebInformation-302.jpeg"
+        },
+        {
+            "No": "303",
+            "Category": "生活資訊",
+            "Information": "統一發票兌獎",
+            "Figure": "fig/AiCity-945-WebInformation-303.png"
+        },
+        {
+            "No": "304",
+            "Category": "生活資訊",
+            "Information": "在地即時影像",
+            "Figure": "fig/AiCity-945-WebInformation-304.jpg"
+        },
+        {
+            "No": "305",
+            "Category": "生活資訊",
+            "Information": "天氣資訊查詢",
+            "Figure": "fig/AiCity-945-WebInformation-305.jpeg"
+        },
+        {
+            "No": "306",
+            "Category": "生活資訊",
+            "Information": "地籍資訊查詢",
+            "Figure": "fig/AiCity-945-WebInformation-306.jpg"
+        },
+        {
+            "No": "307",
+            "Category": "生活資訊",
+            "Information": "房屋實價查詢",
+            "Figure": "fig/AiCity-945-WebInformation-307.png"
+        },
+        {
+            "No": "308",
+            "Category": "生活資訊",
+            "Information": "當季菜價查詢",
+            "Figure": "fig/AiCity-945-WebInformation-308.jpg"
+        },
+        {
+            "No": "401",
+            "Category": "查詢工具",
+            "Information": "郵遞區號查詢",
+            "Figure": "fig/AiCity-945-WebInformation-401.png"
+        },
+        {
+            "No": "402",
+            "Category": "查詢工具",
+            "Information": "英文地址翻譯",
+            "Figure": "fig/AiCity-945-WebInformation-402.jpg"
+        },
+        {
+            "No": "403",
+            "Category": "查詢工具",
+            "Information": "貨幣換算工具",
+            "Figure": "fig/AiCity-945-WebInformation-403.jpeg"
+        },
+        {
+            "No": "404",
+            "Category": "查詢工具",
+            "Information": "網速即時查詢",
+            "Figure": "fig/AiCity-945-WebInformation-404.png"
+        },
+        {
+            "No": "405",
+            "Category": "查詢工具",
+            "Information": "勞保給付試算",
+            "Figure": "fig/AiCity-945-WebInformation-405.jpg"
+        },
+        {
+            "No": "501",
+            "Category": "娛樂資訊",
+            "Information": "上映電影查詢",
+            "Figure": "fig/AiCity-945-WebInformation-501.jpg"
+        },
+        {
+            "No": "502",
+            "Category": "娛樂資訊",
+            "Information": "連續劇熱播表",
+            "Figure": "fig/AiCity-945-WebInformation-502.jpeg"
+        },
+        {
+            "No": "503",
+            "Category": "娛樂資訊",
+            "Information": "附近景點快搜",
+            "Figure": "fig/AiCity-945-WebInformation-503.jpeg"
+        },
+        {
+            "No": "504",
+            "Category": "娛樂資訊",
+            "Information": "主題旅遊資訊",
+            "Figure": "fig/AiCity-945-WebInformation-504.jpg"
+        },
+        {
+            "No": "505",
+            "Category": "娛樂資訊",
+            "Information": "藝文活動資訊",
+            "Figure": "fig/AiCity-945-WebInformation-505.jpg"
+        },
+        {
+            "No": "506",
+            "Category": "娛樂資訊",
+            "Information": "地區節慶活動",
+            "Figure": "fig/AiCity-945-WebInformation-506.jpg"
+        },
+        {
+            "No": "601",
+            "Category": "政府繳費",
+            "Information": "路邊停車繳費",
+            "Figure": "fig/AiCity-945-WebInformation-601.png"
+        },
+        {
+            "No": "602",
+            "Category": "政府繳費",
+            "Information": "汽機車燃料費",
+            "Figure": "fig/AiCity-945-WebInformation-602.jpg"
+        }
+    ]

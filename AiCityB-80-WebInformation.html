@@ -18,7 +18,7 @@
   <!-- My CSS file -->
   <link rel="stylesheet" href="css/mycss.css">
   <!-- InstanceBeginEditable name="doctitle" -->
-  <title>樂捷市社區 - 清潔管理</title>
+  <title>樂捷市 生活資訊 － 網路信息</title>
   <meta name="description" content="AiCity Community WebSite 2019">
   <!-- InstanceEndEditable -->
 
@@ -95,11 +95,11 @@
 
     <!-- Jumbotron--><!-- InstanceBeginEditable name="JumbotronRegion" -->
 
-    <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+    <div class="jumbotron jumbotron-fluid jumbotron-bg3 d-flex align-items-end">
       <div class="container">
         <div class="bg-lighter p-1" style="width:300px">
-          <h5 class="text-white">樂捷市社區</h5>
-          <p class="lead text-white">清潔管理 週曆</p>
+          <h4 class="text-white">生活資訊</h4>
+          <p class="lead text-white">網路生活便利通</p>
         </div>
       </div>
     </div>
@@ -109,75 +109,59 @@
 	  
     <!-- Web Page Title -->
 	<!-- InstanceBeginEditable name="main_heading" -->
-    <h2 id="main_heading">清潔週曆</h2>
+    <h2 id="main_heading"> </h2>
     <!-- InstanceEndEditable -->
 	  
 	<!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
-    <article >
-		<div class="row">
-			<div class="col-md-12 col-lg-6">
-				垃圾車時間
-				<ul>
-					<li>每周一、四 09:00 區公所垃圾車收 垃圾</li>
-					<li>每周二     14:00 區公所垃圾車收 廚餘</li>
-					<li>每周四、六 14:00 資源回收廠商收 資源回收物</li>					
-				</ul>
-			
-			</div>
-			<div class="col-md-12 col-lg-6">
-				清潔區分配
-				<ul>
-					<li>陳東猛	0952-871-575	C棟+D棟 : 組長</li>
-					<li>陳靜風	0980-001-356	A棟+B棟</li>
-					<li>武氏惠	0909-092-377	E棟+F棟</li>
-					<li>黃氏銀	0908-958-843	G棟+H棟</li>						
-				</ul>			
-			</div>	
-			<br><br>
-		</div>
-		
-		
-	   <div id="app1" class="container-fluid">
-		  <div class="alert alert-info mt-2" role="alert">
-			<div class="row">
-			  <div class="col-8">
-				<div class="form-group">
-				  <select class="form-control" v-model='section' id="exampleFormControlSelect1">
-					<option v-for="section in sections">{{ section }}</option>
-				  </select>
-				</div>
-			  </div>
-			  <div class="col-4">
-				<h5 class="text-center"> 選擇類別 </h5>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row" v-for="posts in results">
+    <article>
+      <div id='app' class="container-fluid mt-1">
 
-			<table class="table table-striped table-sm table-hover" style="width:100%">
+        <div class="row">
+          <h3>網路信息</h3> <br />
+          <div class="container-fluid" id="app">
+            <div class="alert alert-info mt-2" role="alert">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <select class="form-control" v-model='section' id="exampleFormControlSelect1">
+                      <option v-for="section in sections">{{ section }}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <h5 class="text-center">選擇類別</h5>
+                </div>
+              </div>
+            </div>
 
-				<thead style="background-color:lightblue">
-				  <tr class="text-left">
-					<th>時段</th>
-					<th>工作</th>
-					<th>責任人</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr v-for="post in posts">
-					<td>{{ post.MyTime }}</td>
-					<td>{{ post.Task }}</td>
-					<td>{{ post.Owner }}</td>
-				  </tr>
-				</tbody>
+            <div class="row" v-for="posts in results">
+              <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+                <div class="card">
+                  <div class="card-header">
+                    <a v-bind:href="post.Link"> {{ post.Information }} </a>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      <a v-bind:href="post.Link">
+                        <img v-bind:src="post.Figure" class="img-fluid" style="width:240px">
+                      </a>
+ 
+                    </p>
+                  </div>
+                </div>
 
-			</table>						
+              </div>
 
-		  </div>
-		</div>		
+            </div>
+
+          </div>
 
 
+
+        </div>
+
+      </div>
     </article>
     <!-- InstanceEndEditable -->
 	
@@ -210,15 +194,14 @@
     <!-- Vue實例的程式碼 -->
     <script>
       const posts = []
-      const SECTIONS_IT = "星期一, 星期二, 星期三, 星期四, 星期五, 星期六, 星期日"
-
+      const SECTIONS_TW = "行車資訊, 大眾交通, 生活資訊, 查詢工具, 娛樂資訊, 政府繳費"
       new Vue({
-        el: '#app1',
+        el: '#app',
         data: {
           posts,
           // results: [],
-          sections: SECTIONS_IT.split(', '),
-          section: '星期二'
+          sections: SECTIONS_TW.split(', '),
+          section: '行車資訊'
         },
         filter: {
           formatted(value) {
@@ -230,8 +213,8 @@
           results() {
             let posts = this.posts
               .slice()
-              .filter(post => post.MyDate === this.section)
-            let i, j, chunkedArray = [], chunk = 100;
+              .filter(post => post.Category === this.section)
+            let i, j, chunkedArray = [], chunk = 50;
             for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
               chunkedArray[j] = posts.slice(i, i + chunk);
             }
@@ -239,12 +222,14 @@
           }
         },
 
+
         mounted() {
-          axios.get('db/AiCity-37-Management.json').then((response) => {
+          axios.get('db/AiCity-80-WebInformation.json').then((response) => {
             this.posts = response.data;
             this.getPostsByCategory(this.section)
           }).catch(error => { console.log(error); });
-        }
+        },
+
       });
 
     </script>
