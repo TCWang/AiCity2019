@@ -195,14 +195,14 @@
     <!-- Vue實例的程式碼 -->
     <script>
       const posts = []
-      const SECTIONS_TW = "行車資訊, 大眾交通, 生活資訊, 查詢工具, 娛樂資訊, 政府繳費"
+      const SECTIONS_TW = "網路購物, 行車資訊, 大眾交通, 生活資訊, 查詢工具, 娛樂資訊, 政府繳費"
       new Vue({
         el: '#app',
         data: {
           posts,
           // results: [],
           sections: SECTIONS_TW.split(', '),
-          section: '行車資訊'
+          section: '網路購物'
         },
         filter: {
           formatted(value) {
