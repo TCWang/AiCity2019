@@ -112,6 +112,13 @@
             "Link": "https://www.cwb.gov.tw/V8/C/"
         },
         {
+            "No": "309",
+            "Category": "生活資訊",
+            "Information": "空氣品質監測",
+            "Figure": "fig/AiCity-945-WebInformation-309.png",
+            "Link": "https://airtw.epa.gov.tw/CHT/EnvMonitoring/Local/LocalMonitoring.aspx?Type=EPB"
+        },
+        {
             "No": "306",
             "Category": "生活資訊",
             "Information": "地籍資訊查詢",
