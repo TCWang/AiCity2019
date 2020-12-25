@@ -1,0 +1,26 @@
+﻿[
+        {
+            "no": "001",
+            "title": "Costco 好市多",
+            "name": "何家蓉",
+            "telphone": "0989-009-809",
+            "figure": "fig/fig-Ad/AiCity-949-Advertisement-01.jpg",
+            "link": "https://www.costco.com.tw/",
+            "linkweb": "https://tcwang.github.io/AiCity2019/AiCityB-81-Adv.html#Article-01",
+            "category": "社區廣告看板",
+            "fig01": "fig/fig-Ad/AiCity-949-Adv-11.jpg",
+            "fig02": "fig/fig-Ad/AiCity-949-Adv-12.jpg"
+        },
+        {
+            "no": "002",
+            "title": "KingNet 今網寬頻",
+            "name": "鄭順德",
+            "telphone": "0966-539-183",
+            "figure": "fig/fig-Ad/AiCity-949-Advertisement-02.png",
+            "link": "https://top1.kingnet.net.tw/",
+            "linkweb": "https://tcwang.github.io/AiCity2019/AiCityB-81-Adv.html#Article-02",
+            "category": "社區廣告看板",
+            "fig01": "fig/fig-Ad/AiCity-949-Adv-21.jpg",
+            "fig02": "fig/fig-Ad/AiCity-949-Adv-22.jpg"
+        }
+    ]
