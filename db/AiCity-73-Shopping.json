@@ -771,5 +771,114 @@
             "figure": "fig/AiCity-913-立可酷.jpg",
             "link": "http://www.lookcool.tw/",
             "category": "髮廊美容"
+        },
+        {
+            "no": "080",
+            "title": "Order 歐德",
+            "address": "333桃園市龜山區復興一路258號",
+            "telphone": "03-318-5398",
+            "hours": "10:00 - 22:00",
+            "figure": "fig/AiCity-913-歐德.jpg",
+            "link": "https://www.order.com.tw/goods.php",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "081",
+            "title": "敦品窗飾",
+            "address": "桃園市桃園區永安路232號",
+            "telphone": "03-337-5758",
+            "hours": "09:00 - 21:00",
+            "figure": "fig/AiCity-913-敦品窗飾.png",
+            "link": "http://www.curtain.tw/front/about",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "082",
+            "title": "鴻佳地毯",
+            "address": "244 新北市林口區南勢里76-8號",
+            "telphone": "02-2600-8789",
+            "figure": "fig/AiCity-913-鴻佳地毯.png",
+            "link": "http://carpet.etrading.com.tw/company-profile.htm",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "083",
+            "title": "Day & Day 日日商業",
+            "address": "桃園縣蘆竹鄉中正路一號B1樓 特力居家購物中心 桃園南崁",
+            "telphone": "03-331-8691",
+            "hours": "11:00 - 22:00",
+            "figure": "fig/AiCity-913-DayDay.png",
+            "link": "https://www.daynday.com.tw/dayday",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "084",
+            "title": "日隆燈飾",
+            "address": "新北市新莊區新北大道7段180號",
+            "telphone": "02-2903-4178, 2903-4101",
+            "hours": "09:00 - 22:00, or 14:00 - 22:00",
+            "figure": "fig/AiCity-913-日隆燈飾.jpeg",
+            "link": "http://www.zlong.tw/",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "085",
+            "title": "禾豐傢俱",
+            "address": "10462 台北市中山區堤頂大道二段288號1樓",
+            "telphone": "02 8502 5303, 02-8502-5303, 02-8502-5305",
+            "hours": "10;00 - 19:00",
+            "figure": "fig/AiCity-913-禾豐.png",
+            "link": "https://www.hefengcasa.com/",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "086",
+            "title": "皇齊國際傢俱",
+            "address": "南崁特力家居  桃園縣蘆竹鄉中正路一號4樓",
+            "telphone": "03-312-9556",
+            "hours": "11:00 - 22:00",
+            "figure": "fig/AiCity-913-皇齊國際.png",
+            "link": "https://www.cellini-teak.com.tw/",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "087",
+            "title": "綠的國際 / 城市居家",
+            "address": "南崁特力家居  桃園縣蘆竹鄉中正路一號4樓",
+            "telphone": "03-352-0377",
+            "hours": "11:00 - 22:00",
+            "figure": "fig/AiCity-913-綠的.jpeg",
+            "link": "https://green-furniture.com.tw/index.php",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "088",
+            "title": "詩肯居家",
+            "address": "南崁特力家居  桃園縣蘆竹鄉中正路一號4樓",
+            "telphone": "0963-870-810",
+            "hours": "11:00 - 22:00",
+            "figure": "fig/AiCity-913-詩肯居家.jpg",
+            "link": "https://www.scanliving.com.tw/",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "089",
+            "title": "日月光國際",
+            "address": "新北市汐止區康寧街751巷13號",
+            "telphone": "0800-000-990",
+            "hours": "12:00 - 21:00",
+            "figure": "fig/AiCity-913-日月光.jpg",
+            "link": "https://www.asehome.com/",
+            "category": "傢俱裝飾"
+        },
+        {
+            "no": "090",
+            "title": "卡利亞傢俱 / 采舍",
+            "address": "新北市汐止區康寧街751巷13號 B1008",
+            "telphone": "02-2691-5188",
+            "hours": "12:00 - 21:00",
+            "figure": "fig/AiCity-913-采舍.png",
+            "link": "http://www.calia.com.tw/",
+            "category": "傢俱裝飾"
         }
     ]
