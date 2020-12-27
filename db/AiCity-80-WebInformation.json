@@ -1,75 +1,5 @@
 ﻿[
         {
-            "No": "701",
-            "Category": "網路購物",
-            "Information": "PCHome 24h",
-            "Figure": "fig/AiCity-945-WebInformation-701.png",
-            "Link": "https://24h.pchome.com.tw/"
-        },
-        {
-            "No": "702",
-            "Category": "網路購物",
-            "Information": "MOMO購物",
-            "Figure": "fig/AiCity-945-WebInformation-702.png",
-            "Link": "https://www.momoshop.com.tw/main/Main.jsp"
-        },
-        {
-            "No": "703",
-            "Category": "網路購物",
-            "Information": "Yahoo奇摩",
-            "Figure": "fig/AiCity-945-WebInformation-703.jpeg",
-            "Link": "https://tw.mall.yahoo.com/"
-        },
-        {
-            "No": "704",
-            "Category": "網路購物",
-            "Information": "蝦皮24小時",
-            "Figure": "fig/AiCity-945-WebInformation-704.png",
-            "Link": "https://shopee.tw/m/topshop"
-        },
-        {
-            "No": "705",
-            "Category": "網路購物",
-            "Information": "博客來電商",
-            "Figure": "fig/AiCity-945-WebInformation-705.jpeg",
-            "Link": "https://www.books.com.tw/?loc=tw_website_001"
-        },
-        {
-            "No": "706",
-            "Category": "網路購物",
-            "Information": "樂天市場",
-            "Figure": "fig/AiCity-945-WebInformation-706.jpg",
-            "Link": "https://www.rakuten.com.tw/"
-        },
-        {
-            "No": "707",
-            "Category": "網路購物",
-            "Information": "UDN買東西",
-            "Figure": "fig/AiCity-945-WebInformation-707.jpg",
-            "Link": "https://shopping.udn.com/mall/Cc1a00.do"
-        },
-        {
-            "No": "708",
-            "Category": "網路購物",
-            "Information": "森森購物網",
-            "Figure": "fig/AiCity-945-WebInformation-708.jpg",
-            "Link": "https://www.u-mall.com.tw/B"
-        },
-        {
-            "No": "709",
-            "Category": "網路購物",
-            "Information": "生活市集",
-            "Figure": "fig/AiCity-945-WebInformation-709.png",
-            "Link": "https://www.buy123.com.tw/"
-        },
-        {
-            "No": "710",
-            "Category": "網路購物",
-            "Information": "Pinkoi 品設計",
-            "Figure": "fig/AiCity-945-WebInformation-710.png",
-            "Link": "https://www.pinkoi.com/"
-        },
-        {
             "No": "101",
             "Category": "行車資訊",
             "Information": "每週油價查詢",
@@ -182,13 +112,6 @@
             "Link": "https://www.cwb.gov.tw/V8/C/"
         },
         {
-            "No": "309",
-            "Category": "生活資訊",
-            "Information": "空氣品質監測",
-            "Figure": "fig/AiCity-945-WebInformation-309.png",
-            "Link": "https://airtw.epa.gov.tw/CHT/EnvMonitoring/Local/LocalMonitoring.aspx?Type=EPB"
-        },
-        {
             "No": "306",
             "Category": "生活資訊",
             "Information": "地籍資訊查詢",
@@ -210,11 +133,11 @@
             "Link": "https://www.twfood.cc/vege?page=2"
         },
         {
-            "No": "310",
+            "No": "309",
             "Category": "生活資訊",
-            "Information": "單位換算查詢",
-            "Figure": "fig/AiCity-945-WebInformation-310.png",
-            "Link": "https://toolbxs.com/zh-TW/converter/unit"
+            "Information": "空氣品質監測",
+            "Figure": "fig/AiCity-945-WebInformation-309.png",
+            "Link": "https://airtw.epa.gov.tw/CHT/EnvMonitoring/Local/LocalMonitoring.aspx?Type=EPB"
         },
         {
             "No": "401",
@@ -250,6 +173,13 @@
             "Information": "勞保給付試算",
             "Figure": "fig/AiCity-945-WebInformation-405.jpg",
             "Link": "https://www.bli.gov.tw/0014162.html"
+        },
+        {
+            "No": "406",
+            "Category": "查詢工具",
+            "Information": "單位換算查詢",
+            "Figure": "fig/AiCity-945-WebInformation-406.png",
+            "Link": "https://toolbxs.com/zh-TW/converter/unit"
         },
         {
             "No": "501",
@@ -306,5 +236,75 @@
             "Information": "汽機車燃料費",
             "Figure": "fig/AiCity-945-WebInformation-602.jpg",
             "Link": "https://www.mvdis.gov.tw/m3-emv-fee/fee/fuelFee"
+        },
+        {
+            "No": "701",
+            "Category": "網路購物",
+            "Information": "PCHome 24h",
+            "Figure": "fig/AiCity-945-WebInformation-701.png",
+            "Link": "https://24h.pchome.com.tw/"
+        },
+        {
+            "No": "702",
+            "Category": "網路購物",
+            "Information": "MOMO購物",
+            "Figure": "fig/AiCity-945-WebInformation-702.png",
+            "Link": "https://www.momoshop.com.tw/main/Main.jsp"
+        },
+        {
+            "No": "703",
+            "Category": "網路購物",
+            "Information": "Yahoo奇摩",
+            "Figure": "fig/AiCity-945-WebInformation-703.jpeg",
+            "Link": "https://tw.mall.yahoo.com/"
+        },
+        {
+            "No": "704",
+            "Category": "網路購物",
+            "Information": "蝦皮24小時",
+            "Figure": "fig/AiCity-945-WebInformation-704.png",
+            "Link": "https://shopee.tw/m/topshop"
+        },
+        {
+            "No": "705",
+            "Category": "網路購物",
+            "Information": "博客來電商",
+            "Figure": "fig/AiCity-945-WebInformation-705.jpeg",
+            "Link": "https://www.books.com.tw/?loc=tw_website_001"
+        },
+        {
+            "No": "706",
+            "Category": "網路購物",
+            "Information": "樂天市場",
+            "Figure": "fig/AiCity-945-WebInformation-706.jpg",
+            "Link": "https://www.rakuten.com.tw/"
+        },
+        {
+            "No": "707",
+            "Category": "網路購物",
+            "Information": "UDN買東西",
+            "Figure": "fig/AiCity-945-WebInformation-707.jpg",
+            "Link": "https://shopping.udn.com/mall/Cc1a00.do"
+        },
+        {
+            "No": "708",
+            "Category": "網路購物",
+            "Information": "森森購物網",
+            "Figure": "fig/AiCity-945-WebInformation-708.jpg",
+            "Link": "https://www.u-mall.com.tw/B"
+        },
+        {
+            "No": "709",
+            "Category": "網路購物",
+            "Information": "生活市集",
+            "Figure": "fig/AiCity-945-WebInformation-709.png",
+            "Link": "https://www.buy123.com.tw/"
+        },
+        {
+            "No": "710",
+            "Category": "網路購物",
+            "Information": "Pinkoi 品設計",
+            "Figure": "fig/AiCity-945-WebInformation-710.png",
+            "Link": "https://www.pinkoi.com/"
         }
     ]
