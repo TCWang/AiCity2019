@@ -1,164 +1,398 @@
-[
-    {
-        "title": "桃欣天然氣股份有限公司",
-        "address": "地址: 桃園市桃園區法治路10號",
-        "telphone": "電話: 03-335-2191 轉 500",
-        "hours": "辦公時間：8:30 - 17:00",
-        "figure": "fig/AiCity-918-桃欣天然氣.png",
-        "link": "http://www.shintaogas.com.tw/Home/home/default.aspx",
-        "category": "水電瓦斯"
-    },
-    {
-        "title": "台灣自來水公司第二區管理處龜山服務所",
-        "address": "地址:桃園市龜山區光峰路2號",
-        "telphone": "電話: 03-329-4999",
-        "hours": "辦公時間：8:00 - 17:00",
-        "figure": "fig/AiCity-918-自來水公司.png",
-        "link": "https://www2.water.gov.tw/ch2/00index/home.asp",
-        "category": "水電瓦斯"
-    },
-    {
-        "title": "台灣電力公司林口服務所",
-        "address": "地址:桃園市龜山區文化一路51號",
-        "telphone": "聯絡電話: 03-211-1911",
-        "hours": "辦公時間：8:00 - 17:00",
-        "figure": "fig/AiCity-918-電力公司.png",
-        "link": "https://branch.taipower.com.tw/Content/Messagess/contents.aspx?&SiteID=564766277367364243&MmmID=564766315067672172&MSID=616164715712543701",
-        "category": "水電瓦斯"
-    },
-    {
-        "title": "特麗自助洗車",
-        "address": "地址：33382桃園市龜山區文化一路44號",
-        "telphone": "電話：080-088-2717",
-        "hours": "營業時間：24 H",
-        "figure": "fig/AiCity-918-特麗.jpg",
-        "link": "http://www.supershine.com.tw/",
-        "category": "加油洗車"
-    },
-    {
-        "title": "Smile 速邁樂",
-        "address": "地址：333桃園市龜山區文化一路86之5號",
-        "telphone": "電話：03-327-3008",
-        "hours": "營業時間：24 H",
-        "figure": "fig/AiCity-918-速邁樂.jpeg",
-        "link": "http://www.mech-smile.com.tw/",
-        "category": "加油洗車"
-    },
-    {
-        "title": "台灣中油文一加油站(加盟)",
-        "address": "地址：333桃園市龜山區文化一路73號",
-        "telphone": "電話： 03-328-2115",
-        "hours": "營業時間：07:00 - 22:00",
-        "figure": "fig/AiCity-918-中油.jpg",
-        "link": "https://www.cpc.com.tw/#",
-        "category": "加油洗車"
-    },
-    {
-        "title": "龜山文化郵局",
-        "address": "地址：333桃園市龜山區文昌一街102號",
-        "telphone": "電話：03-328-2617",
-        "hours": "營業時間：郵務 08:30 - 17:30，儲匯 08:30 - 17:00",
-        "figure": "fig/AiCity-918-郵局.png",
-        "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012125-3",
-        "category": "電信郵局"
-    },
-    {
-        "title": "中華電信 龜山文化門市",
-        "address": "地址：33333桃園市龜山區文化二路38-8號",
-        "telphone": "電話：03-327-0303",
-        "hours": "營業時間：12:00 - 21:00",
-        "figure": "fig/AiCity-918-中華電信.jpeg",
-        "link": "https://www.cht.com.tw/home/cht/about-cht/business-group/store-locator",
-        "category": "電信郵局"
-    },
-    {
-        "title": "遠傳林口長庚直營門市",
-        "address": "地址：333桃園市龜山區復興一路128號",
-        "telphone": "電話：03-211-4010",
-        "hours": "營業時間：12:00 - 21:30",
-        "figure": "fig/AiCity-918-遠傳.jpeg",
-        "link": "https://www.fetnet.net/content/cbu/tw/index.html",
-        "category": "電信郵局"
-    },
-    {
-        "title": "台灣之星 龜山文化服務中心",
-        "address": "地址：333桃園市龜山區文化二路65號",
-        "telphone": "電話：0968-744-248",
-        "hours": "營業時間：12:30 - 21:00",
-        "figure": "fig/AiCity-918-台灣之星.png",
-        "link": "https://www.tstartel.com/CWS/",
-        "category": "電信郵局"
-    },
-    {
-        "title": "凱擘大寬頻 / 北桃園數位有線電視",
-        "address": "地址：桃園市桃園區大興西路二段65號5樓",
-        "telphone": "電話：03-250-7794, 03-261-8968, 03-301-7131",
-        "hours": "營業時間：09:00 - 18:00",
-        "figure": "fig/AiCity-918-凱擘.jpeg",
-        "link": "https://ntyc.kbro.com.tw/K09/cm-promo-more-2_3_0_603_160.html",
-        "category": "電信郵局"
-    },
-    {
-        "title": "JGNet 宅急網",
-        "address": "地址：桃園市桃園區中正路1221號2樓",
-        "telphone": "電話：03-355-7460",
-        "hours": "營業時間： 週一~週六 10:00 - 20:00, 週日 10:00 - 18:00",
-        "figure": "fig/AiCity-918-宅急網.png",
-        "link": "https://www.jgnet.tw/",
-        "category": "電信郵局"
-    },
-    {
-        "title": "Kingnet 今網寬頻",
-        "address": "",
-        "telphone": "電話: 03-412-8166",
-        "hours": "週一至週五​ 09：00~24：00, 例假日 09：00~22：00",
-        "figure": "fig/AiCity-918-今網寬頻.png",
-        "link": "https://top1.kingnet.net.tw/",
-        "category": "電信郵局"
-    },
-    {
-        "title": "原總汽車有限公司：汽車驗車, 汽車保養與維修",
-        "address": "地址：333桃園市龜山區復興三路32號",
-        "telphone": "電話：03-396-0666",
-        "hours": "營業時間：週1～5: 08:00 - 18:00, 週6: 08:00 - 12:00",
-        "figure": "fig/AiCity-918-原總汽車.gif",
-        "link": "https://www.facebook.com/69oil",
-        "category": "汽車保養"
-    },
-    {
-        "title": "Toyota 豐田汽車",
-        "address": "地址：333桃園市龜山區文化三路358號",
-        "telphone": "電話：0978-793-288",
-        "hours": "營業時間：08:30 - 17:30",
-        "figure": "fig/AiCity-918-toyota.png",
-        "link": "https://www.toyota.com.tw/index.aspx",
-        "category": "汽車保養"
-    },
-    {
-        "title": "康福搬家貨運公司 ( 包含鋼琴搬運）",
-        "address": "地址：桃園分公司-桃園市桃園區寶慶路312號",
-        "telphone": "電話：0800-888-883, 03-301-8100",
-        "hours": "營業時間： 09:00 - 19:00",
-        "figure": "fig/AiCity-918-康福.jpeg",
-        "link": "https://www.0800222222.com/index.php?lang=tw",
-        "category": "搬家公司"
-    },
-    {
-        "title": "",
-        "address": "",
-        "telphone": "",
-        "hours": "",
-        "figure": "fig/AiCity-918-",
-        "link": "",
-        "category": ""
-    },
-    {
-        "title": "",
-        "address": "",
-        "telphone": "",
-        "hours": "",
-        "figure": "fig/AiCity-918-",
-        "link": "",
-        "category": ""
-    }
-]
+﻿[
+        {
+            "no": "001",
+            "title": "桃欣天然氣股份有限公司",
+            "address": "地址: 桃園市桃園區法治路10號",
+            "telphone": "電話: 03-335-2191 轉 500",
+            "hours": "辦公時間：8:30 - 17:00",
+            "figure": "fig/AiCity-918-桃欣天然氣.png",
+            "link": "http://www.shintaogas.com.tw/Home/home/default.aspx",
+            "category": "水電瓦斯"
+        },
+        {
+            "no": "002",
+            "title": "台灣自來水公司第二區管理處龜山服務所",
+            "address": "地址:桃園市龜山區光峰路2號",
+            "telphone": "電話: 03-329-4999",
+            "hours": "辦公時間：8:00 - 17:00",
+            "figure": "fig/AiCity-918-自來水公司.png",
+            "link": "https://www2.water.gov.tw/ch2/00index/home.asp",
+            "category": "水電瓦斯"
+        },
+        {
+            "no": "003",
+            "title": "台灣電力公司林口服務所",
+            "address": "地址:桃園市龜山區文化一路51號",
+            "telphone": "聯絡電話: 03-211-1911",
+            "hours": "辦公時間：8:00 - 17:00",
+            "figure": "fig/AiCity-918-電力公司.png",
+            "link": "https://branch.taipower.com.tw/Content/Messagess/contents.aspx?&SiteID=564766277367364243&MmmID=564766315067672172&MSID=616164715712543701",
+            "category": "水電瓦斯"
+        },
+        {
+            "no": "004",
+            "title": "特麗自助洗車",
+            "address": "地址：33382桃園市龜山區文化一路44號",
+            "telphone": "電話：080-088-2717",
+            "hours": "營業時間：24 H",
+            "figure": "fig/AiCity-918-特麗.jpg",
+            "link": "http://www.supershine.com.tw/",
+            "category": "加油洗車"
+        },
+        {
+            "no": "005",
+            "title": "Smile 速邁樂",
+            "address": "地址：333桃園市龜山區文化一路86之5號",
+            "telphone": "電話：03-327-3008",
+            "hours": "營業時間：24 H",
+            "figure": "fig/AiCity-918-速邁樂.jpeg",
+            "link": "http://www.mech-smile.com.tw/",
+            "category": "加油洗車"
+        },
+        {
+            "no": "006",
+            "title": "台灣中油文一加油站(加盟)",
+            "address": "地址：333桃園市龜山區文化一路73號",
+            "telphone": "電話： 03-328-2115",
+            "hours": "營業時間：07:00 - 22:00",
+            "figure": "fig/AiCity-918-中油.jpg",
+            "link": "https://www.cpc.com.tw/#",
+            "category": "加油洗車"
+        },
+        {
+            "no": "007",
+            "title": "龜山文化郵局",
+            "address": "地址：333桃園市龜山區文昌一街102號",
+            "telphone": "電話：03-328-2617",
+            "hours": "營業時間：郵務 08:30 - 17:30，儲匯 08:30 - 17:00",
+            "figure": "fig/AiCity-918-郵局.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012125-3",
+            "category": "電信郵局"
+        },
+        {
+            "no": "008",
+            "title": "中華電信 龜山文化門市",
+            "address": "地址：33333桃園市龜山區文化二路38-8號",
+            "telphone": "電話：03-327-0303",
+            "hours": "營業時間：12:00 - 21:00",
+            "figure": "fig/AiCity-918-中華電信.jpeg",
+            "link": "https://www.cht.com.tw/home/cht/about-cht/business-group/store-locator",
+            "category": "電信郵局"
+        },
+        {
+            "no": "009",
+            "title": "遠傳林口長庚直營門市",
+            "address": "地址：333桃園市龜山區復興一路128號",
+            "telphone": "電話：03-211-4010",
+            "hours": "營業時間：12:00 - 21:30",
+            "figure": "fig/AiCity-918-遠傳.jpeg",
+            "link": "https://www.fetnet.net/content/cbu/tw/index.html",
+            "category": "電信郵局"
+        },
+        {
+            "no": "010",
+            "title": "台灣之星 龜山文化服務中心",
+            "address": "地址：333桃園市龜山區文化二路65號",
+            "telphone": "電話：0968-744-248",
+            "hours": "營業時間：12:30 - 21:00",
+            "figure": "fig/AiCity-918-台灣之星.png",
+            "link": "https://www.tstartel.com/CWS/",
+            "category": "電信郵局"
+        },
+        {
+            "no": "011",
+            "title": "凱擘大寬頻 / 北桃園數位有線電視",
+            "address": "地址：桃園市桃園區大興西路二段65號5樓",
+            "telphone": "電話：03-250-7794, 03-261-8968, 03-301-7131",
+            "hours": "營業時間：09:00 - 18:00",
+            "figure": "fig/AiCity-918-凱擘.jpeg",
+            "link": "https://ntyc.kbro.com.tw/K09/cm-promo-more-2_3_0_603_160.html",
+            "category": "電信郵局"
+        },
+        {
+            "no": "012",
+            "title": "JGNet 宅急網",
+            "address": "地址：桃園市桃園區中正路1221號2樓",
+            "telphone": "電話：03-355-7460",
+            "hours": "營業時間： 週一~週六 10:00 - 20:00, 週日 10:00 - 18:00",
+            "figure": "fig/AiCity-918-宅急網.png",
+            "link": "https://www.jgnet.tw/",
+            "category": "電信郵局"
+        },
+        {
+            "no": "013",
+            "title": "Kingnet 今網寬頻",
+            "telphone": "電話: 03-412-8166",
+            "hours": "週一至週五​ 09：00~24：00, 例假日 09：00~22：00",
+            "figure": "fig/AiCity-918-今網寬頻.png",
+            "link": "https://top1.kingnet.net.tw/",
+            "category": "電信郵局"
+        },
+        {
+            "no": "014",
+            "title": "原總汽車有限公司：汽車驗車, 汽車保養與維修",
+            "address": "地址：333桃園市龜山區復興三路32號",
+            "telphone": "電話：03-396-0666",
+            "hours": "營業時間：週1～5: 08:00 - 18:00, 週6: 08:00 - 12:00",
+            "figure": "fig/AiCity-918-原總汽車.gif",
+            "link": "https://www.facebook.com/69oil",
+            "category": "汽車保養"
+        },
+        {
+            "no": "015",
+            "title": "Toyota 豐田汽車",
+            "address": "地址：333桃園市龜山區文化三路358號",
+            "telphone": "電話：0978-793-288",
+            "hours": "營業時間：08:30 - 17:30",
+            "figure": "fig/AiCity-918-toyota.png",
+            "link": "https://www.toyota.com.tw/index.aspx",
+            "category": "汽車保養"
+        },
+        {
+            "no": "016",
+            "title": "康福搬家貨運公司 ( 包含鋼琴搬運）",
+            "address": "地址：桃園分公司-桃園市桃園區寶慶路312號",
+            "telphone": "電話：0800-888-883, 03-301-8100",
+            "hours": "營業時間： 09:00 - 19:00",
+            "figure": "fig/AiCity-918-康福.jpeg",
+            "link": "https://www.0800222222.com/index.php?lang=tw",
+            "category": "搬家公司"
+        },
+        {
+            "no": "017",
+            "title": "台新銀行 新莊副都心分行",
+            "address": "地址：242新北市新莊區中原路150號",
+            "telphone": "電話：02-8521-1388 #100",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-台新.jpeg",
+            "link": "https://www.taishinbank.com.tw/TSB/personal/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "018",
+            "title": "中國信託商業銀行林口分行",
+            "address": "地址：桃園縣龜山鄉復興一路233號 ",
+            "telphone": "電話：03-396-2777",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-中國信託.jpg",
+            "link": "https://www.ctbcbank.com/twrbo/zh_tw/dep_index.html",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "019",
+            "title": "元大商業銀行林口分行  ",
+            "address": "地址：桃園縣龜山鄉文化三路118號 ",
+            "telphone": "電話：03-328-8999",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AICITY-918-元大.jpeg",
+            "link": "https://www.yuantabank.com.tw/bank/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "020",
+            "title": "元大證劵長庚分公司",
+            "address": "地址：33380桃園市龜山區文化二路38之6號二樓",
+            "telphone": "電話：03-397-8787",
+            "hours": "營業時間: 08:30 - 16:00",
+            "figure": "fig/AiCity-918-元大證劵.jpg",
+            "link": "https://www.yuanta.com.tw/eyuanta/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "021",
+            "title": "遠東國際商業銀行林口分行 ",
+            "address": "地址：桃園縣龜山鄉復興一路227號 ",
+            "telphone": "電話：03-397-3888",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-遠東銀行.jpg",
+            "link": "https://www.feib.com.tw/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "022",
+            "title": "渣打國際商業銀行公西分行 ",
+            "address": "地址：333桃園市龜山區復興一路237號",
+            "telphone": "電話：03-397-2288",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-渣打銀行.jpeg",
+            "link": "https://service.standardchartered.com.tw/ssl/campaign/credit-cards/signature-card.asp",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "023",
+            "title": "玉山銀行 林口分行",
+            "address": "地址：333桃園市龜山區復興一路230號",
+            "telphone": "電話：03-396-1313",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-玉山銀行.png",
+            "link": "https://www.esunbank.com.tw/bank/personal",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "024",
+            "title": "國泰世華銀行林口分行",
+            "address": "地址：333桃園市龜山區文化三路319號",
+            "telphone": "電話：03-327-1689",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-國泰世華.jpg",
+            "link": "https://www.cathaybk.com.tw/cathaybk/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "025",
+            "title": "陽信銀行林口分行",
+            "address": "地址：333桃園市龜山區文化三路331號1~2樓",
+            "telphone": "電話：03-327-3559",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-陽信銀行.jpg",
+            "link": "https://www.sunnybank.com.tw/net/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "026",
+            "title": "臺灣銀行林口分行",
+            "address": "地址：333桃園市龜山區復興一路368號",
+            "telphone": "電話：03-327-7299",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-台灣銀行.jpg",
+            "link": "https://www.bot.com.tw/Pages/default.aspx",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "027",
+            "title": "第一銀行林口分行",
+            "address": "地址：333桃園市龜山區文化二路76號",
+            "telphone": "電話：03-318-6611",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-第一銀行.png",
+            "link": "https://www.firstbank.com.tw/sites/fbweb/Home",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "028",
+            "title": "合作金庫銀行 林口分行",
+            "address": "地址：333桃園市龜山區文化二路49號",
+            "telphone": "電話：03-318-3880",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-合作金庫.png",
+            "link": "https://www.tcb-bank.com.tw/Pages/index.aspx",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "029",
+            "title": "華南銀行林口分行",
+            "address": "地址：333桃園市龜山區復興一路300號",
+            "telphone": "電話： 03-318-3456",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-華南銀行.png",
+            "link": "https://www.hncb.com.tw/wps/portal/HNCB/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "030",
+            "title": "彰化銀行東林口分行",
+            "address": "地址：333桃園市龜山區復興一路235號",
+            "telphone": "電話：03-397-5555",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-彰化銀行.jpg",
+            "link": "https://www.bankchb.com/frontend/index.html",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "031",
+            "title": "台灣土地銀行林口分行",
+            "address": "地址：333桃園市龜山區文化二路109號",
+            "telphone": "電話：03-318-2128",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-土地銀行.jpg",
+            "link": "https://www.landbank.com.tw/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "032",
+            "title": "大崗國民中學",
+            "address": "地址；333桃園市龜山區文化二路168號",
+            "telphone": "電話：03-328-0888",
+            "figure": "fig/AiCity-918-大崗國中.jpg",
+            "link": "http://www.dgjh.tyc.edu.tw/",
+            "category": "學校才藝"
+        },
+        {
+            "no": "033",
+            "title": "林口國民中學",
+            "address": "地址；244新北市林口區民治路25號",
+            "telphone": "電話：02-2601-1014",
+            "figure": "fig/AiCity-918-林口國中.jpeg",
+            "link": "https://www.lkjh.ntpc.edu.tw/",
+            "category": "學校才藝"
+        },
+        {
+            "no": "034",
+            "title": "樂善國民小學",
+            "address": "地址：33371桃園市龜山區樂安街71號",
+            "telphone": "電話：03-3281002",
+            "figure": "fig/AiCity-918-樂善國小.jpg",
+            "link": "http://www2.leses.tyc.edu.tw/school/web/index.php",
+            "category": "學校才藝"
+        },
+        {
+            "no": "035",
+            "title": "長庚國民小學",
+            "address": "地址：333桃園市龜山區長庚里425號",
+            "telphone": "電話：03-318-2643",
+            "figure": "fig/AiCity-918-長庚國小.jpeg",
+            "link": "http://www.cgps.tyc.edu.tw/index1.htm",
+            "category": "學校才藝"
+        },
+        {
+            "no": "036",
+            "title": "文華國民小學",
+            "address": "地址：333桃園市龜山區文化七路116號",
+            "telphone": "電話：03-327-1146",
+            "figure": "fig/AiCity-918-文華國小.jpg",
+            "link": "http://sun.sshes.tyc.edu.tw/xoops/index.php?color=blue#k",
+            "category": "學校才藝"
+        },
+        {
+            "no": "037",
+            "title": "文德非營利幼兒園",
+            "address": "地址：桃園市龜山區文德二路88號",
+            "telphone": "電話：03-397-9511, 397-9146",
+            "figure": "fig/AiCity-918-文德幼兒園.jpg",
+            "link": "https://www.safe.org.tw/about/family/kindergarten/14",
+            "category": "學校才藝"
+        },
+        {
+            "no": "038",
+            "title": "黃亮語文文理補習班",
+            "address": "地址：333桃園市龜山區文德路32號",
+            "telphone": "電話：03-327-0006",
+            "figure": "fig/AiCity-918-黃亮補習班.jpeg",
+            "link": "http://bb.bbbox.net/mathleader?fbclid=IwAR0DGMtvhOOShOgZqybkTb1IdfxUXRie0NUXAeYljpPiSsAr77GONn85NaM",
+            "category": "學校才藝"
+        },
+        {
+            "no": "039",
+            "title": "佑林兒童課後照顧服務中心",
+            "address": "地址：333桃園市龜山區文德二路100號",
+            "telphone": "電話： 03-327-3488",
+            "figure": "fig/AiCity-918-佑林課後班.jpg",
+            "category": "學校才藝"
+        },
+        {
+            "no": "040",
+            "title": "格林威治英語",
+            "address": "地址：桃園市龜山區長慶三街36號1樓",
+            "telphone": "電話：03-397-2622",
+            "category": "學校才藝"
+        },
+        {
+            "no": "041",
+            "title": "悠揚八度音樂中心",
+            "address": "地址：桃園市龜山區長慶三街30號1樓",
+            "telphone": "電話：0937-081-121",
+            "figure": "fig/AiCity-918-悠揚八度.jpg",
+            "link": "https://www.facebook.com/102501968352582/posts/opening-soon-/120037916598987/",
+            "category": "學校才藝"
+        }
+    ]
