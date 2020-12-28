@@ -70,6 +70,26 @@
             "category": "電信郵局"
         },
         {
+            "no": "091",
+            "title": "郵筒-文化一路",
+            "address": "地址：333桃園市龜山區文化一路53號",
+            "telphone": "電話：03-318-5741",
+            "hours": "收件時間：平日 09:00",
+            "figure": "fig/AiCity-918-Mail1.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_map_box.jsp?id=1859",
+            "category": "電信郵局"
+        },
+        {
+            "no": "092",
+            "title": "郵筒-文德路",
+            "address": "地址：333桃園市龜山區文德路25號",
+            "telphone": "電話：03-318-5741",
+            "hours": "收件時間：平日 10:00",
+            "figure": "fig/AiCity-918-Mail2.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_map_box.jsp?id=10977",
+            "category": "電信郵局"
+        },
+        {
             "no": "008",
             "title": "中華電信 龜山文化門市",
             "address": "地址：33333桃園市龜山區文化二路38-8號",
