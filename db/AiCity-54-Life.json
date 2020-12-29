@@ -149,6 +149,16 @@
             "category": "電信郵局"
         },
         {
+            "no": "042",
+            "title": "立欣汽車保養代檢廠",
+            "address": "地址：333桃園市龜山區復興三路68號",
+            "telphone": "電話：03-397-1710",
+            "hours": "營業時間：08:00 - 18:00",
+            "figure": "fig/AiCity-918-立欣汽車.jpeg",
+            "link": "https://www.facebook.com/69oil/",
+            "category": "汽車保養"
+        },
+        {
             "no": "014",
             "title": "原總汽車有限公司：汽車驗車, 汽車保養與維修",
             "address": "地址：333桃園市龜山區復興三路32號",
@@ -414,15 +424,5 @@
             "figure": "fig/AiCity-918-悠揚八度.jpg",
             "link": "https://www.facebook.com/102501968352582/posts/opening-soon-/120037916598987/",
             "category": "學校才藝"
-        },
-        {
-            "no": "042",
-            "title": "立欣汽車保養代檢廠",
-            "address": "地址：333桃園市龜山區復興三路68號",
-            "telphone": "電話：03-397-1710",
-            "hours": "營業時間：08:00 - 18:00",
-            "figure": "fig/AiCity-918-立欣汽車.jpeg",
-            "link": "https://www.facebook.com/69oil/",
-            "category": "汽車保養"
         }
     ]
