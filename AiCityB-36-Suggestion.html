@@ -125,7 +125,7 @@
 
     <!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
-    <div id="app1" class="row">
+    
       <div class="container-fluid">
         <div class="alert alert-info" role="alert">
           <div class="row">
@@ -147,12 +147,12 @@
 
       <div class="row" v-for="posts in results">
         <div v-for="post in posts">
-          <div class="col-12 mx-3">
+          <div class="col-12 mr-4">
             提案內容
 
-            <table class="table table-striped table-sm table-responsive">
-              <tr >
-                <td style="width:10%">提案日期：</td>
+            <table class="table table-sm table-responsive">
+              <tr>
+                <td style="width:15%">提案日期：</td>
                 <td>{{post.Date}}</td>
               </tr>
               <tr>
@@ -190,7 +190,7 @@
         </div>
       </div>
 
-    </div>
+
 
 
 
@@ -202,84 +202,86 @@
         為持續改善本社區居住環境並建立即時溝通管道，請將你寶貴建議或信息填寫在下面建議單中。社區義工將設法傳達！
       </p>
 
-      <!--
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefgNr7ljXFG1Pvif87ZzS6M2oFGecad0RmvekPyp2BpVOPbg/viewform?embedded=true" width="640" height="1318" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
-				-->
+
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSefgNr7ljXFG1Pvif87ZzS6M2oFGecad0RmvekPyp2BpVOPbg/viewform?embedded=true"
+        width="640" height="1318" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
 
     </article>
 
-  </div>
 
 
-  <!-- InstanceEndEditable -->
 
-  <footer id="main_footer">
-    <p>樂捷市03-327-2090,桃園市33375龜山區長慶三街
-    </p>
+    <!-- InstanceEndEditable -->
 
-  </footer>
+    <footer id="main_footer">
+      <p>樂捷市03-327-2090,桃園市33375龜山區長慶三街
+      </p>
 
-  <!-- Vue 的 CDN -->
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    </footer>
 
-  <!-- Bootstrap 4 JavaScript 的 CDN -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <!-- Axios 的 CDN -->
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Vue 的 CDN -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
-  <!-- Jump to tab  -->
+    <!-- Bootstrap 4 JavaScript 的 CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <!-- Axios 的 CDN -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- Jump to tab  -->
 
 
-  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
-  <!-- Vue實例的程式碼 -->
-  <script>
-    const posts = []
-    const SECTIONS_SU = "Suggestion"
+    <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+    <!-- Vue實例的程式碼 -->
+    <script>
+      const posts = []
+      const SECTIONS_SU = "Suggestion"
 
-    new Vue({
-      el: '#app1',
-      data: {
-        posts,
-        // results: [],
-        sections: SECTIONS_SU.split(', '),
-        section: 'Suggestion'
-      },
-      filter: {
-        formatted(value) {
-          return ' 以下是 ${value} 類別的貼文 '
-        }
-      },
-
-      computed: {
-        results() {
-          let posts = this.posts
-            .slice()
-            .filter(post => post.Category === this.section)
-          let i, j, chunkedArray = [], chunk = 30;
-          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-            chunkedArray[j] = posts.slice(i, i + chunk);
+      new Vue({
+        el: '#app',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_SU.split(', '),
+          section: 'Suggestion'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
           }
-          return chunkedArray
-        }
-      },
+        },
 
-      mounted() {
-        axios.get('db/AiCity-36-Suggestion.json').then((response) => {
-          this.posts = response.data;
-          this.getPostsByCategory(this.section)
-        }).catch(error => { console.log(error); });
-      }
-    });
-  </script>
-  <!-- InstanceEndEditable -->
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category === this.section)
+            let i, j, chunkedArray = [], chunk = 30;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+
+        mounted() {
+          axios.get('db/AiCity-36-Suggestion.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        }
+      });
+    </script>
+    <!-- InstanceEndEditable -->
   </div>
 
 </body>
