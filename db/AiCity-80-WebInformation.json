@@ -182,6 +182,13 @@
             "Link": "https://toolbxs.com/zh-TW/converter/unit"
         },
         {
+            "No": "407",
+            "Category": "查詢工具",
+            "Information": "DesignEvo",
+            "Figure": "fig/AiCity-945-WebInformation-407.png",
+            "Link": "https://www.designevo.com/tw/logo-maker/\" title=\"免費線上logo製作軟體"
+        },
+        {
             "No": "501",
             "Category": "娛樂資訊",
             "Information": "上映電影查詢",
@@ -222,6 +229,27 @@
             "Information": "地區節慶活動",
             "Figure": "fig/AiCity-945-WebInformation-506.jpg",
             "Link": "https://www.taiwan.net.tw/m1.aspx?sNo=0000104"
+        },
+        {
+            "No": "507",
+            "Category": "娛樂資訊",
+            "Information": "智慧導遊-桃園",
+            "Figure": "fig/AiCity-945-WebInformation-507.jpg",
+            "Link": "https://tcwang.github.io/TravelGuide-Taoyuan/index.html"
+        },
+        {
+            "No": "508",
+            "Category": "娛樂資訊",
+            "Information": "智慧導遊-花東",
+            "Figure": "fig/AiCity-945-WebInformation-508.jpg",
+            "Link": "https://tcwang.github.io/TravelGuide-EastCoast/index.html"
+        },
+        {
+            "No": "509",
+            "Category": "娛樂資訊",
+            "Information": "智慧導遊-離島",
+            "Figure": "fig/AiCity-945-WebInformation-509.jpg",
+            "Link": "https://tcwang.github.io/TravelGuide-Islands/Index.html"
         },
         {
             "No": "601",
@@ -306,5 +334,12 @@
             "Information": "Pinkoi 品設計",
             "Figure": "fig/AiCity-945-WebInformation-710.png",
             "Link": "https://www.pinkoi.com/"
+        },
+        {
+            "No": "711",
+            "Category": "網路購物",
+            "Information": "智慧購物-開發測試版",
+            "Figure": "fig/AiCity-945-WebInformation-711.png",
+            "Link": "#"
         }
     ]
