@@ -763,6 +763,25 @@
             "category": "生鮮超市"
         },
         {
+            "no": "091",
+            "title": "南山蔬果生鮮批發",
+            "address": "333桃園市龜山區忠義路二段524號",
+            "telphone": "03-397-2498",
+            "hours": "08:00 -19:45, 週一公休",
+            "figure": "fig/AiCity-913-南山果菜.png",
+            "link": "https://www.facebook.com/%E5%8D%97%E5%B1%B1%E8%94%AC%E8%8F%93%E7%94%9F%E9%AE%AE%E6%89%B9%E7%99%BC%E8%A1%8C-807724092714854",
+            "category": "水果市場"
+        },
+        {
+            "no": "092",
+            "title": "全聯福利中心 Pxmart - 長慶店",
+            "address": "333桃園市龜山區長慶三街",
+            "hours": "即將開幕",
+            "figure": "fig/AiCity-913-Pxmart-2.jpeg",
+            "link": "http://www.pxmart.com.tw/px/index.px",
+            "category": "生鮮超市"
+        },
+        {
             "no": "079",
             "title": "立可酷",
             "address": "333桃園市龜山區文化一路6號",
