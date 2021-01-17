@@ -68,5 +68,12 @@
             "figure": "fig/AiCity-922-阿見.jpg",
             "link": "https://www.youtube.com/channel/UC1SaDcKftNgCW-I34K462yQ/featured",
             "category": "主廚教學"
+        },
+        {
+            "no": "011",
+            "title": "美食台",
+            "figure": "fig/AiCity-922-美食台.jpg",
+            "link": "https://mp.weixin.qq.com/s/nhzdkwTvKJ8b_iM83Rn-mg?",
+            "category": "食譜匯總"
         }
     ]
