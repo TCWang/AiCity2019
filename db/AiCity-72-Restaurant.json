@@ -1,4 +1,4 @@
-[
+﻿[
         {
             "no": "001",
             "title": "千葉火鍋",
@@ -427,5 +427,75 @@
             "figure": "fig/AiCity-910-Kuaaina.jpeg",
             "link": "http://www.kua-aina.tw/",
             "category": "林口區"
+        },
+        {
+            "no": "045",
+            "title": "漢來海港餐廳",
+            "address": "338桃園市蘆竹區南崁路一段112號",
+            "telphone": "008-019-966",
+            "hours": "週一至週五 11:00~22:00 週六至週日(或國定假日) 10:30~22:00 ",
+            "figure": "fig/AiCity-910-漢來.png",
+            "link": "http://www.hilai-foods.com/zh_TW/brand/harbour/Tao-Yuan-Dian",
+            "category": "台茂購物中心"
+        },
+        {
+            "no": "046",
+            "title": "上菜",
+            "address": "桃園市蘆竹區南崁路一段112號 6F",
+            "telphone": "03-312-5222",
+            "hours": "平日11:30 ~ 14:30, 17:00 ~ 21:00; \r\n假日11:00 ~ 14:30, 17:00 ~ 21:00",
+            "figure": "fig/AiCity-910-上菜.jpg",
+            "link": "https://www.facebook.com/HilaiRoastDuck/",
+            "category": "台茂購物中心"
+        },
+        {
+            "no": "047",
+            "title": "漢來上海湯包",
+            "address": "桃園市蘆竹區南崁路一段112號 5F",
+            "telphone": "03-311-2022",
+            "hours": "平日11:30 ~ 14:30, 17:00 ~ 21:00; \r\n假日11:00 ~ 14:30, 17:00 ~ 21:00",
+            "figure": "fig/AiCity-910-和來上海湯包.jpg",
+            "link": "http://www.hilai-foods.com/zh_TW/brand/Hongtao-Shanghai-buns/taoyuan-dian",
+            "category": "台茂購物中心"
+        },
+        {
+            "no": "048",
+            "title": "Haidilao海底撈",
+            "address": "桃園市蘆竹區南崁路一段112號 3F",
+            "telphone": "03-322-1705",
+            "hours": "上午11點至隔日凌晨3點",
+            "figure": "fig/AiCity-910-海底撈.png",
+            "link": "https://www.facebook.com/HaidilaoTaiwan/posts/2012123942207974/",
+            "category": "台茂購物中心"
+        },
+        {
+            "no": "049",
+            "title": "SYABU-YO涮乃葉",
+            "address": "桃園市蘆竹區南崁路一段112號 6F",
+            "telphone": "03-222-5025",
+            "hours": "週一至週五11:00~22:00 週六至周日、例假日10:30~22:00",
+            "figure": "fig/AiCity-910-涮乃葉.jpeg",
+            "link": "https://www.syabuyo.com.tw/store_detail.php?id=6&area=",
+            "category": "台茂購物中心"
+        },
+        {
+            "no": "050",
+            "title": "原燒O-NiKU",
+            "address": "桃園市蘆竹區南崁路一段112號 6F",
+            "telphone": "03-222-1668",
+            "hours": "週一至週五11:00~22:00 週六至周日、例假日10:30~22:00",
+            "figure": "fig/AiCity-910-原燒.jpeg",
+            "link": "https://www.yakiyan.com/store_detail.html?sno=10222",
+            "category": "台茂購物中心"
+        },
+        {
+            "no": "051",
+            "title": "NINI 尼尼義大利餐廳",
+            "address": "桃園市蘆竹區南崁路一段112號 6F",
+            "telphone": "03-222-3272",
+            "hours": "週一至週五11:00~22:00 週六至周日、例假日10:30~22:00",
+            "figure": "fig/AiCity-910-Nini.jpeg",
+            "link": "https://www.facebook.com/ninitaimall/",
+            "category": "台茂購物中心"
         }
     ]
