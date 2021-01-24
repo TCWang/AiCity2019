@@ -133,6 +133,7 @@
             <div class="list-group" id="MenuList" role="tablist">
               <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">新聞＆雜誌</a>
               <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">影音媒體</a>
+			  <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">股市分析</a>
             </div>
             <br>
           </div>
@@ -226,6 +227,53 @@
 
                 </div>
               </div>
+				
+              <div class="tab-pane" id="Menu-B3" role="tabpanel">
+                <!-- Menu B3 -->
+                <div id="app3" class="container-fluid">
+                  <div class="row">
+                    <h3>股市分析</h3>
+                  </div>
+
+					<div class="row">
+
+					  <div class="container-fluid" id="app">
+						<div class="alert alert-info mt-2" role="alert">
+
+
+						</div>
+						<div class="row" v-for="posts in results">
+						  <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3" v-for="post in posts">
+							<div class="card">
+							  <div class="card-header">
+								<a v-bind:href="post.Link">
+								  {{post.Title}}
+								</a>	
+							  </div>
+							  <div class="card-body text-left">
+								<dl>
+									<dd>
+										<a v-bind:href="post.Link">
+										  <img v-bind:src="post.Figure" class="img-fluid" style="width:180px">
+										</a>								
+									</dd>
+
+								</dl>
+							  </div>
+
+							</div>
+						  </div>
+						</div>
+					  </div>
+
+					</div>
+
+
+
+
+                </div>
+              </div>				
+				
 
             </div>
           </div>
@@ -265,6 +313,7 @@
 
       const SECTIONS_TW = "台灣新聞, 大陸新聞, 國際新聞, 雜誌-新聞時事, 雜誌-財經股市, 雜誌-科技健康, 雜誌-電子書庫"
       const SECTIONS_VE = "藝術圖像, 文獻收藏, 影音珍藏"
+	  const SECTIONS_ST = "股市分析"
 
       new Vue({
         el: '#app1',
@@ -338,6 +387,42 @@
         },
 
       });
+		
+      new Vue({
+        el: '#app3',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_ST.split(', '),
+          section: '股市分析'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+
+        mounted() {
+          axios.get('db/AiCity-87-FinancialWebsite.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });		
 
     </script>
     <!-- InstanceEndEditable --></div>
