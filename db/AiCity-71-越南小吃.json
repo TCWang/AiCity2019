@@ -1,0 +1,163 @@
+﻿[
+        {
+            "No": "002",
+            "Store": "越南小吃",
+            "Category": "河粉",
+            "Title": "牛肉河粉",
+            "Price": "$80"
+        },
+        {
+            "No": "003",
+            "Store": "越南小吃",
+            "Category": "河粉",
+            "Title": "豬肉河粉",
+            "Price": "$70"
+        },
+        {
+            "No": "004",
+            "Store": "越南小吃",
+            "Category": "湯麵",
+            "Title": "牛肉麵",
+            "Price": "$80"
+        },
+        {
+            "No": "005",
+            "Store": "越南小吃",
+            "Category": "湯麵",
+            "Title": "豬肉麵",
+            "Price": "$70"
+        },
+        {
+            "No": "006",
+            "Store": "越南小吃",
+            "Category": "湯麵",
+            "Title": "什錦麵",
+            "Price": "$80"
+        },
+        {
+            "No": "007",
+            "Store": "越南小吃",
+            "Category": "炒麵/炒飯",
+            "Title": "炒麵",
+            "Price": "$70"
+        },
+        {
+            "No": "008",
+            "Store": "越南小吃",
+            "Category": "炒麵/炒飯",
+            "Title": "蝦仁炒飯",
+            "Price": "$70"
+        },
+        {
+            "No": "009",
+            "Store": "越南小吃",
+            "Category": "炒麵/炒飯",
+            "Title": "牛肉炒飯",
+            "Price": "$70"
+        },
+        {
+            "No": "010",
+            "Store": "越南小吃",
+            "Category": "炒麵/炒飯",
+            "Title": "豬肉炒飯",
+            "Price": "$70"
+        },
+        {
+            "No": "011",
+            "Store": "越南小吃",
+            "Category": "炒麵/炒飯",
+            "Title": "蛋炒飯",
+            "Price": "$70"
+        },
+        {
+            "No": "012",
+            "Store": "越南小吃",
+            "Category": "滷肉飯",
+            "Title": "滷肉飯",
+            "Price": "$40"
+        },
+        {
+            "No": "013",
+            "Store": "越南小吃",
+            "Category": "炒米線",
+            "Title": "牛肉炒米線",
+            "Price": "$70"
+        },
+        {
+            "No": "014",
+            "Store": "越南小吃",
+            "Category": "炒米線",
+            "Title": "豬肉炒米線",
+            "Price": "$60"
+        },
+        {
+            "No": "015",
+            "Store": "越南小吃",
+            "Category": "小菜",
+            "Title": "綜合滷味",
+            "Price": "$50"
+        },
+        {
+            "No": "016",
+            "Store": "越南小吃",
+            "Category": "小菜",
+            "Title": "燙青菜",
+            "Price": "$30"
+        },
+        {
+            "No": "017",
+            "Store": "越南小吃",
+            "Category": "小菜",
+            "Title": "燙蝦子",
+            "Price": "$200"
+        },
+        {
+            "No": "018",
+            "Store": "越南小吃",
+            "Category": "小菜",
+            "Title": "炸雞翅",
+            "Price": "$150"
+        },
+        {
+            "No": "019",
+            "Store": "越南小吃",
+            "Category": "小菜",
+            "Title": "牛肉炒青菜",
+            "Price": "$100"
+        },
+        {
+            "No": "020",
+            "Store": "越南小吃",
+            "Category": "小菜",
+            "Title": "青菜炒蒜頭",
+            "Price": "$80"
+        },
+        {
+            "No": "021",
+            "Store": "越南小吃",
+            "Category": "湯類",
+            "Title": "貢丸湯",
+            "Price": "$30"
+        },
+        {
+            "No": "022",
+            "Store": "越南小吃",
+            "Category": "湯類",
+            "Title": "大骨湯",
+            "Price": "$50"
+        },
+        {
+            "No": "023",
+            "Store": "越南小吃",
+            "Category": "湯類",
+            "Title": "蛋花湯",
+            "Price": "$30"
+        },
+        {
+            "No": "024",
+            "Store": "越南小吃",
+            "Category": "湯類",
+            "Title": "青菜湯",
+            "Price": "$30"
+        }
+    ]
