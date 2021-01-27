@@ -3,168 +3,168 @@
             "No": "002",
             "Store": "越南小吃",
             "Category": "河粉",
-            "Title": "牛肉河粉 PHO BO",
+            "Title": "牛肉河粉 Phở bò",
             "Price": "$80"
         },
         {
             "No": "003",
             "Store": "越南小吃",
             "Category": "河粉",
-            "Title": "豬肉河粉 PHO HEO",
+            "Title": "豬肉河粉 Phở heo",
             "Price": "$70"
         },
         {
             "No": "004",
             "Store": "越南小吃",
             "Category": "湯麵",
-            "Title": "牛肉麵 MI BO",
+            "Title": "牛肉麵 Mì bò",
             "Price": "$80"
         },
         {
             "No": "005",
             "Store": "越南小吃",
             "Category": "湯麵",
-            "Title": "豬肉麵 MI HEO",
+            "Title": "豬肉麵  Mì heo",
             "Price": "$70"
         },
         {
             "No": "006",
             "Store": "越南小吃",
             "Category": "湯麵",
-            "Title": "什錦麵 MI THAP CAM",
+            "Title": "什錦麵 Mì các loại",
             "Price": "$80"
         },
         {
             "No": "007",
             "Store": "越南小吃",
             "Category": "炒麵/炒飯",
-            "Title": "炒麵 MI XAO",
+            "Title": "炒麵 Mi xào",
             "Price": "$70"
         },
         {
             "No": "008",
             "Store": "越南小吃",
             "Category": "炒麵/炒飯",
-            "Title": "炒飯 COM XAO",
+            "Title": "炒飯 Cơm chiên",
             "Price": "$70"
         },
         {
             "No": "009",
             "Store": "越南小吃",
             "Category": "炒麵/炒飯",
-            "Title": "蝦仁炒飯 COM XAO TOM",
+            "Title": "蝦仁炒飯 Tôm chiên gạo",
             "Price": "$70"
         },
         {
             "No": "010",
             "Store": "越南小吃",
             "Category": "炒麵/炒飯",
-            "Title": "牛肉炒飯 COM XAO BO",
+            "Title": "牛肉炒飯 Cơm rang thịt bò",
             "Price": "$70"
         },
         {
             "No": "011",
             "Store": "越南小吃",
             "Category": "炒麵/炒飯",
-            "Title": "豬肉炒飯 COM XAO HEO",
+            "Title": "豬肉炒飯 Cơm sườn chiên",
             "Price": "$70"
         },
         {
             "No": "012",
             "Store": "越南小吃",
             "Category": "炒麵/炒飯",
-            "Title": "蛋炒飯 COM XAO TRUNG",
+            "Title": "蛋炒飯 Cơm chiên trứng",
             "Price": "$70"
         },
         {
             "No": "013",
             "Store": "越南小吃",
             "Category": "滷肉飯",
-            "Title": "滷肉飯 COM THIT KHO",
+            "Title": "滷肉飯 Cơm thịt heo kho",
             "Price": "$40"
         },
         {
             "No": "014",
             "Store": "越南小吃",
             "Category": "炒米線",
-            "Title": "牛肉炒米線 BUN THIT XAO BO",
+            "Title": "牛肉炒米線 Mì xào thịt bò",
             "Price": "$70"
         },
         {
             "No": "015",
             "Store": "越南小吃",
             "Category": "炒米線",
-            "Title": "豬肉炒米線 BUN THIT XAO HEO",
+            "Title": "豬肉炒米線 Mì xào thịt heo",
             "Price": "$60"
         },
         {
             "No": "016",
             "Store": "越南小吃",
             "Category": "小菜",
-            "Title": "綜合滷味 PHA LAU THAP CAM",
+            "Title": "綜合滷味 Lo-mei toàn diện",
             "Price": "$50"
         },
         {
             "No": "017",
             "Store": "越南小吃",
             "Category": "小菜",
-            "Title": "燙青菜 RAU LUOC",
+            "Title": "燙青菜 Rau nóng",
             "Price": "$30"
         },
         {
             "No": "018",
             "Store": "越南小吃",
             "Category": "小菜",
-            "Title": "燙蝦子 COM LUOC",
+            "Title": "燙蝦子 Tôm chần",
             "Price": "$200"
         },
         {
             "No": "019",
             "Store": "越南小吃",
             "Category": "小菜",
-            "Title": "炸雞翅 CANH GA CHIEN NUOC MAN",
+            "Title": "炸雞翅 Cánh gà chiên",
             "Price": "$150"
         },
         {
             "No": "020",
             "Store": "越南小吃",
             "Category": "小菜",
-            "Title": "牛肉炒青菜 BO XAO RAU",
+            "Title": "牛肉炒青菜 Rau xào thịt bò",
             "Price": "$100"
         },
         {
             "No": "021",
             "Store": "越南小吃",
             "Category": "小菜",
-            "Title": "青菜炒蒜頭 RAU XAO TOI",
+            "Title": "青菜炒蒜頭 Rau ngổ xào tỏi",
             "Price": "$80"
         },
         {
             "No": "022",
             "Store": "越南小吃",
             "Category": "湯類",
-            "Title": "貢丸湯 CANH THIT VIEN",
+            "Title": "貢丸湯 Súp bóng cống",
             "Price": "$30"
         },
         {
             "No": "023",
             "Store": "越南小吃",
             "Category": "湯類",
-            "Title": "大骨湯 CANH XUONG",
+            "Title": "大骨湯 Súp xương lớn",
             "Price": "$50"
         },
         {
             "No": "024",
             "Store": "越南小吃",
             "Category": "湯類",
-            "Title": "蛋花湯 CANH TRUNG",
+            "Title": "蛋花湯 Súp trứng đánh",
             "Price": "$30"
         },
         {
             "No": "025",
             "Store": "越南小吃",
             "Category": "湯類",
-            "Title": "青菜湯 CANH RAU",
+            "Title": "青菜湯 Súp rau",
             "Price": "$30"
         }
     ]
