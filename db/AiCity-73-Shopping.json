@@ -899,5 +899,42 @@
             "figure": "fig/AiCity-913-采舍.png",
             "link": "http://www.calia.com.tw/",
             "category": "傢俱裝飾"
+        },
+        {
+            "no": "101",
+            "title": "呼叫黃背心",
+            "address": "臺北市內湖區堤頂大道1段327號4樓",
+            "telphone": "0800-088-885",
+            "hours": "週一至週五09:00 – 18:00",
+            "figure": "fig/AiCity-913-呼叫黃背心.png",
+            "link": "https://www.yellow885.com.tw/",
+            "category": "清潔維修"
+        },
+        {
+            "no": "102",
+            "title": "英敏智能清潔企業社",
+            "address": "花蓮縣吉安鄉中山路一段66號6樓之4",
+            "telphone": "0982-485-907",
+            "hours": "\r\n週一到週五早上8:00~晚上22:00\r\n週六週日下午14:00~晚上22:00",
+            "figure": "fig/AiCity-913-智敏清潔.jpg",
+            "link": "https://site-3588048-2802-4987.mystrikingly.com/?fbclid=IwAR3MI6-pW860yQRFO2eDwNd23m3xTZoXl3zF-Q_65WL7Lera2CM0kjza9Ao"
+        },
+        {
+            "no": "103",
+            "title": "潔客幫",
+            "address": "台北市中山區長安東路二段52號7樓\r\n",
+            "telphone": "02-7744-8081",
+            "hours": "平日 09:00 - 18:00\r\n\r\n例假日 9:00 - 12:30 ， 13:30 - 18:00",
+            "figure": "fig/AiCity-913-潔客幫.png",
+            "link": "https://www.jackercleaning.com/n/"
+        },
+        {
+            "no": "104",
+            "title": "林內抽油煙機自行清洗",
+            "address": "網路分享",
+            "link": "https://sofree.cc/range-hood-cleaner/"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=uAviwlTDZrU"
         }
     ]
