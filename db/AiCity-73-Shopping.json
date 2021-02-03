@@ -917,7 +917,8 @@
             "telphone": "0982-485-907",
             "hours": "\r\n週一到週五早上8:00~晚上22:00\r\n週六週日下午14:00~晚上22:00",
             "figure": "fig/AiCity-913-智敏清潔.jpg",
-            "link": "https://site-3588048-2802-4987.mystrikingly.com/?fbclid=IwAR3MI6-pW860yQRFO2eDwNd23m3xTZoXl3zF-Q_65WL7Lera2CM0kjza9Ao"
+            "link": "https://site-3588048-2802-4987.mystrikingly.com/?fbclid=IwAR3MI6-pW860yQRFO2eDwNd23m3xTZoXl3zF-Q_65WL7Lera2CM0kjza9Ao",
+            "category": "清潔維修"
         },
         {
             "no": "103",
@@ -926,15 +927,15 @@
             "telphone": "02-7744-8081",
             "hours": "平日 09:00 - 18:00\r\n\r\n例假日 9:00 - 12:30 ， 13:30 - 18:00",
             "figure": "fig/AiCity-913-潔客幫.png",
-            "link": "https://www.jackercleaning.com/n/"
+            "link": "https://www.jackercleaning.com/n/",
+            "category": "清潔維修"
         },
         {
             "no": "104",
             "title": "林內抽油煙機自行清洗",
             "address": "網路分享",
-            "link": "https://sofree.cc/range-hood-cleaner/"
-        },
-        {
-            "link": "https://www.youtube.com/watch?v=uAviwlTDZrU"
+            "figure": "fig/AiCity-913-抽油煙機.jpg",
+            "link": "https://sofree.cc/range-hood-cleaner/",
+            "category": "清潔維修"
         }
     ]
