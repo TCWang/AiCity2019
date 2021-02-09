@@ -199,6 +199,16 @@
             "category": "銀行證劵"
         },
         {
+            "no": "032",
+            "title": "兆豐銀行桃興分行",
+            "address": "地址：333桃園市桃園區復興路180號",
+            "telphone": "電話：03-332-7126",
+            "hours": "營業時間：09:00 - 15:30",
+            "figure": "fig/AiCity-918-兆豐銀行.jpg",
+            "link": "https://www.megabank.com.tw/personal",
+            "category": "銀行證劵"
+        },
+        {
             "no": "018",
             "title": "中國信託商業銀行林口分行",
             "address": "地址：桃園縣龜山鄉復興一路233號 ",
@@ -336,16 +346,6 @@
             "hours": "營業時間：09:00 - 15:30",
             "figure": "fig/AiCity-918-土地銀行.jpg",
             "link": "https://www.landbank.com.tw/",
-            "category": "銀行證劵"
-        },
-        {
-            "no": "032",
-            "title": "兆豐銀行桃興分行",
-            "address": "地址：333桃園市桃園區復興路180號",
-            "telphone": "電話：03-332-7126",
-            "hours": "營業時間：09:00 - 15:30",
-            "figure": "fig/AiCity-918-兆豐銀行.jpg",
-            "link": "https://www.megabank.com.tw/personal",
             "category": "銀行證劵"
         },
         {
