@@ -397,9 +397,18 @@
         {
             "no": "041",
             "title": "文德二路修改衣服換拉鍊",
-            "address": "333 桃園龜山區文德二路148巷17號1樓",
+            "address": "333桃園市龜山區文德二路148巷17號1樓",
             "telphone": "",
             "hours": "",
+            "link": "#",
+            "category": "洗改衣服"
+        },
+        {
+            "no": "109",
+            "title": "麗華修改衣服",
+            "address": "333桃園市龜山區文昌二街21巷13號",
+            "telphone": "03-396-3127",
+            "figure": "fig/AiCity-913-麗華改衣.jpg",
             "link": "#",
             "category": "洗改衣服"
         },
@@ -603,6 +612,16 @@
             "telphone": "03-327-2519, 0920-876-232",
             "hours": " ",
             "figure": "fig/AiCity-913-久久鎖印行.jpg",
+            "link": "#",
+            "category": "日常生活"
+        },
+        {
+            "no": "108",
+            "title": "永大鎖匙刻印行",
+            "address": "333桃園市龜山區文化二路97號",
+            "telphone": "03-397-9651",
+            "hours": "09:00 - 20:30",
+            "figure": "fig/AiCity-913-永大.jpg",
             "link": "#",
             "category": "日常生活"
         },
