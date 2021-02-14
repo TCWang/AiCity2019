@@ -279,15 +279,15 @@
 									<div class="container-fluid">
 									  <div class="alert alert-info mt-2" role="alert">
 										<div class="row">
-										  <div class="col-4">
+										  <div class="col-6">
 											<div class="form-group">
 											  <select class="form-control" v-model='section' id="exampleFormControlSelect1">
 												<option v-for="section in sections">{{ section }}</option>
 											  </select>
 											</div>
 										  </div>
-										  <div class="col-4">
-											<h5 class="text-center">餐點類別: {{ section | formatted}}</h5>
+										  <div class="col-2">
+											<h5 class="text-center">選擇類別</h5>
 										  </div>
 										  <div class="col-4">
 											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-01">
@@ -343,7 +343,7 @@
 										<!-- 購物車匯總資料 -->
 										<div class="row mt-0">
 
-										  <table class="mt-0" style="width:500px">
+										  <table class="mt-0" style="width:100%">
 											<tr>
 											  <th style="text-align:right;">名稱</th>
 											  <th style="text-align:right;">單價</th>
