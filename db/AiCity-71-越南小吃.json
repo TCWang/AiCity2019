@@ -114,6 +114,7 @@
         {
             "id": "210",
             "title": "手工水餃 Bánh bao",
+            "price": "10",
             "count": "0",
             "figure": "fig/AiCity-952-越南小吃-210.jpg",
             "category": "炒麵/飯"
@@ -169,6 +170,7 @@
         {
             "id": "307",
             "title": "炸春捲 Nem rán",
+            "price": "10",
             "count": "0",
             "figure": "fig/AiCity-952-越南小吃-307.jpg",
             "category": "小菜類"
