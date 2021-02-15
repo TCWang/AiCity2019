@@ -640,34 +640,27 @@
 										</div>
 									  </div>
 									  <div class="row" v-for="posts in results">
-										  
-                                            <table class="table table-striped table-sm table-hover" style="width:100%">
-                                                <thead style="background-color:lightblue">
-                                                    <tr class="text-left">
+										<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+										  <div class="card">
+											<div class="card-header">
+											  <img v-bind:src="post.figure" class="img-fluid" style="width:400px">
+											</div>
+											<div class="card-body text-center">
+											  <dl>
+												<dd>{{post.subcategory}}-{{post.title}}</dd>
+												<dd>NT$ {{post.price}}</dd>
+											  </dl>
+											  <div class="btn-group btn-group-sm">
+												<button class="border-primary" v-bind:disabled="post.count === 0"
+												  v-on:click="post.count--">-</button>
+												<span
+												  class="px-3 border border-primary-top-2 border-primary-bottom-2">{{ post.count }}</span>
+												<button class="border-primary" v-on:click="post.count++">+</button>
+											  </div>
+											</div>
 
-														<th>類別</th>
-														<th>餐名</th>
-														<th>價格</th>
-														<th>數量</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-													<tr v-for="post in posts">
-														<td>{{post.subcategory}} </td>
-														<td>{{post.title}} </td>
-														<td>NT$ {{post.price}} </td>
-														<td>
-														  <div class="btn-group btn-group-sm">
-															<button class="border-primary" v-bind:disabled="post.count === 0" v-on:click="post.count--">-</button>
-															<span  class="px-3 border border-primary-top-2 border-primary-bottom-2">{{ post.count }}</span>
-															<button class="border-primary" v-on:click="post.count++">+</button>
-														  </div>												
-														</td>
-													</tr>
-                                                </tbody>
-                                            </table>										  
-										  
-										  
+										  </div>
+										</div>
 									  </div>
 									</div>
      
