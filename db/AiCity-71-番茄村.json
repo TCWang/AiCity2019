@@ -1,4 +1,5 @@
-﻿[
+﻿{
+    "Transformed by JSON-CSV.CO": [
         {
             "id": "101 ",
             "title": "起司蛋",
@@ -289,7 +290,7 @@
         },
         {
             "id": "401 ",
-            "title": "珍珠堡",
+            "title": "珍珠堡+蛋",
             "price": "50 ",
             "count": "0",
             "figure": "fig/AiCity-953-番茄村-401.jpg",
@@ -298,7 +299,7 @@
         },
         {
             "id": "401 ",
-            "title": "珍珠堡",
+            "title": "珍珠堡+起司",
             "price": "50 ",
             "count": "0",
             "figure": "fig/AiCity-953-番茄村-401.jpg",
