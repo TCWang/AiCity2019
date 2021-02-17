@@ -565,20 +565,16 @@
                             </div>
                           </div>
 							<form>
-								取餐方式：
-								<input type="radio" id="one" value="One" v-model="pickup05">
+								<input type="radio" id="one" value="One" v-model="picked">
 								<label for="one">內用</label>
-								<input type="radio" id="two" value="Two" v-model="pickup05">
-								<label for="two">外帶</label>
-							
-								<input type="radio" id="three" value="Three" v-model="pickup05">
+								<input type="radio" id="two" value="Two" v-model="picked">
+								<label for="two">外帶</label><br>
+								<input type="radio" id="three" value="Three" v-model="picked">
 								<label for="one">送至奇幻大廳</label>
-								<input type="radio" id="four" value="Four" v-model="pickup05">
-								<label for="four">送至樂捷市大廳</label>	<br>							
-								
-								
-								<p>取餐時間:   {{ time05 }} 分鐘後. <input v-model="time05" placeholder="分鐘">  </p>
-								<p>備註:   {{ memo05 }}. <input v-model="memo05" placeholder="特別事項">  </p>								
+								<br>
+								<input type="radio" id="four" value="Four" v-model="picked">
+								<label for="four">送至樂捷市大廳</label>								
+								<span>Picked: {{ picked }}</span>
 							</form>
 								
 							
@@ -1034,11 +1030,7 @@
 				  posts,
 				  // results: [],
 				  sections: SECTIONS_BT.split(', '),
-				  section: '漢堡',
-				  date05: '',
-				  time05: '',
-				  memo05: '',
-				  pickup05: ''
+				  section: '漢堡'
 				},
 				filter: {
 				  formatted(value) {
