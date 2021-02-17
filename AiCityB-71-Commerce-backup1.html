@@ -82,21 +82,21 @@
       <div class="row">
         <div class="col-md-3 col-lg-2">
           <h3>社區商店</h3>
-          <div class="list-group" id="MenuList" role="tablist"> 
-			  <a href="#Menu-B11" class="list-group-item list-group-item-action active" data-toggle="list">社區團購-測試頁</a> 
-			  <a href="#Menu-B12" class="list-group-item list-group-item-action" data-toggle="list">社區-廣告看板</a> 
-			  <a href="#Menu-B01" class="list-group-item list-group-item-action" data-toggle="list">邦煮-手工便當</a> 
-			  <a href="#Menu-B02" class="list-group-item list-group-item-action" data-toggle="list">快樂早餐店</a> 
-			  <a href="#Menu-B03" class="list-group-item list-group-item-action" data-toggle="list">芬享美味餐廳</a> 
-			  <a href="#Menu-B05" class="list-group-item list-group-item-action" data-toggle="list">番茄村Brunch &amp; Cafe</a> 
-			  <a href="#Menu-B06" class="list-group-item list-group-item-action" data-toggle="list">越南小吃</a> </div>
+          <div class="list-group" id="MenuList" role="tablist"> <a href="#Menu-B0" class="list-group-item list-group-item-action active"
+                                data-toggle="list">社區團購-測試頁</a> <a href="#Menu-B4" class="list-group-item list-group-item-action"
+                                data-toggle="list">社區-廣告看板</a> <a href="#Menu-B1" class="list-group-item list-group-item-action"
+                                data-toggle="list">邦煮-手工便當</a> <a href="#Menu-B2" class="list-group-item list-group-item-action"
+                                data-toggle="list">快樂早餐店</a> <a href="#Menu-B3" class="list-group-item list-group-item-action"
+                                data-toggle="list">芬享美味餐廳</a> <a href="#Menu-B5" class="list-group-item list-group-item-action"
+                                data-toggle="list">番茄村Brunch &amp; Cafe</a> <a href="#Menu-B6" class="list-group-item list-group-item-action"
+                                data-toggle="list">越南小吃</a> </div>
           <br>
         </div>
         <div class="col-md-9 col-lg-10">
           <div class="tab-content">
-          <!-- Menu B11 -->			  
-            <div class="tab-pane active" id="Menu-B11" role="tabpanel"> 
-              <div id="app11" class="row mb-1">
+            <div class="tab-pane active" id="Menu-B0" role="tabpanel"> 
+              <!-- Menu B0 -->
+              <div id="app0" class="row mb-1">
                 <div class="container-fluid mt-3">
                   <div class="row">
                     <h3>社區團購</h3>
@@ -172,58 +172,9 @@
                 </div>
               </div>
             </div>
-
-			  
-          <!-- Menu B12 -->			  
-            <div class="tab-pane" id="Menu-B12" role="tabpanel"> 
-              <div id="app12" class="row">
-                <div class="row">
-                  <div class="col-12">
-                    <h3>社區 - 廣告看板</h3>
-                    &nbsp; &nbsp; 本看板僅供 社區櫃檯 提供之廣告單張 </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="alert alert-info mt-2" role="alert">
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-group">
-                          <select class="form-control" v-model='section'
-                                                            id="exampleFormControlSelect1">
-                            <option v-for="section in sections">{{ section }}</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <h5 class="text-center">選擇區域</h5>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row" v-for="posts in results">
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
-                      <div class="card">
-                        <div class="card-header"> <a v-bind:href="post.link"> {{ post.title }} </a> </div>
-                        <div class="card-body">
-                          <p class="card-text"> <a v-bind:href="post.linkweb"> <img v-bind:src="post.figure" class="img-fluid"
-                                                                    style="width:320px"> </a>
-                          <dl>
-                            <dd>服務專員/網頁類別：{{post.name}}</dd>
-                            <dd>電話：{{post.telphone}}</dd>
-                            <dd>社區網頁/廣告單張： <a v-bind:href="post.linkweb"> {{ post.title }} </a> </dd>
-                            <dd> 相關資料：<dir v-html="post.Description"></dir> </dd>
-                          </dl>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-			  
-			
-          <!-- Menu B01 -->			
-            <div class="tab-pane" id="Menu-B01" role="tabpanel"> 
-              <div id="app01" class="row mb-1">
+            <div class="tab-pane" id="Menu-B1" role="tabpanel"> 
+              <!-- Menu B1 -->
+              <div id="app1" class="row mb-1">
                 <div class="container-fluid mt-3">
                   <div class="row">
                     <h3 id="title-1">邦煮-手工便當</h3>
@@ -317,10 +268,8 @@
                 </div>
               </div>
             </div>
-			
-			
-          <!-- Menu B02 -->			
-            <div class="tab-pane" id="Menu-B02" role="tabpanel"> 
+            <div class="tab-pane" id="Menu-B2" role="tabpanel"> 
+              <!-- Menu B2 -->
               <div class="row">
                 <div class="col-8">
                   <h3>快樂早餐店</h3>
@@ -339,7 +288,7 @@
               <div class="row"> 快樂早餐 餐點選項 </div>
               <div class="row">
                 <div class="col-md-12 col-lg-8">
-                  <div id="app02" class="row">
+                  <div id="app5" class="row">
                     <table class="table table-striped table-sm table-hover" style="width:100%">
                       <thead style="background-color:lightblue">
                         <tr class="text-left">
@@ -361,10 +310,8 @@
                 <div class="col-md-12 col-lg-4"> <img src="fig/AiCity-943-快樂早餐-01.jpg" class="img-fluid" sytle="width:320px"> 漢堡 <img src="fig/AiCity-943-快樂早餐-02.jpg" class="img-fluid" sytle="width:320px"> 西式燒餅 <img src="fig/AiCity-943-快樂早餐-04.jpg" class="img-fluid" sytle="width:320px"> </div>
               </div>
             </div>
-		
-			
-          <!-- Menu B03 -->			
-            <div class="tab-pane" id="Menu-B03" role="tabpanel"> 
+            <div class="tab-pane" id="Menu-B3" role="tabpanel"> 
+              <!-- Menu B3 -->
               <div class="row ">
                 <h3>芬享美味餐廳</h3>
                 <ul style="list-style-type:none">
@@ -376,7 +323,7 @@
                                         href="https://www.facebook.com/%E8%8A%AC%E4%BA%AB%E7%BE%8E%E5%91%B3%E9%A4%90%E9%A4%A8-107527327690284/?ref=page_internal"> <img src="fig/AiCity-931-Facebook.png" style="width:30px"> </a> </div>
               <div class="row">
                 <div class="col-md-12 col-lg-6">
-                  <div id="app03" class="row">
+                  <div id="app6" class="row">
                     <table class="table table-striped table-sm table-hover" style="width:100%">
                       <thead style="background-color:lightblue">
                         <tr class="text-left">
@@ -396,10 +343,53 @@
                 <div class="col-md-12 col-lg-6"> </div>
               </div>
             </div>
-
-			
-          <!-- Menu B05 -->			  
-            <div class="tab-pane" id="Menu-B05" role="tabpanel"> 
+            <div class="tab-pane" id="Menu-B4" role="tabpanel"> 
+              <!-- Menu B3 -->
+              <div id="app9" class="row">
+                <div class="row">
+                  <div class="col-12">
+                    <h3>社區 - 廣告看板</h3>
+                    &nbsp; &nbsp; 本看板僅供 社區櫃檯 提供之廣告單張 </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="alert alert-info mt-2" role="alert">
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <select class="form-control" v-model='section'
+                                                            id="exampleFormControlSelect1">
+                            <option v-for="section in sections">{{ section }}</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <h5 class="text-center">選擇區域</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" v-for="posts in results">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                      <div class="card">
+                        <div class="card-header"> <a v-bind:href="post.link"> {{ post.title }} </a> </div>
+                        <div class="card-body">
+                          <p class="card-text"> <a v-bind:href="post.linkweb"> <img v-bind:src="post.figure" class="img-fluid"
+                                                                    style="width:320px"> </a>
+                          <dl>
+                            <dd>服務專員/網頁類別：{{post.name}}</dd>
+                            <dd>電話：{{post.telphone}}</dd>
+                            <dd>社區網頁/廣告單張： <a v-bind:href="post.linkweb"> {{ post.title }} </a> </dd>
+                            <dd> 相關資料：<dir v-html="post.Description"></dir> </dd>
+                          </dl>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="Menu-B5" role="tabpanel"> 
+              <!-- Menu B5 -->
               <div class="row ">
                 <h3>番茄村Brunch &amp; Cafe</h3>
               </div>
@@ -439,7 +429,7 @@
                 </div>
               </div>
               <div class="row">
-                <div id="app05" class="col-md-12 col-lg-8">
+                <div id="app7" class="col-md-12 col-lg-8">
                   <div class="container-fluid">
                     <div class="alert alert-info" role="alert">
                       <div class="row">
@@ -454,7 +444,7 @@
                           <h5 class="text-center">類別</h5>
                         </div>
                         <div class="col-4">
-                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-05"> <i class="fas fa-shopping-cart"></i>購物車 </button>
+                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-07"> <i class="fas fa-shopping-cart"></i>購物車 </button>
                         </div>
                       </div>
                     </div>
@@ -484,8 +474,8 @@
                     </div>
                   </div>
                   
-                  <!-- Modal-05 -->
-                  <div class="modal fade" id="Modal-05" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel01"
+                  <!-- Modal-08 -->
+                  <div class="modal fade" id="Modal-07" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel01"
 								  aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
@@ -588,11 +578,9 @@
                 </div>
               </div>
             </div>
-			
-			
-         <!-- Menu B06 -->			
-            <div class="tab-pane" id="Menu-B06" role="tabpanel"> 
-              <div id="app06" class="row mb-1">
+            <div class="tab-pane" id="Menu-B6" role="tabpanel"> 
+              <!-- Menu B6 -->
+              <div id="app8" class="row mb-1">
                 <div class="container-fluid mt-3">
                   <div class="row">
                     <h3>越南小吃</h3>
@@ -623,7 +611,7 @@
                             <h5 class="text-center">選擇 類別</h5>
                           </div>
                           <div class="col-4">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-06"> <i class="fas fa-shopping-cart"></i>購物車 </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-08"> <i class="fas fa-shopping-cart"></i>購物車 </button>
                           </div>
                         </div>
                       </div>
@@ -651,8 +639,8 @@
                   </div>
                 </div>
                 
-                <!-- Modal-06 -->
-                <div class="modal fade" id="Modal-06" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel01"
+                <!-- Modal-08 -->
+                <div class="modal fade" id="Modal-08" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel01"
 								  aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -756,25 +744,16 @@
             const SECTIONS_TW = "社區廣告看板"
 
             new Vue({
-                el: '#app11',
+                el: '#app4',
                 data: {
                     posts,
                     // results: [],
-                    sections: SECTIONS_GB.split(', '),
-                    section: '正在熱賣'
+                    sections: SECTIONS_MC.split(', '),
+                    section: '廚藝教室'
                 },
                 filter: {
                     formatted(value) {
                         return ' 以下是 ${value} 類別的貼文 '
-                    }
-                },
-
-                methods: {
-                    itemPrice(price, count) {
-                        return price * count;
-                    },
-                    deleteItem(index) {
-                        this.posts.splice(index, 1);
                     }
                 },
 
@@ -788,126 +767,19 @@
                             chunkedArray[j] = posts.slice(i, i + chunk);
                         }
                         return chunkedArray
-                    },
-
-                    totalPrice() {
-                        let posts = this.posts
-                            .slice()
-                            .filter(post => post.Category === this.section);
-                        let total = 0;
-                        for (let post of this.posts) {
-                            total += post.price * post.count;
-                        }
-                        return total;
                     }
                 },
 
                 mounted() {
-                    axios.get('db/AiCity-79-GroupBuying.json').then((response) => {
+                    axios.get('db/AiCity-81-MyCommunity-01.json').then((response) => {
                         this.posts = response.data;
                         this.getPostsByCategory(this.section)
                     }).catch(error => { console.log(error); });
-                },
-
+                }
             });
-			
-            new Vue({
-                el: '#app12',
-                data: {
-                    posts,
-                    // results: [],
-                    sections: SECTIONS_TW.split(', '),
-                    section: '社區廣告看板'
-                },
-                filter: {
-                    formatted(value) {
-                        return ' 以下是 ${value} 類別的貼文 '
-                    }
-                },
-
-                computed: {
-                    results() {
-                        let posts = this.posts
-                            .slice()
-                            .filter(post => post.category === this.section)
-                        let i, j, chunkedArray = [], chunk = 40;
-                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-                            chunkedArray[j] = posts.slice(i, i + chunk);
-                        }
-                        return chunkedArray
-                    }
-                },
-
-
-                mounted() {
-                    axios.get('db/AiCity-86-Adv1.json').then((response) => {
-                        this.posts = response.data;
-                        this.getPostsByCategory(this.section)
-                    }).catch(error => { console.log(error); });
-                },
-
-            });	  
-			
-
-			  new Vue({
-				el: '#app01',
-				data: {
-				  posts,
-				  // results: [],
-				  sections: SECTIONS_1.split(', '),
-				  section: '肉類便當'
-				},
-				filter: {
-				  formatted(value) {
-					return ' 以下是 ${value} 類別的貼文 '
-				  }
-				},
-
-				methods: {
-				  itemPrice(price, count) {
-					return price * count;
-				  },
-				  deleteItem(index) {
-					this.posts.splice(index, 1);
-				  }
-				},
-
-				computed: {
-				  results() {
-					let posts = this.posts
-					  .slice()
-					  .filter(post => post.category === this.section)
-					let i, j, chunkedArray = [], chunk = 40;
-					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-					  chunkedArray[j] = posts.slice(i, i + chunk);
-					}
-					return chunkedArray
-				  },
-
-				  totalPrice() {
-					let posts = this.posts
-					  .slice()
-					  .filter(post => post.category === this.section);
-					let total = 0;
-					for (let post of this.posts) {
-					  total += post.price * post.count;
-					}
-					return total;
-				  }
-				},
-
-				mounted() {
-				  axios.get('db/AiCity-71-Commerce-1.json').then((response) => {
-					this.posts = response.data;
-					this.getPostsByCategory(this.section)
-				  }).catch(error => { console.log(error); });
-				},
-
-			  });	  
-	  
 
             new Vue({
-                el: '#app02',
+                el: '#app5',
                 data: {
                     posts,
                     // results: [],
@@ -940,44 +812,9 @@
                     }).catch(error => { console.log(error); });
                 }
             });
-	  
-            new Vue({
-                el: '#app03',
-                data: {
-                    posts,
-                    // results: [],
-                    sections: SECTIONS_BR.split(', '),
-                    section: '芬享美味餐廳'
-                },
-                filter: {
-                    formatted(value) {
-                        return ' 以下是 ${value} 類別的貼文 '
-                    }
-                },
-
-                computed: {
-                    results() {
-                        let posts = this.posts
-                            .slice()
-                            .filter(post => post.Store === this.section)
-                        let i, j, chunkedArray = [], chunk = 40;
-                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-                            chunkedArray[j] = posts.slice(i, i + chunk);
-                        }
-                        return chunkedArray
-                    }
-                },
-
-                mounted() {
-                    axios.get('db/AiCity-71-芬享美味餐廳.json').then((response) => {
-                        this.posts = response.data;
-                        this.getPostsByCategory(this.section)
-                    }).catch(error => { console.log(error); });
-                }
-            });	  
 
  			  new Vue({
-				el: '#app05',
+				el: '#app7',
 				data: {
 				  posts,
 				  // results: [],
@@ -1034,7 +871,7 @@
 
 
 			  new Vue({
-				el: '#app06',
+				el: '#app8',
 				data: {
 				  posts,
 				  // results: [],
@@ -1089,8 +926,190 @@
 
 			  });
 
+            new Vue({
+                el: '#app6',
+                data: {
+                    posts,
+                    // results: [],
+                    sections: SECTIONS_BR.split(', '),
+                    section: '芬享美味餐廳'
+                },
+                filter: {
+                    formatted(value) {
+                        return ' 以下是 ${value} 類別的貼文 '
+                    }
+                },
+
+                computed: {
+                    results() {
+                        let posts = this.posts
+                            .slice()
+                            .filter(post => post.Store === this.section)
+                        let i, j, chunkedArray = [], chunk = 40;
+                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                            chunkedArray[j] = posts.slice(i, i + chunk);
+                        }
+                        return chunkedArray
+                    }
+                },
+
+                mounted() {
+                    axios.get('db/AiCity-71-芬享美味餐廳.json').then((response) => {
+                        this.posts = response.data;
+                        this.getPostsByCategory(this.section)
+                    }).catch(error => { console.log(error); });
+                }
+            });
+
+            new Vue({
+                el: '#app0',
+                data: {
+                    posts,
+                    // results: [],
+                    sections: SECTIONS_GB.split(', '),
+                    section: '正在熱賣'
+                },
+                filter: {
+                    formatted(value) {
+                        return ' 以下是 ${value} 類別的貼文 '
+                    }
+                },
+
+                methods: {
+                    itemPrice(price, count) {
+                        return price * count;
+                    },
+                    deleteItem(index) {
+                        this.posts.splice(index, 1);
+                    }
+                },
+
+                computed: {
+                    results() {
+                        let posts = this.posts
+                            .slice()
+                            .filter(post => post.Category === this.section)
+                        let i, j, chunkedArray = [], chunk = 40;
+                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                            chunkedArray[j] = posts.slice(i, i + chunk);
+                        }
+                        return chunkedArray
+                    },
+
+                    totalPrice() {
+                        let posts = this.posts
+                            .slice()
+                            .filter(post => post.Category === this.section);
+                        let total = 0;
+                        for (let post of this.posts) {
+                            total += post.price * post.count;
+                        }
+                        return total;
+                    }
+                },
+
+                mounted() {
+                    axios.get('db/AiCity-79-GroupBuying.json').then((response) => {
+                        this.posts = response.data;
+                        this.getPostsByCategory(this.section)
+                    }).catch(error => { console.log(error); });
+                },
+
+            });
 
 
+            new Vue({
+                el: '#app9',
+                data: {
+                    posts,
+                    // results: [],
+                    sections: SECTIONS_TW.split(', '),
+                    section: '社區廣告看板'
+                },
+                filter: {
+                    formatted(value) {
+                        return ' 以下是 ${value} 類別的貼文 '
+                    }
+                },
+
+                computed: {
+                    results() {
+                        let posts = this.posts
+                            .slice()
+                            .filter(post => post.category === this.section)
+                        let i, j, chunkedArray = [], chunk = 40;
+                        for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                            chunkedArray[j] = posts.slice(i, i + chunk);
+                        }
+                        return chunkedArray
+                    }
+                },
+
+
+                mounted() {
+                    axios.get('db/AiCity-86-Adv1.json').then((response) => {
+                        this.posts = response.data;
+                        this.getPostsByCategory(this.section)
+                    }).catch(error => { console.log(error); });
+                },
+
+            });
+
+			  new Vue({
+				el: '#app1',
+				data: {
+				  posts,
+				  // results: [],
+				  sections: SECTIONS_1.split(', '),
+				  section: '肉類便當'
+				},
+				filter: {
+				  formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				  }
+				},
+
+				methods: {
+				  itemPrice(price, count) {
+					return price * count;
+				  },
+				  deleteItem(index) {
+					this.posts.splice(index, 1);
+				  }
+				},
+
+				computed: {
+				  results() {
+					let posts = this.posts
+					  .slice()
+					  .filter(post => post.category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+					  chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				  },
+
+				  totalPrice() {
+					let posts = this.posts
+					  .slice()
+					  .filter(post => post.category === this.section);
+					let total = 0;
+					for (let post of this.posts) {
+					  total += post.price * post.count;
+					}
+					return total;
+				  }
+				},
+
+				mounted() {
+				  axios.get('db/AiCity-71-Commerce-1.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				  }).catch(error => { console.log(error); });
+				},
+
+			  });
 
         </script> 
   <!-- InstanceEndEditable --> </div>
