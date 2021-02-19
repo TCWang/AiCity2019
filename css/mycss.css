@@ -84,7 +84,8 @@ footer {
     background-color: #0066FF !important;
 }
 #main_footer {
-    padding: 0 5px 0 10px;
+	    background-color:#000066 !important;
+	    color: #FFF;
 }
 #app footer {
     background-color: #006;
