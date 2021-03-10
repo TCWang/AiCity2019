@@ -141,7 +141,7 @@
                       </div>
                     </div>
                     <div class="row" v-for="posts in results">
-                      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" v-for="post in posts">
                         <div class="card">
                           <div class="card-header"> <a v-bind:href="post.link"> {{ post.title }} </a> </div>
                           <div class="card-body">
@@ -150,8 +150,8 @@
                             <dl>
                               <dd>服務專員/網頁類別：{{post.name}}</dd>
                               <dd>電話：{{post.telphone}}</dd>
-                              <dd>社區網頁/廣告單張： <a v-bind:href="post.linkweb"> {{ post.title }} </a> </dd>
-                              <dd> 相關資料：<dir v-html="post.Description"></dir>
+                              <dd>社區網頁/廣告單張： <dir  v-html="post.post"></dir> </dd>
+                              <dd> 相關資料：<dir v-html="post.description"></dir>
                               </dd>
                             </dl>
                             </p>
