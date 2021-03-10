@@ -497,5 +497,115 @@
             "figure": "fig/AiCity-910-Nini.jpeg",
             "link": "https://www.facebook.com/ninitaimall/",
             "category": "台茂購物中心"
+        },
+        {
+            "no": "052",
+            "title": "享時光-林口站",
+            "address": "桃園市龜山區復興一路212巷5號2樓",
+            "telphone": "03 -397-1171",
+            "hours": "週一~五  :10:30~15:30(最後點餐14:30), \r\n                  16:30~21:15(最後點餐20:30); \r\n週 六• 日 :10:30~21:15 (最後點餐20:30)",
+            "figure": "fig/AiCity-910-享時光.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/250686",
+            "category": "龜山美食"
+        },
+        {
+            "no": "053",
+            "title": "一將壽司",
+            "address": "桃園市龜山區文興路222號1樓",
+            "telphone": "03-3280-899",
+            "hours": "\r\n11:30 - 14:30 、 17:30 - 21:30 週三公休",
+            "figure": "fig/AiCity-910-一將壽司.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/257524",
+            "category": "龜山美食"
+        },
+        {
+            "no": "054",
+            "title": "懷舊中卷麵線、魷魚翅麵線",
+            "address": "桃園市龜山區復興北路6巷51-1號",
+            "telphone": "0989-838-605",
+            "hours": "平日11:30~18:00或售完, \r\n週六11:00~14:00或售完,\r\n週日公休",
+            "figure": "fig/AiCity-910-懷舊中卷.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/259968",
+            "category": "龜山美食"
+        },
+        {
+            "no": "055",
+            "title": "蠢咖啡 Dumb Coffee",
+            "address": "桃園市龜山區振興路642號",
+            "telphone": "0903--871-155",
+            "hours": "09:00 - 20:00",
+            "figure": "fig/AiCity-910-蠢咖啡.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/267419",
+            "category": "龜山美食"
+        },
+        {
+            "no": "057",
+            "title": "梅菊手作魯肉飯",
+            "address": "桃園市龜山區復興一路356號",
+            "telphone": "03-397 4858",
+            "hours": "週四～週六：12:00 - 14:00 、 17:00 - 22:00",
+            "figure": "fig/AiCity-910-梅菊滷肉飯.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/270864",
+            "category": "龜山美食"
+        },
+        {
+            "no": "058",
+            "title": "吳氏湯包",
+            "address": "桃園市龜山區文化七路93號",
+            "telphone": "03-3278-975",
+            "hours": "04:00 - 13:00, 週一公休",
+            "figure": "fig/AiCity-910-吳氏湯包.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/216779",
+            "category": "龜山美食"
+        },
+        {
+            "no": "059",
+            "title": "海苑日式料理",
+            "address": "桃園市龜山區文化一路10巷42弄41號",
+            "telphone": "03-327-2225",
+            "hours": "上午11:30-下午2:00  下午5:30-下午10:00",
+            "figure": "fig/AiCity-910-海苑日式.jpg",
+            "link": "https://www.jp-cuisines.com/?gclid=Cj0KCQiA1pyCBhCtARIsAHaY_5f_UwJ2GtVsgF4D5ybCw0XjnjZ9siyIi9D_n6gWI94EarJi4tqHChoaAhNKEALw_wcB",
+            "category": "龜山美食"
+        },
+        {
+            "no": "055",
+            "title": "家芬火鍋",
+            "address": "桃園市龜山區文化三路551-19號",
+            "telphone": "03-3973-909",
+            "hours": "週一～六：12:00 - 22:00, 週日 17:00 - 22:00",
+            "figure": "fig/AiCity-910-加芬火鍋.png",
+            "link": "https://www.walkerland.com.tw/article/view/252930",
+            "category": "龜山美食"
+        },
+        {
+            "no": "057",
+            "title": "記得吃早餐",
+            "address": "桃園市龜山區文化二路34巷14弄21號",
+            "telphone": "03-327-2811",
+            "hours": "週一～五：17:00 - 20:30, 週六日：11:00 - 14:00 、 17:00 - 20:30",
+            "figure": "fig/AiCity-910-記得吃早餐.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/241108",
+            "category": "龜山美食"
+        },
+        {
+            "no": "058",
+            "title": "水道泰國蝦吃到飽",
+            "address": "桃園市龜山區廣福路315號",
+            "telphone": "03-377-2658‬",
+            "hours": "週一～五：17:30 - 22:30, 週六日：11:30 - 16:00 、 17:30 - 22:00",
+            "figure": "fig/AiCity-910-泰國蝦.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/240610",
+            "category": "龜山美食"
+        },
+        {
+            "no": "059",
+            "title": "六石蒔鍋",
+            "address": "桃園市龜山區文化二路33-1號1樓",
+            "telphone": "03-397-1680",
+            "hours": "11:30 - 14:30 、 17:00 - 22:30",
+            "figure": "fig/AiCity-910-六石.jpg",
+            "link": "https://www.walkerland.com.tw/article/view/236744",
+            "category": "龜山美食"
         }
     ]
