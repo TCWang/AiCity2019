@@ -127,7 +127,7 @@
             </div>
 
             <div class="row" v-for="posts in results">
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
                 <div class="card">
                   <div class="card-header">
                     <a v-bind:href="post.link"> {{ post.title }} </a>
@@ -135,7 +135,7 @@
                   <div class="card-body">
                     <p class="card-text">
                       <a v-bind:href="post.link">
-                        <img v-bind:src="post.figure" class="img-fluid" style="width:180px">
+                        <img v-bind:src="post.figure" class="img-fluid" style="width:320px">
                       </a>
                     <dl>
                       <dd>地址：{{post.address}}</dd>
