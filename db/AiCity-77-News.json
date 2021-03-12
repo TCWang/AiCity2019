@@ -411,5 +411,19 @@
             "figure": "fig/AiCity-923-華視新聞.jpeg",
             "link": "https://www.youtube.com/user/TBSCTS",
             "category": "台灣新聞"
+        },
+        {
+            "no": "059",
+            "title": "先探i投資",
+            "figure": "fig/AiCity-919-先探.jpeg",
+            "link": "http://weekly.invest.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "060",
+            "title": "財訊雜誌",
+            "figure": "fig/AiCity-919-財訊.jpeg",
+            "link": "https://www.wealth.com.tw/",
+            "category": "雜誌-財經股市"
         }
     ]
