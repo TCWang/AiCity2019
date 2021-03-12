@@ -146,14 +146,14 @@
                           <div class="card-header"> <a v-bind:href="post.link"> {{ post.title }} </a> </div>
                           <div class="card-body">
                             <p class="card-text"> <a v-bind:href="post.linkweb"> <img v-bind:src="post.figure"
-                                  class="img-fluid" style="width:320px"> </a>
+                                  class="img-fluid" style="width:120px"> </a>
                             <dl>
                               <dd>服務專員/網頁類別：{{post.name}}</dd>
                               <dd>電話：{{post.telphone}}</dd>
-                              <dd>社區網頁/廣告單張： <dir  v-html="post.post"></dir> </dd>
                               <dd> 相關資料：<dir v-html="post.description"></dir>
                               </dd>
                             </dl>
+							  社區網頁/廣告單張：<br> <dir  v-html="post.post"></dir> 
                             </p>
                           </div>
                         </div>
