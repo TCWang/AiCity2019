@@ -637,5 +637,115 @@
             "figure": "fig/AiCity-910-想林口.jpg",
             "link": "https://www.facebook.com/thecafeby2/",
             "category": "林口區"
+        },
+        {
+            "no": "063",
+            "title": "鹿野桂花雞",
+            "address": "新北市林口區文化一路二段190號(近民視電視公司、林口夜市)",
+            "telphone": "02-2602-0065",
+            "hours": "週一至週五 16:30~23:30 週六至週日 11:30~15:00 16:30~23:30 每週三公休",
+            "figure": "fig/AiCity-910-鹿野桂花雞.jpg",
+            "link": "https://www.gomaji.com/store/58954?ch=7",
+            "category": "林口美食"
+        },
+        {
+            "no": "064",
+            "title": "美麗蔬．蔬食料理Meili Green",
+            "address": "新北市林口區文化三路一段484號(近三井Outlet、國賓影城)",
+            "telphone": "02-2600-5352",
+            "hours": "週一至週日 11:30~20:30，不定期公休請參考店家FB公告",
+            "figure": "fig/AiCity-910-美麗蔬.jpg",
+            "link": "https://www.gomaji.com/store/113538?ch=7",
+            "category": "林口美食"
+        },
+        {
+            "no": "065",
+            "title": "Bravo Burger 發福廚房 林口店",
+            "address": "新北市林口區文化三路一段402巷2號(昕境廣場內)",
+            "telphone": "02-2609-4188",
+            "hours": "週日至週四 11:30~21:00 週五至週六 11:30~21:30",
+            "figure": "fig/AiCity-910-發福.jpg",
+            "link": "https://www.gomaji.com/store/73?ch=7#51756",
+            "category": "林口美食"
+        },
+        {
+            "no": "066",
+            "title": "Pappi’s restaurant 義式餐廳",
+            "address": "新北市林口區仁愛二路63號",
+            "telphone": "02-2608-8167",
+            "hours": "週二至週日 11:00~14:00 17:00~22:00 每週一公休",
+            "figure": "fig/AiCity-910-Pappi.jpg",
+            "link": "https://www.gomaji.com/store/90654?pid=243551",
+            "category": "林口美食"
+        },
+        {
+            "no": "067",
+            "title": "點心願 林口店",
+            "address": "新北市林口區八德路366號",
+            "telphone": "02-2608-0003",
+            "hours": "週一至週日 11:00~14:00 17:00~22:00 不定期公休",
+            "figure": "fig/AiCity-910-點心願.jpg",
+            "link": "https://www.gomaji.com/store/141212?pid=250535",
+            "category": "林口美食"
+        },
+        {
+            "no": "068",
+            "title": "雲豪斯WiN HOUSE無國界料理",
+            "address": "新北市林口區忠孝一路76號",
+            "telphone": "02-2608-1977",
+            "hours": "週一至週日 11:00~21:00",
+            "figure": "fig/AiCity-910-雲豪斯.jpg",
+            "link": "https://www.gomaji.com/store/111390",
+            "category": "林口美食"
+        },
+        {
+            "no": "069",
+            "title": "老占元拉麵大王",
+            "address": "新北市林口區林口路120號",
+            "telphone": "02-2602-2859",
+            "hours": "週一至週六10:00~20:00 週日公休",
+            "figure": "fig/AiCity-910-老占元.jpg",
+            "link": "https://julialkpkpk.pixnet.net/blog/post/454296125",
+            "category": "林口美食"
+        },
+        {
+            "no": "070",
+            "title": "蒸翻天",
+            "address": "新北市林口區仁愛路二段155號",
+            "telphone": "02-2601-1151",
+            "hours": "週一至週日11:00~14:00 17:00~22:00",
+            "figure": "fig/AiCity-910-蒸翻天.jpg",
+            "link": "https://www.facebook.com/gfood51/",
+            "category": "林口美食"
+        },
+        {
+            "no": "071",
+            "title": "Freaks Café & Bistro 癮客餐酒館",
+            "address": "新北市林口區仁愛路二段235-5號",
+            "telphone": "02-2600-8928",
+            "hours": "週一至週日11:00~15:00 17:00~21:00",
+            "figure": "fig/AiCity-910-癮客.jpg",
+            "link": "https://blog.xuite.net/blueshk/happy/470112542",
+            "category": "林口美食"
+        },
+        {
+            "no": "073",
+            "title": "那間賣冰的咖啡店",
+            "address": "新北市林口區林口路10號",
+            "telphone": "0988-867-455",
+            "hours": "週一：12:00–21:00\r\n週二~週四：11:30–21:00\r\n周五~週六：11:30–21:30\r\n週日：11:30–21:00",
+            "figure": "fig/AiCity-910-賣冰.jpg",
+            "link": "https://www.viviyu.com/archives/32125",
+            "category": "林口美食"
+        },
+        {
+            "no": "074",
+            "title": "呷冰食堂",
+            "address": "新北市林口區中正路261號",
+            "telphone": "0908-67- 889",
+            "hours": "12:00 - 21:00 週日公休",
+            "figure": "fig/AiCity-910-呷冰食堂.jpg",
+            "link": "https://almablog.com.tw/blog/post/136256",
+            "category": "林口美食"
         }
     ]
