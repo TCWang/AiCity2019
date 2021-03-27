@@ -285,7 +285,7 @@
 									  <th style="text-align:right;">金額</th>
 									</tr>
 									<div class="row" v-for="posts in results">
-									  <tr v-for="post in posts" v-if="post.count !== '0' ">
+									  <tr v-for="post in posts" v-if="post.count !== 0 ">
 										<td style="text-align:right;">{{post.subcategory}}-{{post.title}} </td>
 										<td style="text-align:right;">{{post.price}} </td>
 										<td style="text-align:center;">{{post.count}} </td>
@@ -421,7 +421,7 @@
                                 <th style="text-align:right;">金額</th>
                               </tr>
                               <div class="row" v-for="posts in results">
-                                <tr v-for="post in posts" v-if="post.count !== '0' ">
+                                <tr v-for="post in posts" v-if="post.count !== 0 ">
                                   <td style="text-align:right;">{{post.title}} </td>
                                   <td style="text-align:right;">{{post.price}} </td>
                                   <td style="text-align:center;">{{post.count}} </td>
@@ -686,7 +686,7 @@
                                   <th style="text-align:right;">金額</th>
                                 </tr>
                                 <div class="row" v-for="posts in results">
-                                  <tr v-for="post in posts" v-if="post.count !== '0' ">
+                                  <tr v-for="post in posts" v-if="post.count !== 0 ">
                                     <td style="text-align:right;">{{post.subcategory}}-{{post.title}} </td>
                                     <td style="text-align:right;">{{post.price}} </td>
                                     <td style="text-align:center;">{{post.count}} </td>
@@ -865,7 +865,7 @@
                                 <th style="text-align:right;">金額</th>
                               </tr>
                               <div class="row" v-for="posts in results">
-                                <tr v-for="post in posts" v-if="post.count !== '0' ">
+                                <tr v-for="post in posts" v-if="post.count !== 0 ">
                                   <td style="text-align:right;">{{post.title}} </td>
                                   <td style="text-align:right;">{{post.price}} </td>
                                   <td style="text-align:center;">{{post.count}} </td>

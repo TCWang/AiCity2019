@@ -2,8 +2,8 @@
         {
             "id": "101 ",
             "title": "義大利麵-紅醬",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-101.jpg",
             "subcategory": "麵食",
             "category": "廚藝教室"
@@ -11,8 +11,8 @@
         {
             "id": "101 ",
             "title": "義大利麵-白醬",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-101.jpg",
             "subcategory": "麵食",
             "category": "廚藝教室"
@@ -20,8 +20,8 @@
         {
             "id": "101 ",
             "title": "義大利麵-青醬",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-101.jpg",
             "subcategory": "麵食",
             "category": "廚藝教室"
@@ -29,8 +29,8 @@
         {
             "id": "102 ",
             "title": "紅燒牛肉麵",
-            "price": "180",
-            "count": "0",
+            "price": 180,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-102.jpg",
             "subcategory": "麵食",
             "category": "廚藝教室"
@@ -38,8 +38,8 @@
         {
             "id": "103 ",
             "title": "水餃-10顆",
-            "price": "70",
-            "count": "0",
+            "price": 70,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "麵食",
             "category": "廚藝教室"
@@ -47,8 +47,8 @@
         {
             "id": "201 ",
             "title": "紅燒牛腩飯",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-201.jpg",
             "subcategory": "飯類",
             "category": "廚藝教室"
@@ -56,8 +56,8 @@
         {
             "id": "202 ",
             "title": "泰式咖哩飯",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-202.jpg",
             "subcategory": "飯類",
             "category": "廚藝教室"
@@ -65,8 +65,8 @@
         {
             "id": "203 ",
             "title": "椒麻雞丁飯",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-203.jpg",
             "subcategory": "飯類",
             "category": "廚藝教室"
@@ -74,8 +74,8 @@
         {
             "id": "301 ",
             "title": "烤厚片士司-奶油",
-            "price": "30",
-            "count": "0",
+            "price": 30,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-301.jpg",
             "subcategory": "厚片",
             "category": "廚藝教室"
@@ -83,8 +83,8 @@
         {
             "id": "302 ",
             "title": "烤厚片士司-花生",
-            "price": "30",
-            "count": "0",
+            "price": 30,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-302.jpg",
             "subcategory": "厚片",
             "category": "廚藝教室"
@@ -92,8 +92,8 @@
         {
             "id": "303 ",
             "title": "烤厚片士司-蒜味",
-            "price": "30",
-            "count": "0",
+            "price": 30,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-303.jpg",
             "subcategory": "厚片",
             "category": "廚藝教室"
@@ -101,8 +101,8 @@
         {
             "id": "304 ",
             "title": "烤厚片士司-巧克力",
-            "price": "30",
-            "count": "0",
+            "price": 30,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-304.jpg",
             "subcategory": "厚片",
             "category": "廚藝教室"
@@ -110,8 +110,8 @@
         {
             "id": "401 ",
             "title": "薯條",
-            "price": "30",
-            "count": "0",
+            "price": 30,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-401.jpg",
             "subcategory": "點心",
             "category": "廚藝教室"
@@ -119,8 +119,8 @@
         {
             "id": "402 ",
             "title": "雞塊",
-            "price": "30",
-            "count": "0",
+            "price": 30,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-402.jpg",
             "subcategory": "點心",
             "category": "廚藝教室"
@@ -128,8 +128,8 @@
         {
             "id": "403 ",
             "title": "現烤鬆餅-巧克力",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-403.jpg",
             "subcategory": "鬆餅",
             "category": "廚藝教室"
@@ -137,8 +137,8 @@
         {
             "id": "404 ",
             "title": "現烤鬆餅-鮮奶油",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-403.jpg",
             "subcategory": "鬆餅",
             "category": "廚藝教室"
@@ -146,8 +146,8 @@
         {
             "id": "405 ",
             "title": "現烤鬆餅-蜂蜜",
-            "price": "100",
-            "count": "0",
+            "price": 100,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-403.jpg",
             "subcategory": "鬆餅",
             "category": "廚藝教室"
@@ -155,8 +155,8 @@
         {
             "id": "501 ",
             "title": "美式咖啡-冰",
-            "price": "40",
-            "count": "0",
+            "price": 40,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "咖啡",
             "category": "廚藝教室"
@@ -164,8 +164,8 @@
         {
             "id": "501 ",
             "title": "美式咖啡-熱",
-            "price": "40",
-            "count": "0",
+            "price": 40,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "咖啡",
             "category": "廚藝教室"
@@ -173,8 +173,8 @@
         {
             "id": "502 ",
             "title": "拿鐵咖啡-冰",
-            "price": "50",
-            "count": "0",
+            "price": 50,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "咖啡",
             "category": "廚藝教室"
@@ -182,8 +182,8 @@
         {
             "id": "502 ",
             "title": "拿鐵咖啡-熱",
-            "price": "50",
-            "count": "0",
+            "price": 50,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "咖啡",
             "category": "廚藝教室"
@@ -191,8 +191,8 @@
         {
             "id": "503 ",
             "title": "焦糖/榛果拿鐵-冰",
-            "price": "60",
-            "count": "0",
+            "price": 60,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "咖啡",
             "category": "廚藝教室"
@@ -200,8 +200,8 @@
         {
             "id": "503 ",
             "title": "焦糖/榛果拿鐵-熱",
-            "price": "60",
-            "count": "0",
+            "price": 60,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "咖啡",
             "category": "廚藝教室"
@@ -209,8 +209,8 @@
         {
             "id": "504 ",
             "title": "红茶-冰",
-            "price": "20",
-            "count": "0",
+            "price": 20,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "茶飲",
             "category": "廚藝教室"
@@ -218,8 +218,8 @@
         {
             "id": "504 ",
             "title": "红茶-熱",
-            "price": "20",
-            "count": "0",
+            "price": 20,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "茶飲",
             "category": "廚藝教室"
@@ -227,8 +227,8 @@
         {
             "id": "505 ",
             "title": "鲜奶茶-冰",
-            "price": "35",
-            "count": "0",
+            "price": 35,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "茶飲",
             "category": "廚藝教室"
@@ -236,8 +236,8 @@
         {
             "id": "505 ",
             "title": "鲜奶茶-熱",
-            "price": "35",
-            "count": "0",
+            "price": 35,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "茶飲",
             "category": "廚藝教室"
@@ -245,8 +245,8 @@
         {
             "id": "506 ",
             "title": "可樂",
-            "price": "20",
-            "count": "0",
+            "price": 20,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "飲料",
             "category": "廚藝教室"
@@ -254,8 +254,8 @@
         {
             "id": "507 ",
             "title": "雪碧",
-            "price": "20",
-            "count": "0",
+            "price": 20,
+            "count": 0,
             "figure": "fig/AiCity-953-廚藝教室-103.jpg",
             "subcategory": "飲料",
             "category": "廚藝教室"
