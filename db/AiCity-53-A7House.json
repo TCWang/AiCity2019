@@ -257,7 +257,7 @@
             "Link": "https://newhouse.591.com.tw/home/housing/detail?hid=120096&v=720",
             "Price": "27~32萬元/坪",
             "Sale": "銷售中",
-            "Category": "新成屋",
+            "Category": "預售屋",
             "Type": "住商用",
             "Address1": "桃園市龜山區樂善一路",
             "Address2": "桃園市龜山區樂善一路、樂善二路口",
@@ -333,5 +333,33 @@
             "Address2": "桃園市龜山區文桃路及文茂路口",
             "Company": "禾聯公司",
             "Time": "2024年第二季"
+        },
+        {
+            "no": "024",
+            "House": "樂田田",
+            "Figure": "fig/AiCity-939-樂甜甜.jpg",
+            "Link": "https://newhouse.591.com.tw/home/housing/detail?hid=121200",
+            "Price": "25~26 萬/坪",
+            "Sale": "2021年第三季度",
+            "Category": "預售屋",
+            "Type": "住商用",
+            "Address1": "桃園市龜山區長慶二街與長慶三街",
+            "Address2": "桃園市龜山區文化一路旁 ",
+            "Company": "佳晟建設",
+            "Time": "2021年第三季度"
+        },
+        {
+            "no": "025",
+            "House": "允將大作",
+            "Figure": "fig/AiCity-939-允將大作.jpg",
+            "Link": "https://newhouse.591.com.tw/home/housing/detail?hid=124450&",
+            "Price": "35~38 萬/坪",
+            "Sale": "2028年第二季度",
+            "Category": "預售屋",
+            "Type": "住商用",
+            "Address1": "桃園市龜山區文化一路、樂善三路口",
+            "Address2": "桃園市龜山區文化一路568號 ",
+            "Company": "允將建設",
+            "Time": "2028年第二季度"
         }
     ]
