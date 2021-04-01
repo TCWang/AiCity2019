@@ -151,9 +151,12 @@
                         <img v-bind:src="post.figure" class="img-fluid" style="width:320px">
                       </a>
                     <dl>
-                      <dd>地址：{{post.address}}</dd>
+                      <dd>地址：
+						  <a v-bind:href="post.google">{{post.address}}</a>
+					  </dd>
                       <dd>電話：{{post.telphone}}</dd>
                       <dd>營業時間：{{post.hours}}</dd>
+					  <dd>谷歌評分：{{post.score}} </dd>
 					  <dd><span v-html="post.description"></span>	 </dd>
                     </dl>
 									  
