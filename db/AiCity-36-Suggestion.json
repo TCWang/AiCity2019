@@ -1,15 +1,27 @@
 ﻿[
         {
+            "No": "20210413A",
+            "Category": "Suggestion",
+            "DateID": "4/13/21",
+            "Resident": "社區住戶",
+            "Name": "社區網站",
+            "Date": "4/13/21",
+            "Topic": "社區內的環境維護,如何執行？",
+            "Description": "社區向外拋棄煙蒂，煙灰，造成二樓住戶環境困擾。自行在樓梯間貼提醒標示。但建議在社區建立下面標準作業程序，作為未來執行準則。",
+            "Solution": "<ol>\r\n   <li>遇環境整潔相關問題，可以使用社區官方聯繫軟件 “今網智生活“ 社區服務/意見反應 提報相關問題。或到大廳櫃檯填寫意見表正式提出問題。本案案例是二樓住戶遭受樓上任意拋下的煙蒂與煙灰 應該將時間, 地點做詳細陳述, 最好有佐證照片。 </li>\r\n   <li> 依據本案範例, 貼文時段剛好有某樓層進行裝潢施工。管理中心應該通知該裝潢戶主 查明 是否是施工人員造成？ </li>\r\n   <li> 依據 <a href=\"https://tcwang.github.io/AiCity2019/AiCityB-35-Regulation.html#Menu-B7\">裝潢(修)施工管理辦法</a>: \r\n        <ul>    \r\n               <li>第三條 - 17項 施工人員不得隨地丟擲煙蒂·垃圾、任意便溺、吐檳榔汁等破壞環境之行為·違者罰款新台幣貳仟元整·並自行清除</li>\r\n               <li>第四條: 如因施工影響第三者之安全、健康或權益時,應由裝潢(修)戶與其承包商共負連帶責任。</li>\r\n               <li>第六條:承包商及其施工人員若有違反本管理辦法規定,經本社區管理中心勸導亦不改正時,本社區管理中心得勒令其停工並沒收装潢保證金,亦可請住戶更换承包商。</li>\r\n       </ul>\r\n   </li>\r\n   <li>管理委員會應該協助管理中心，建立標準作業流程。並明確制定與授權給管理中心依據SOP執行。並定期查驗執行狀況。</li>\r\n   <li>管理中心應該落實社區規約的執行, 並將處理結果能公告讓所有人能有所依循. 例如<a href=\"https://tcwang.github.io/AiCity2019/AiCityB-35-Regulation.html#Menu-B2\">社區停車場管理辦法</a> 執行到位，最好如社區網頁 將容易違規之案例使用照片說明 </li>\r\n   <li>住戶遇到相關事件, 最好使用 Facebook <a href=\"https://www.facebook.com/groups/AiCITY2020\"> 樂捷市好鄰居</a> 等電子化交流管道, 自行張貼在電梯間也同樣是違規行為, 應該避免. </li>\r\n</ol>",
+            "Figure": "住戶張貼在電梯間的提醒：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210413-01.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"height:400px\">\r\n<br>"
+        },
+        {
             "No": "20210101A",
             "Category": "Suggestion",
             "DateID": "2021/1/1 下午 4:15:23",
             "Resident": "社區義工",
             "Name": "義工團",
             "Date": "1/1/21",
-            "Topic": "長庚里A7重劃區的環境清潔，請予改善！",
+            "Topic": "長庚里A7重劃區的環境清潔,請予改善！",
             "Description": "A7重劃區中, 長庚里區域內已有兩個社區共有有數百戶居民進住。但目前周遭環境卻是隨處垃圾。部分區域已開始有大型廢棄物囤積。對比隔鄰樂善里打掃的非常整潔。希望長庚里里長除長庚醫療社區外，能為小部分的長庚里A7重劃區的住戶爭取必要的環境清潔分配。",
             "Solution": "1. 里長及地方民意代表都需要與桃園市清潔隊聯繫，爭取分配清潔人員在長庚里A7 重劃區維護住戶的清潔環境。<br>\r\n2. 里長及民意代表應協調桃園市政府有關單位應該向相關建設公司要求，在建築工地設置必要的大型垃圾桶。並要求工地主管管控工地工作人員不得亂丟垃圾，共同維護附近的環境清潔。<br>\r\n3. 社區管委會需要責成負責委員，與上述相關單位聯繫與溝通。必要可以招集社區義工團隊協助處理。<br>",
-            "Figure": "長庚里A7環境現況：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-01.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-03.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-02.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-04.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\"><br>\r\n樂善里整潔的環境：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-11.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-12.jpg\" class=\"img-fluidmr-1 mb-1\" style=\"width:400px\"><br>\r\n經過義工整理的一小段：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-21.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-22.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\"><br>",
+            "Figure": "長庚里A7環境原有狀況：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-01.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-03.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-02.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-04.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\"><br>\r\n樂善里整潔的環境：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-11.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-12.jpg\" class=\"img-fluidmr-1 mb-1\" style=\"width:400px\"><br>\r\n經過義工整理後 改善狀況：<br>\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-21.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-24.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-22.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n<img src=\"fig/fig-Suggestion/AiCity-951-S20210101A-23.jpg\" class=\"img-fluid mr-1 mb-1\" style=\"width:400px\">\r\n\r\n<br>",
             "Owner": "里長"
         }
     ]

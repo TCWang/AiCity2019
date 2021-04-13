@@ -21,10 +21,18 @@
   <!-- My CSS file -->
   <link rel="stylesheet" href="css/mycss.css">
   <!-- InstanceBeginEditable name="doctitle" -->
-  <title>樂捷市 - 住戶意見匯總</title>
+  <title>樂捷市社區 意見交流</title>
   <meta name="description" content="AiCity Community WebSite 2019">
   <!-- InstanceEndEditable -->
   <!-- InstanceBeginEditable name="head" -->
+  <style type="text/css">
+    body,
+    td,
+    th {
+      font-family: STKaiti, DFKai-SB, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Droid Sans", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
+      font-weight: 500;
+    }
+  </style>
   <!-- InstanceEndEditable -->
 	
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -97,35 +105,38 @@
 
   <!-- Jumbotron-->
   <!-- InstanceBeginEditable name="JumbotronRegion" -->
-  <div class="jumbotron jumbotron-fluid jumbotron-bg3 d-flex align-items-end">
-    <div class="container">
-      <div class="bg-lighter p-1" style="width:300px">
-        <h5 class="text-white">意見交流</h5>
-        <p class="lead text-white">智慧社區的智慧意見交流</p>
+
+    <div class="jumbotron jumbotron-fluid jumbotron-bg1 d-flex align-items-end">
+      <div class="container">
+        <div class="bg-lighter p-1" style="width:300px">
+          <h5 class="text-white">友善社區</h5>
+          <p class="lead text-white">住戶意見溝通的橋樑</p>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- InstanceEndEditable -->
+
+
+    <!-- InstanceEndEditable -->
 
   <!-- InstanceBeginEditable name="main_heading" -->
-  <h2 id="main_heading"> </h2>
-  <!-- InstanceEndEditable -->
+    <h2 id="main_heading">意見交流 </h2>
+    <!-- InstanceEndEditable -->
 
   <!-- Vue實例的掛載點 -->
   <!-- InstanceBeginEditable name="main_content" -->
-  <article id="app"> 
+    
       <div class="container-fluid">
         <div class="alert alert-info" role="alert">
           <div class="row">
             <div class="col-8">
               <div class="form-group">
-                <select class="form-control" v-model= "section" id="exampleFormControlSelect1">
+                <select class="form-control" v-model='section' id="exampleFormControlSelect1">
                   <option v-for="section in sections">{{ section }}</option>
                 </select>
               </div>
             </div>
             <div class="col-4">
-              <h3 class= "text-left"> 選擇項目 </h3>
+              <h3 id="title-2" class='text-left'> 選擇項目 </h3>
             </div>
           </div>
 
@@ -140,7 +151,7 @@
 
             <table class="table table-sm table-responsive">
               <tr>
-                <td style="width:10%">提案日期：</td>
+                <td style="width:15%">提案日期：</td>
                 <td>{{post.Date}}</td>
               </tr>
               <tr>
@@ -176,10 +187,32 @@
           </div>
 
         </div>
-      </div>	  
-	  
-  </article>
-  <!-- InstanceEndEditable -->
+      </div>
+
+
+
+
+
+
+
+    <article>
+      <h3>建議與信息提供</h3>
+      <p>
+        為持續改善本社區居住環境並建立即時溝通管道，請將你寶貴建議或信息填寫在下面建議單中。社區義工將設法傳達！
+      </p>
+
+
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSefgNr7ljXFG1Pvif87ZzS6M2oFGecad0RmvekPyp2BpVOPbg/viewform?embedded=true"
+        width="640" height="1318" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+
+    </article>
+
+
+
+
+    <!-- InstanceEndEditable -->
   <footer id="main_footer">
     <p>樂捷市03-327-2090,桃園市33375龜山區長慶三街 </p>
   </footer>
@@ -219,7 +252,7 @@
     <!-- Vue實例的程式碼 -->
     <script>
       const posts = []
-      const SECTIONS_SU = "社區內的環境維護,如何執行？, 長庚里A7重劃區的環境清潔,請予改善！"
+      const SECTIONS_SU = "Suggestion"
 
       new Vue({
         el: '#app',
@@ -227,7 +260,7 @@
           posts,
           // results: [],
           sections: SECTIONS_SU.split(', '),
-          section: '社區內的環境維護,如何執行？'
+          section: 'Suggestion'
         },
         filter: {
           formatted(value) {
@@ -239,7 +272,7 @@
           results() {
             let posts = this.posts
               .slice()
-              .filter(post => post.Topic === this.section)
+              .filter(post => post.Category === this.section)
             let i, j, chunkedArray = [], chunk = 30;
             for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
               chunkedArray[j] = posts.slice(i, i + chunk);
@@ -256,7 +289,7 @@
         }
       });
     </script>
-  <!-- InstanceEndEditable -->
+    <!-- InstanceEndEditable -->
 
 </body>
 
