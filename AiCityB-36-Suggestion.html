@@ -140,33 +140,33 @@
 
             <table class="table table-sm table-responsive">
               <tr>
-                <td style="width:10%">提案日期：</td>
+                <td  class="text-center" style="width:10%">日期</td>
                 <td>{{post.Date}}</td>
               </tr>
               <tr>
-                <td>提案單位:</td>
+                <td class="text-center">單位</td>
                 <td>{{post.Resident}}</td>
               </tr>
               <tr>
-                <td>提案人:</td>
+                <td class="text-center">提案</td>
                 <td>{{post.Name}}</td>
               </tr>
               <tr>
-                <td>主題:</td>
+                <td class="text-center">主題</td>
                 <td>{{post.Topic}}</td>
               </tr>
               <tr>
-                <td>說明:</td>
+                <td class="text-center">說明</td>
                 <td>{{post.Description}}</td>
               </tr>
               <tr>
-                <td>辦法:</td>
+                <td class="text-center">辦法</td>
                 <td>
                   <div v-html="post.Solution"></div>
                 </td>
               </tr>
               <tr>
-                <td>圖片：</td>
+                <td class="text-center">圖片</td>
                 <td>
                   <div v-html="post.Figure"></div>
                 </td>
