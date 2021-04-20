@@ -1,5 +1,15 @@
 ﻿[
         {
+            "no": "007",
+            "title": "劉妹鍋燒意麵",
+            "name": "餐廳小吃",
+            "address": "桃園市龜山區長慶三街58號",
+            "figure": "fig/AiCity-918-劉妹鍋燒意麵.jpeg",
+            "link": "https://www.liu-mei.com.tw/taste.php",
+            "description": "<p>奇幻莊園社區餐廳  即將開幕</p>",
+            "category": "社區廣告看板"
+        },
+        {
             "no": "005",
             "title": "2021桃園住宿補助",
             "name": "市政宣導",
