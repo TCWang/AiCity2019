@@ -166,7 +166,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="text-center">圖片</td>
+                <td class="text-center">執行</td>
                 <td>
                   <div v-html="post.Figure"></div>
                 </td>
@@ -219,7 +219,7 @@
     <!-- Vue實例的程式碼 -->
     <script>
       const posts = []
-      const SECTIONS_SU = "社區內的環境維護,如何執行？, 長庚里A7重劃區的環境清潔,請予改善！"
+      const SECTIONS_SU = "社區交通意外的防範,社區公約增訂！, 社區內的環境維護,如何執行？, 長庚里A7重劃區的環境清潔,請予改善！"
 
       new Vue({
         el: '#app',
@@ -227,7 +227,7 @@
           posts,
           // results: [],
           sections: SECTIONS_SU.split(', '),
-          section: '長庚里A7重劃區的環境清潔,請予改善！'
+          section: '社區交通意外的防範,社區公約增訂！'
         },
         filter: {
           formatted(value) {
