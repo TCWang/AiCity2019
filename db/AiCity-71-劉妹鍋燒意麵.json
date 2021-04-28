@@ -75,7 +75,7 @@
             "id": "110",
             "title": "辛辣鍋燒",
             "price": 85,
-            "count": "0",
+            "count": 0,
             "figure": "fig/AiCity-952-劉妹鍋燒意麵-10.jpg",
             "category": "主餐"
         },
@@ -99,7 +99,7 @@
             "id": "113",
             "title": "泰式酸辣鍋燒",
             "price": 85,
-            "count": "0",
+            "count": 0,
             "figure": "fig/AiCity-952-劉妹鍋燒意麵-13.jpg",
             "category": "主餐"
         },
@@ -123,7 +123,7 @@
             "id": "116",
             "title": "豪華海鮮鍋燒",
             "price": 160,
-            "count": "0",
+            "count": 0,
             "figure": "fig/AiCity-952-劉妹鍋燒意麵-16.jpg",
             "category": "主餐"
         },
