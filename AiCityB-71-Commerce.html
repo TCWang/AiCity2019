@@ -975,7 +975,7 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">點餐清單 - 劉妹鍋燒意麵</h5>
+                          <h5 class="modal-title" id="exampleModalLabel-lm">點餐清單 - 劉妹鍋燒意麵</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
                               aria-hidden="true">&times;</span> </button>
                         </div>
@@ -1006,6 +1006,17 @@
                               <p style="background-color:yellow"> 總價：{{totalPrice}} </p>
                             </div>
                           </div>
+                            <form>
+                              取餐方式：
+                              <input type="radio" id="one-lm" value="One" v-model="pickup05">
+                              <label for="one">內用</label> &nbsp;&nbsp; 
+                              <span>桌號: {{ time05 }}  <input v-model="time05" placeholder="桌號"> </span>								
+							<br>
+                              <input type="radio" id="two-lm" value="Two" v-model="pickup05">
+                              <label for="two">外帶</label>
+                              <span>備註: {{ memo05 }}. <input v-model="memo05" placeholder="特別事項"> </span>
+                            </form>							
+							
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
