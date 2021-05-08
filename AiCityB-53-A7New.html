@@ -116,7 +116,7 @@
 
   <!-- Vue實例的掛載點 -->
   <!-- InstanceBeginEditable name="main_content" -->
-    <article>
+  <article>
       <div class="container-fluid">
         <div class="row ">
           <h3>A7 新林口 重劃區 - 建案匯總</h3>
@@ -124,24 +124,34 @@
         <div class="row">
           <div class="col-md-2">
             <div class="list-group" id="MenuList" role="tablist">
-              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">建案匯總</a>
-              <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">項目說明</a>
-              <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">買屋租屋</a>
-              <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">行政區域</a>				
+              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">建案地圖</a>
+              <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">建案匯總</a>	
+			  <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">購屋市場</a>				
             </div>
             <br>
           </div>
           <div class="col-md-10">
 
             <div class="tab-content">
-
+				
+              <!-- Menu B1 -->
               <div class="tab-pane active" id="Menu-B1" role="tabpanel">
-                <!-- Menu B1 -->
+
+				<h3 id="title-2">建案地圖 </h3>				  
                 <div id="app1" class="row mb-1">
-                  <h3 id="title-2">建案匯總 </h3> &nbsp;&nbsp;
-					<a href="https://www.youtube.com/watch?v=dQlCuZtXEEA&t=15s">A7 重劃區 空拍照 2021/03/27</a> &nbsp; &nbsp; <br><br>
-					<img src="fig/AiCity-957-A7NewMap-02.png" class="img-fluid" style="width:800px"> <br><br>					
-					<img src="fig/AiCity-957-A7NewMap-01.png" class="img-fluid" style="width:1200px"> <br><br>
+					<p>
+					1. 樂善國小生活圈 <br>
+					<img src="fig/A7XLK-112-House-01.png" class="img-fluid my-1" style="width:1000px"><br>
+					2. 樂善科技園區周邊<br>
+					<img src="fig/A7XLK-112-House-02.png" class="img-fluid my-1" style="width:1000px"><br>	
+					3. 華亞科技園區周邊<br>
+					<img src="fig/A7XLK-112-House-03.png" class="img-fluid my-1" style="width:1000px"><br>
+					4. 中心商業區及文青國中小生活圈<br>
+					<img src="fig/A7XLK-112-House-04.png" class="img-fluid my-1" style="width:1000px"><br>	
+					5. 合宜住宅區<br>
+					<img src="fig/A7XLK-112-House-05.png" class="img-fluid my-1" style="width:1000px"><br>							
+					</p>
+				
 					
                   <table class="table table-striped table-sm table-hover" style="width:100%">
                     <thead style="background-color:lightblue">
@@ -150,14 +160,16 @@
                         <th>單價</th>
                         <th>交屋時間</th>
                         <th>投資建設</th>
+						<th>住宅類別</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr v-for="post in posts">
-                        <td>{{ post.建案 }}</td>
+                        <td>{{post.no}}-{{ post.建案 }}</td>
                         <td>{{ post.單價 }}</td>
                         <td>{{ post.交屋時間 }}</td>
                         <td>{{ post.投資建設 }}</td>
+						<td>{{ post.土地分區 }} </td>
                       </tr>
                     </tbody>
                   </table>
@@ -165,199 +177,18 @@
                 </div>
               </div>
 
+
+              <!-- Menu B2 -->				
               <div class="tab-pane" id="Menu-B2" role="tabpanel">
-                <!-- Menu B2 -->
+
+                <h3> 建案匯總 </h3>
+     
                 <div id="app2" class="container-fluid">
-                  <div class="row">
-                    <h3 id="title-2">項目說明</h3>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="form-group">
-                        <select class="form-control" v-model='section' id="exampleFormControlSelect1">
-                          <option v-for="section in sections">{{ section }}</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <h3 id="title-2" class='text-left'> 選擇建案 </h3>
-                    </div>
-                    <br><br>
-                  </div>
-
-                  <div class="row" v-for="posts in results">
-                    <div v-for="post in posts">
-                      <div class="row" style="background-color:lightblue">
-                        建案概況
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <table class="table table-striped table-sm table-responsive">
-                            <tr>
-                              <td sytle="width:30%">單價:</td>
-                              <td style="width:70%">{{post.單價}}</td>
-                            </tr>
-                            <tr>
-                              <td>車位價格:</td>
-                              <td>{{post.車位價格}}</td>
-                            </tr>
-                            <tr>
-                              <td>貸款成數:</td>
-                              <td>{{post.貸款成數}}</td>
-                            </tr>
-                            <tr>
-                              <td>公開銷售:</td>
-                              <td>{{post.公開銷售}}</td>
-                            </tr>
-                            <tr>
-                              <td>預期完工:</td>
-                              <td>{{post.預期完工}}</td>
-                            </tr>
-                            <tr>
-                              <td>交屋屋況:</td>
-                              <td>{{post.交屋屋況}}</td>
-                            </tr>
-                            <tr>
-                              <td>格局規劃：</td>
-                              <td>{{post.格局規劃}}</td>
-                            </tr>
-                          </table>
-                        </div>
-                        <div class="col-md-6">
-                          <table class="table table-striped table-sm table-responsive">
-                            <tr>
-                              <td>建案類別:</td>
-                              <td>{{post.建案類別}}</td>
-                            </tr>
-                            <tr>
-                              <td>建物形態:</td>
-                              <td>{{post.建物形態}}</td>
-                            </tr>
-                            <tr>
-                              <td>基地地址:</td>
-                              <td>{{post.基地地址}}</td>
-                            </tr>
-                            <tr>
-                              <td>接待會館:</td>
-                              <td>{{post.接待會館}}</td>
-                            </tr>
-                            <tr>
-                              <td>投資建設:</td>
-                              <td>{{post.投資建設}}</td>
-                            </tr>
-                            <tr>
-                              <td>營造公司:</td>
-                              <td>{{post.營造公司}}</td>
-                            </tr>
-                            <tr>
-                              <td>企劃銷售：</td>
-                              <td>{{post.企劃銷售}}</td>
-                            </tr>
-                          </table>
-                        </div>
-                      </div>
-
-                      <div class="row" style="background-color:lightblue">
-                        建築規劃
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <table class="table table-striped table-sm table-responsive">
-                            <tr>
-                              <td style="width:30%">公設比:</td>
-                              <td style="width:70%">{{post.公設比}}</td>
-                            </tr>
-                            <tr>
-                              <td>建蔽率:</td>
-                              <td>{{post.建蔽率}}</td>
-                            </tr>
-                            <tr>
-                              <td>車位規劃:</td>
-                              <td>{{post.車位規劃}}</td>
-                            </tr>
-                            <tr>
-                              <td>車位配比:</td>
-                              <td>{{post.車位配比}}</td>
-                            </tr>
-                            <tr>
-                              <td>基地面積:</td>
-                              <td>{{post.基地面積}}</td>
-                            </tr>
-                            <tr>
-                              <td>交屋屋況:</td>
-                              <td>{{post.交屋屋況}}</td>
-                            </tr>
-                            <tr>
-                              <td>物業公司：</td>
-                              <td>{{post.物業公司}}</td>
-                            </tr>
-                            <tr>
-                              <td>建造執照:</td>
-                              <td>{{post.建造執照}}</td>
-                            </tr>
-                            <tr>
-                              <td>使用執照：</td>
-                              <td>{{post.使用執照}}</td>
-                            </tr>
-                          </table>
-                        </div>
-                        <div class="col-md-6">
-                          <table class="table table-striped table-sm table-responsive">
-                            <tr>
-                              <td>棟戶規劃:</td>
-                              <td>{{post.棟戶規劃}}</td>
-                            </tr>
-                            <tr>
-                              <td>樓層規劃:</td>
-                              <td>{{post.樓層規劃}}</td>
-                            </tr>
-                            <tr>
-                              <td>管理費用:</td>
-                              <td>{{post.管理費用}}</td>
-                            </tr>
-                            <tr>
-                              <td>結構工程:</td>
-                              <td>{{post.結構工程}}</td>
-                            </tr>
-                            <tr>
-                              <td>用途規劃:</td>
-                              <td>{{post.用途規劃}}</td>
-                            </tr>
-                            <tr>
-                              <td>土地分區:</td>
-                              <td>{{post.土地分區}}</td>
-                            </tr>
-                            <tr>
-                              <td>管委會：</td>
-                              <td>{{post.管委會}}</td>
-                            </tr>
-                            <tr>
-                              <td>建築設計:</td>
-                              <td>{{post.建築設計}}</td>
-                            </tr>
-                          </table>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="tab-pane" id="Menu-B3" role="tabpanel">
-                <!-- Menu B3 -->
-                <h3> 買屋租屋 </h3>
-                <p>&nbsp; 主要房仲網：
-                  <a href="https://www.591.com.tw">591 房屋銷售網</a>
-                </p>
-                <div id="app3" class="container-fluid">
                   <div class="alert alert-info mt-2" role="alert">
-                    <div class="row">
+                    <div v-show="no" class="row">
                       <div class="col-8">
                         <div class="form-group">
-                          <select class="form-control" v-model='section' id="exampleFormControlSelect1">
+                          <select class="form-control" v-model="section" id="exampleFormControlSelect1">
                             <option v-for="section in sections">{{ section }}</option>
                           </select>
                         </div>
@@ -376,23 +207,22 @@
                         <div class="card-body">
                           <dl>
                             <dd>
-                              <a v-bind:href=" post.Link ">{{post.House}} </a>
+                              <a v-bind:href=" post.Link ">{{post.no}}-{{post.建案}} </a>
                             </dd>
                             <dd>
-                              價格：{{post.Price}}
+                              價格：{{post.單價}}, 車位：{{post.車位價格}}
+                            </dd>
+
+                            <dd>
+                              建案地址: {{post.基地地址}}
                             </dd>
                             <dd>
-                              銷售狀態：{{post.Sale}}
+                              交屋時間：{{post.交屋時間}}
                             </dd>
                             <dd>
-                              建案類別：{{post.Category}}
-                            </dd>
-                            <dd>
-                              建案地址: {{post.Address1}}
-                            </dd>
-                            <dd>
-                              交屋時間：{{post.Time}}
-                            </dd>
+                              建設公司：{{post.投資建設}}
+                            </dd>	
+     								  
 
                           </dl>
 
@@ -405,62 +235,70 @@
 
               </div>
 				
-              <div class="tab-pane" id="Menu-B4" role="tabpanel">
-                <!-- Menu B3 -->
-                <h3> 行政區域 </h3>
-     
-                <div id="app4" class="container-fluid">
-                  <div class="alert alert-info mt-2" role="alert">
-                    <div class="row">
-                      <div class="col-8">
-                        <div class="form-group">
-                          <select class="form-control" v-model='section' id="exampleFormControlSelect1">
-                            <option v-for="section in sections">{{ section }}</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <h5 class="text-center"> 選擇類別 </h5>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row" v-for="posts in results">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
-                      <div class="card">
-                        <div class="card-header">
-                          <img v-bind:src="post.Figure" class="img-fluid">
-                        </div>
-                        <div class="card-body">
-                          <dl>
-                            <dd>
-                              <a v-bind:href=" post.Link ">{{post.House}} </a>
-                            </dd>
-                            <dd>
-                              價格：{{post.Price}}
-                            </dd>
-                            <dd>
-                              銷售狀態：{{post.Sale}}
-                            </dd>
-                            <dd>
-                              建案類別：{{post.Category}}
-                            </dd>
-                            <dd>
-                              建案地址: {{post.Address1}}
-                            </dd>
-                            <dd>
-                              交屋時間：{{post.Time}}
-                            </dd>
 
-                          </dl>
+              <!-- Menu B3 -->				
+              <div class="tab-pane" id="Menu-B3" role="tabpanel">
 
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+                <h3> 購屋市場 </h3>
+				  <div class="row">
+				  	<div class="col-md-6">
+						<h5>A7重劃區房價市場行情</h5>
+						<ul>
+							<li>樂善國小區：屬於第四種住宅區, 周邊鄰近酒廠、包裝廠等舊工業區，區段行情每坪20至25萬元。</li>
+							<li>中華郵政物流專區：是產業專區, 由大型企業主導開發，每坪24至25萬元。</li>
+							<li>文化一路商業區: 中心商業區加上第五種住宅區, 推案最集中，包括一般事務所、店面、聯通道與商場群聚，商業機能未來性最佳，單價來到22至26萬元。</li>
+							<li>雙語文青國中小生活圈：屬於第三種住宅區, 純住宅區段，有學區、自然保護區綠意串聯，等案，開價32至37萬元，環境單純安寧、生活品質最佳。</li>
+							<li>合宜住宅區：包含第五種住宅區及第三種住宅區，開發最早，屋齡約5年左右，屬於戶數眾多的超大型社區，屬於自成一格區塊，單價20萬元左右。</li>
+						</ul>
+					  	<img src="fig/A7XLK-011-A7Area-02.jpg" class="img-fluid mb-2" style="width:600px">	<br>
+						<a href="https://www.mirrormedia.mg/premium/20191204fin005">圖來自：鏡週刊</a>
+					</div>
+				  	<div class="col-md-6">
+						<h5>法令規定</h5>
+						土地使用規定：
+						<table class="table table-sm">
+							<tr>
+								<th>類別</th>
+								<th>建蔽率</th>
+								<th>容積率</th>
+							</tr>
+							<tr>
+								<td>第三種住宅區</td>
+								<td>60%</td>
+								<td>180%</td>
+							</tr>
+							<tr>
+								<td>第四種住宅區</td>
+								<td>60%</td>
+								<td>240%</td>
+							</tr>
+							<tr>
+								<td>第五種住宅區</td>
+								<td>60%</td>
+								<td>300%</td>
+							</tr>
+							<tr>
+								<td>中心商業區</td>
+								<td>70%</td>
+								<td>500%</td>
+							</tr>
+							<tr>
+								<td>第二種產業專用區</td>
+								<td>70%</td>
+								<td>420%</td>
+							</tr>								
+						
+						</table>
+					  備註：
+						1建蔽率：為建築基地之水平投影面積。意思為建築面積占基地面積之比率。 2容積率：為基地內建築物總地板面積與基地面積之比。<br><br>
+						
+						龜山區 行政區域圖<br>
+						<img src="fig/A7XLK-111-CommunityMap-03.jpeg" class="img-fluid" style="width:1000px"><br><br>
+						<img src="fig/A7XLK-111-CommunityMap-04.jpeg" class="img-fluid" style="width:400px"><br><br>						
+						
+					</div>				  
+				  </div>
+              </div>				
 				<!-- 插入下一項 -->
 				
 
@@ -468,8 +306,9 @@
 
           </div>
         </div>
-      </div>
-    </article>
+      </div>	  
+	  
+  </article>
     <!-- InstanceEndEditable -->
   <footer id="main_footer">
     <p>樂捷市03-327-2090,桃園市33375龜山區長慶三街 </p>
@@ -510,17 +349,16 @@
     <!-- Vue實例的程式碼 -->
     <script>
       const posts = []
-      const SECTIONS_TW = "樂捷市, 金捷市, 鴻典, 奇幻莊園, 台北國際村, 玉子園, 耀台北, 根津苑, 合遠新天地, 富御捷境, 玄泰V1, 富宇敦峰, 富宇悅峰, 禾悅花園, 新潤翡麗, 竹城明治, A7地王竹城甲子園, 和洲金剛, 詠勝市中欣, 鴻築捷市達, 欣時代, 富宇哈佛苑, 富宇上城, "
-      const SECTIONS_AL = "預售屋, 新成屋"
-      const SECTIONS_AR = "長庚里, 樂善里"	  
+      const SECTIONS_01 = "A7XLK"
+      const SECTIONS_02 = "A7XLK"	  
 
       new Vue({
         el: '#app1',
         data: {
           posts,
           // results: [],
-          sections: SECTIONS_TW.split(', '),
-          section: '樂捷市'
+          sections: SECTIONS_01.split(', '),
+          section: 'A7XLK'
         },
         filter: {
           formatted(value) {
@@ -532,7 +370,7 @@
           results() {
             let posts = this.posts
               .slice()
-              .filter(post => post.建案 === this.section)
+              .filter(post => post.Category1 === this.section)
             let i, j, chunkedArray = [], chunk = 4;
             for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
               chunkedArray[j] = posts.slice(i, i + chunk);
@@ -542,56 +380,21 @@
         },
 
         mounted() {
-          axios.get('db/AiCity-53-A7New.json').then((response) => {
+          axios.get('db/A7XLK-1101-House.json').then((response) => {
             this.posts = response.data;
             this.getPostsByCategory(this.section)
           }).catch(error => { console.log(error); });
         }
       });
 
-
+		
       new Vue({
         el: '#app2',
         data: {
           posts,
           // results: [],
-          sections: SECTIONS_TW.split(', '),
-          section: '樂捷市'
-        },
-        filter: {
-          formatted(value) {
-            return ' 以下是 ${value} 類別的貼文 '
-          }
-        },
-
-        computed: {
-          results() {
-            let posts = this.posts
-              .slice()
-              .filter(post => post.建案 === this.section)
-            let i, j, chunkedArray = [], chunk = 4;
-            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-              chunkedArray[j] = posts.slice(i, i + chunk);
-            }
-            return chunkedArray
-          }
-        },
-
-        mounted() {
-          axios.get('db/AiCity-53-A7New.json').then((response) => {
-            this.posts = response.data;
-            this.getPostsByCategory(this.section)
-          }).catch(error => { console.log(error); });
-        }
-      });
-
-      new Vue({
-        el: '#app3',
-        data: {
-          posts,
-          // results: [],
-          sections: SECTIONS_AL.split(', '),
-          section: '預售屋'
+          sections: SECTIONS_02.split(', '),
+          section: 'A7XLK'
         },
         filter: {
           formatted(value) {
@@ -612,7 +415,7 @@
           results() {
             let posts = this.posts
               .slice()
-              .filter(post => post.Category === this.section)
+              .filter(post => post.Category1 === this.section)
             let i, j, chunkedArray = [], chunk = 40;
             for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
               chunkedArray[j] = posts.slice(i, i + chunk);
@@ -633,63 +436,7 @@
         },
 
         mounted() {
-          axios.get('db/AiCity-53-A7House.json').then((response) => {
-            this.posts = response.data;
-            this.getPostsByCategory(this.section)
-          }).catch(error => { console.log(error); });
-        },
-
-      });
-		
-      new Vue({
-        el: '#app4',
-        data: {
-          posts,
-          // results: [],
-          sections: SECTIONS_AR.split(', '),
-          section: '長庚里'
-        },
-        filter: {
-          formatted(value) {
-            return ' 以下是 ${value} 類別的貼文 '
-          }
-        },
-
-        methods: {
-          itemPrice(price, count) {
-            return price * count;
-          },
-          deleteItem(index) {
-            this.posts.splice(index, 1);
-          }
-        },
-
-        computed: {
-          results() {
-            let posts = this.posts
-              .slice()
-              .filter(post => post.Area === this.section)
-            let i, j, chunkedArray = [], chunk = 40;
-            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-              chunkedArray[j] = posts.slice(i, i + chunk);
-            }
-            return chunkedArray
-          },
-
-          totalPrice() {
-            let posts = this.posts
-              .slice()
-              .filter(post => post.Category === this.section);
-            let total = 0;
-            for (let post of this.posts) {
-              total += post.price * post.count;
-            }
-            return total;
-          }
-        },
-
-        mounted() {
-          axios.get('db/AiCity-53-A7House.json').then((response) => {
+          axios.get('db/A7XLK-1101-House.json').then((response) => {
             this.posts = response.data;
             this.getPostsByCategory(this.section)
           }).catch(error => { console.log(error); });
