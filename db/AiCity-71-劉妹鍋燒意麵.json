@@ -73,7 +73,23 @@
         },
         {
             "id": "111",
-            "title": "麻辣鍋燒 (大辣, 中辣, 小辣）",
+            "title": "麻辣鍋燒 -大辣",
+            "price": "85",
+            "count": "0",
+            "figure": "fig/AiCity-952-劉妹鍋燒意麵-11.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "111",
+            "title": "麻辣鍋燒 -中辣",
+            "price": "85",
+            "count": "0",
+            "figure": "fig/AiCity-952-劉妹鍋燒意麵-11.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "111",
+            "title": "麻辣鍋燒 -小辣",
             "price": "85",
             "count": "0",
             "figure": "fig/AiCity-952-劉妹鍋燒意麵-11.jpg",
@@ -105,7 +121,15 @@
         },
         {
             "id": "108",
-            "title": "輕疏菇菇鍋燒（鍋邊素, 全素）",
+            "title": "輕疏菇菇鍋燒-鍋邊素",
+            "price": "85",
+            "count": "0",
+            "figure": "fig/AiCity-952-劉妹鍋燒意麵-08.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "108",
+            "title": "輕疏菇菇鍋燒-全素",
             "price": "85",
             "count": "0",
             "figure": "fig/AiCity-952-劉妹鍋燒意麵-08.jpg",
@@ -113,7 +137,15 @@
         },
         {
             "id": "115",
-            "title": "藥膳菇菇鍋燒 （鍋邊素, 全素）",
+            "title": "藥膳菇菇鍋燒-鍋邊素",
+            "price": "90",
+            "count": "0",
+            "figure": "fig/AiCity-952-劉妹鍋燒意麵-15.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "115",
+            "title": "藥膳菇菇鍋燒-全素",
             "price": "90",
             "count": "0",
             "figure": "fig/AiCity-952-劉妹鍋燒意麵-15.jpg",
